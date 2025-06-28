@@ -37,10 +37,14 @@
 
 
 
+  "block.fugos-trails-and-tales-reimagined.maple_sapling": "Maple Sapling",
+
   "block.fugos-trails-and-tales-reimagined.maple_log": "Maple Log",
   "block.fugos-trails-and-tales-reimagined.stripped_maple_log": "Stripped Maple Log",
   "block.fugos-trails-and-tales-reimagined.maple_wood": "Maple Wood",
   "block.fugos-trails-and-tales-reimagined.stripped_maple_wood": "Stripped Maple Wood",
+
+  "block.fugos-trails-and-tales-reimagined.maple_leaves": "Maple Leaves",
 
   "block.fugos-trails-and-tales-reimagined.maple_planks": "Maple Planks",
 
@@ -54,6 +58,10 @@
   "block.fugos-trails-and-tales-reimagined.maple_trapdoor": "Maple Trapdoor",
 
 
+
+  "block.fugos-trails-and-tales-reimagined.pine_sapling": "Pine Sapling",
+
+  "block.fugos-trails-and-tales-reimagined.pine_leaves": "Pine Leaves",
 
   "block.fugos-trails-and-tales-reimagined.pine_log": "Pine Log",
   "block.fugos-trails-and-tales-reimagined.stripped_pine_log": "Stripped Pine Log",

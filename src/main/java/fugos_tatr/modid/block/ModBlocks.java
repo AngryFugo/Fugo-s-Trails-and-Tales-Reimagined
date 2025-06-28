@@ -1,7 +1,10 @@
 package fugos_tatr.modid.block;
 
 import fugos_tatr.modid.FugosTrailsAndTalesReimagined;
+import fugos_tatr.modid.block.custom.ModSaplingBlock;
+import fugos_tatr.modid.world.tree.ModSaplingGenerators;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
@@ -9,6 +12,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 import java.util.function.Function;
@@ -54,7 +58,11 @@ public class ModBlocks {
     public static final Block CHESTNUT_DOOR = registerBlock("chestnut_door", settings -> new DoorBlock(BlockSetType.MANGROVE, settings), AbstractBlock.Settings.copy(Blocks.MANGROVE_DOOR));
     public static final Block CHESTNUT_TRAPDOOR = registerBlock("chestnut_trapdoor", settings -> new TrapdoorBlock(BlockSetType.MANGROVE, settings), AbstractBlock.Settings.copy(Blocks.MANGROVE_TRAPDOOR));
 
+    public static final Block MAPLE_SAPLING = registerBlockAlt("maple_sapling", properties -> new ModSaplingBlock(ModSaplingGenerators.MAPLE, properties.mapColor(MapColor.RED)
+            .noCollision().ticksRandomly().breakInstantly()
+            .sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY), Blocks.GRASS_BLOCK));
 
+    public static final Block MAPLE_LEAVES = registerBlock("maple_leaves", LeavesBlock::new, AbstractBlock.Settings.copy(Blocks.OAK_LEAVES));
 
     public static final Block MAPLE_LOG = registerBlock("maple_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.OAK_LOG));
     public static final Block STRIPPED_MAPLE_LOG = registerBlock("stripped_maple_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG));
@@ -76,6 +84,12 @@ public class ModBlocks {
     public static final Block MAPLE_TRAPDOOR = registerBlock("maple_trapdoor", settings -> new TrapdoorBlock(BlockSetType.OAK, settings), AbstractBlock.Settings.copy(Blocks.OAK_TRAPDOOR));
 
 
+
+    public static final Block PINE_SAPLING = registerBlockAlt("pine_sapling", properties -> new ModSaplingBlock(ModSaplingGenerators.PINE, properties.mapColor(MapColor.GREEN)
+            .noCollision().ticksRandomly().breakInstantly()
+            .sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY), Blocks.GRASS_BLOCK));
+
+    public static final Block PINE_LEAVES = registerBlock("pine_leaves", LeavesBlock::new, AbstractBlock.Settings.copy(Blocks.SPRUCE_LEAVES));
 
     public static final Block PINE_LOG = registerBlock("pine_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.SPRUCE_LOG));
     public static final Block STRIPPED_PINE_LOG = registerBlock("stripped_pine_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_SPRUCE_LOG));

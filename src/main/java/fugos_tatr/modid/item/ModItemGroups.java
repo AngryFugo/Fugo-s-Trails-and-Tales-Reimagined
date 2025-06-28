@@ -51,6 +51,10 @@ public class ModItemGroups {
 
 
 
+                        entries.add(ModBlocks.MAPLE_SAPLING);
+
+                        entries.add(ModBlocks.MAPLE_LEAVES);
+
                         entries.add(ModBlocks.MAPLE_LOG);
                         entries.add(ModBlocks.STRIPPED_MAPLE_LOG);
                         entries.add(ModBlocks.MAPLE_WOOD);
@@ -68,6 +72,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAPLE_TRAPDOOR);
 
 
+
+                        entries.add(ModBlocks.PINE_SAPLING);
+
+                        entries.add(ModBlocks.PINE_LEAVES);
 
                         entries.add(ModBlocks.PINE_LOG);
                         entries.add(ModBlocks.STRIPPED_PINE_LOG);

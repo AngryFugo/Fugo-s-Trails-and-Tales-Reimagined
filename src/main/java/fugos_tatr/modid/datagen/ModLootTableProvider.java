@@ -56,6 +56,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
 
 
+        addDrop(ModBlocks.MAPLE_SAPLING);
+
+        addDrop(ModBlocks.MAPLE_LEAVES, leavesDrops(ModBlocks.MAPLE_LEAVES, ModBlocks.MAPLE_SAPLING, 0.0625f));
+
         addDrop(ModBlocks.MAPLE_LOG);
         addDrop(ModBlocks.STRIPPED_MAPLE_LOG);
         addDrop(ModBlocks.MAPLE_WOOD);
@@ -74,6 +78,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MAPLE_TRAPDOOR);
 
 
+
+        addDrop(ModBlocks.PINE_SAPLING);
+
+        addDrop(ModBlocks.PINE_LEAVES, leavesDrops(ModBlocks.PINE_LEAVES, ModBlocks.PINE_SAPLING, 0.0625f));
 
         addDrop(ModBlocks.PINE_LOG);
         addDrop(ModBlocks.STRIPPED_PINE_LOG);

@@ -1,12 +1,13 @@
-// 1.21.3	2025-06-28T22:48:03.7104941	Fugo's Trails and Tales: Reimagined/Tags for minecraft:block
-888371be7838564adccd50f15a938683e3b897e5 data\minecraft\tags\block\slabs.json
+// 1.21.3	2025-06-29T01:20:41.350294	Fugo's Trails and Tales: Reimagined/Tags for minecraft:block
 e87d1de3dc0b9d985cd8048fe178f96d10abd4d5 data\minecraft\tags\block\buttons.json
-d5d5a6d87076b9f57ae30552880b8d5e48c7bd38 data\minecraft\tags\block\pressure_plates.json
-0e24da1cc10732d7ed83360f8a3be03cfcf0e8e0 data\minecraft\tags\block\doors.json
 baf4d39aa02c5971db15dde6f101b4c02cf24465 data\minecraft\tags\block\trapdoors.json
 6e8a473db6c6231a7c333c613ed6ecc3be3d5315 data\minecraft\tags\block\logs.json
-fc7b706d6d2253c693bbbb0efe8b3585af94d4e7 data\minecraft\tags\block\fence_gates.json
 6e8a473db6c6231a7c333c613ed6ecc3be3d5315 data\minecraft\tags\block\logs_that_burn.json
+6becea527ffd4bf85a69527b35ba84d7ab4dd189 data\minecraft\tags\block\leaves.json
 e95fa48a4c6484eb86d83c964634fad3871f6b3f data\minecraft\tags\block\stairs.json
+0e24da1cc10732d7ed83360f8a3be03cfcf0e8e0 data\minecraft\tags\block\doors.json
+888371be7838564adccd50f15a938683e3b897e5 data\minecraft\tags\block\slabs.json
+d5d5a6d87076b9f57ae30552880b8d5e48c7bd38 data\minecraft\tags\block\pressure_plates.json
+fc7b706d6d2253c693bbbb0efe8b3585af94d4e7 data\minecraft\tags\block\fence_gates.json
 bdabf09a5b7c7bbc52bf943a310d6cd893b65318 data\minecraft\tags\block\fences.json
 bfaeab40a9bc142bcbe9f3595518245fecffe059 data\minecraft\tags\block\planks.json

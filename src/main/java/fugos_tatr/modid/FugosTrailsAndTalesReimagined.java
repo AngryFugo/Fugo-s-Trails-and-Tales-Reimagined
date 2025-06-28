@@ -3,6 +3,7 @@ package fugos_tatr.modid;
 import fugos_tatr.modid.block.ModBlocks;
 import fugos_tatr.modid.item.ModItemGroups;
 import fugos_tatr.modid.item.ModItems;
+import fugos_tatr.modid.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
@@ -29,6 +30,8 @@ public class FugosTrailsAndTalesReimagined implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+		ModWorldGeneration.generateModWorldGen();
+
 		StrippableBlockRegistry.register(ModBlocks.AVOCADO_LOG, ModBlocks.STRIPPED_AVOCADO_LOG);
 		StrippableBlockRegistry.register(ModBlocks.AVOCADO_WOOD, ModBlocks.STRIPPED_AVOCADO_WOOD);
 
@@ -52,6 +55,7 @@ public class FugosTrailsAndTalesReimagined implements ModInitializer {
 		StrippableBlockRegistry.register(ModBlocks.MAPLE_LOG, ModBlocks.STRIPPED_MAPLE_LOG);
 		StrippableBlockRegistry.register(ModBlocks.MAPLE_WOOD, ModBlocks.STRIPPED_MAPLE_WOOD);
 
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAPLE_LEAVES, 30, 60);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAPLE_LOG, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_MAPLE_LOG, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MAPLE_WOOD, 5, 5);
@@ -62,6 +66,7 @@ public class FugosTrailsAndTalesReimagined implements ModInitializer {
 		StrippableBlockRegistry.register(ModBlocks.PINE_LOG, ModBlocks.STRIPPED_PINE_LOG);
 		StrippableBlockRegistry.register(ModBlocks.PINE_WOOD, ModBlocks.STRIPPED_PINE_WOOD);
 
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PINE_LEAVES, 30, 60);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PINE_LOG, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_PINE_LOG, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PINE_WOOD, 5, 5);
