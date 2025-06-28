@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_open",
+  "textures": {
+    "texture": "fugos-trails-and-tales-reimagined:block/avocado_trapdoor"
+  }
+}

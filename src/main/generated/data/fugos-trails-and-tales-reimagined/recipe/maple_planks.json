@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#fugos-trails-and-tales-reimagined:maple_logs"
+  ],
+  "result": {
+    "count": 4,
+    "id": "fugos-trails-and-tales-reimagined:maple_planks"
+  }
+}

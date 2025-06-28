@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "fugos-trails-and-tales-reimagined:chestnut_planks",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "   ",
+    "SRS",
+    "SRS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fugos-trails-and-tales-reimagined:chestnut_fence_gate"
+  }
+}

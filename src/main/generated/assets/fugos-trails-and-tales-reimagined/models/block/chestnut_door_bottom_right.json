@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "fugos-trails-and-tales-reimagined:block/chestnut_door_bottom",
+    "top": "fugos-trails-and-tales-reimagined:block/chestnut_door_top"
+  }
+}

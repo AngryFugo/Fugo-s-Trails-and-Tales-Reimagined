@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "fugos-trails-and-tales-reimagined:block/avocado_planks",
+    "side": "fugos-trails-and-tales-reimagined:block/avocado_planks",
+    "top": "fugos-trails-and-tales-reimagined:block/avocado_planks"
+  }
+}

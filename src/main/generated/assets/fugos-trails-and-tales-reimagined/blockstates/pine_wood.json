@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "fugos-trails-and-tales-reimagined:block/pine_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "fugos-trails-and-tales-reimagined:block/pine_wood"
+    },
+    "axis=z": {
+      "model": "fugos-trails-and-tales-reimagined:block/pine_wood",
+      "x": 90
+    }
+  }
+}

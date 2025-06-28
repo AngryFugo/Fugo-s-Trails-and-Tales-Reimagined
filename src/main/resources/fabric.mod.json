@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "fugos-trails-and-tales-reimagined",
+	"version": "${version}",
+	"name": "Fugo's Trails and Tales: Reimagined",
+	"description": "Adds more Trees and Ores to Minecraft",
+	"authors": [
+		"AngryFugo",
+		"Kourtney"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fugos-trails-and-tales-reimagined/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fugos_tatr.modid.FugosTrailsAndTalesReimagined"
+		],
+		"client": [
+			"fugos_tatr.modid.FugosTrailsAndTalesReimaginedClient"
+		],
+		"fabric-datagen": [
+			"fugos_tatr.modid.FugosTrailsAndTalesReimaginedDataGenerator"
+		]
+	},
+	"mixins": [
+		"fugos-trails-and-tales-reimagined.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

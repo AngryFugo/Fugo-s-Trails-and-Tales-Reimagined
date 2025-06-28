@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "fugos-trails-and-tales-reimagined:maple_log"
+  },
+  "pattern": [
+    "   ",
+    " RR",
+    " RR"
+  ],
+  "result": {
+    "count": 3,
+    "id": "fugos-trails-and-tales-reimagined:maple_wood"
+  }
+}
