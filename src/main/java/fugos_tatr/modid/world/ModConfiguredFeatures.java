@@ -15,6 +15,7 @@ import net.minecraft.world.gen.feature.FeatureConfig;
 import net.minecraft.world.gen.feature.TreeFeatureConfig;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
+import net.minecraft.world.gen.foliage.MegaPineFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 
@@ -34,10 +35,10 @@ public class ModConfiguredFeatures {
 
         register(context, PINE_TREE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.PINE_LOG),
-                new StraightTrunkPlacer(10,1,1),
+                new StraightTrunkPlacer(8,2,2),
 
                 BlockStateProvider.of(ModBlocks.PINE_LEAVES),
-                new BlobFoliagePlacer(ConstantIntProvider.create(1), ConstantIntProvider.create(3), 9),
+                new MegaPineFoliagePlacer(ConstantIntProvider.create(1), ConstantIntProvider.create(0), ConstantIntProvider.create(8)),
 
                 new TwoLayersFeatureSize(3, 1, 3)).dirtProvider(BlockStateProvider.of(Blocks.GRASS_BLOCK)).build());
     }
