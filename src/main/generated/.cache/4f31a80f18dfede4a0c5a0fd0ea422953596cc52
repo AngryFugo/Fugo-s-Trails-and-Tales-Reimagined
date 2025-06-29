@@ -1,4 +1,4 @@
-// 1.21.3	2025-06-29T03:01:10.155772	Fugo's Trails and Tales: Reimagined/Block Loot Tables
+// 1.21.3	2025-06-29T03:02:25.6068593	Fugo's Trails and Tales: Reimagined/Block Loot Tables
 530b40d21dfa5e03053d767941800002620d66a2 data\fugos-trails-and-tales-reimagined\loot_table\blocks\pine_button.json
 94005fda3462c46a372eda4e06dd4cf9bdbcef6e data\fugos-trails-and-tales-reimagined\loot_table\blocks\maple_leaves.json
 a4c820b2c6d35722e833af0905f6f210dc1d0c05 data\fugos-trails-and-tales-reimagined\loot_table\blocks\chestnut_planks.json
@@ -11,14 +11,14 @@ c277a315bf32ed412374a3604a995497e96a9844 data\fugos-trails-and-tales-reimagined\
 be61ed61917354bfcea2551ef88cd6f7d3f33352 data\fugos-trails-and-tales-reimagined\loot_table\blocks\avocado_trapdoor.json
 636598d65eeebd007da1c016cd838df3de5c37fa data\fugos-trails-and-tales-reimagined\loot_table\blocks\avocado_slab.json
 e1e8c07fce854401e01ede72b67a49ee2b0e1188 data\fugos-trails-and-tales-reimagined\loot_table\blocks\avocado_log.json
-3a3ddcf7c9954c6138d19e296cfac3b4f51b4a4e data\fugos-trails-and-tales-reimagined\loot_table\blocks\chestnut_leaves.json
+bd3f040f1fdb062b691507d01edb7b4a2860791a data\fugos-trails-and-tales-reimagined\loot_table\blocks\chestnut_leaves.json
 483313aa2ebb1b4a092ad227d68ca52d9bf2e4db data\fugos-trails-and-tales-reimagined\loot_table\blocks\maple_trapdoor.json
 3f291173f8d522b661b0e659385caa846895bc03 data\fugos-trails-and-tales-reimagined\loot_table\blocks\stripped_avocado_log.json
 82e4bc698e9bec9d136bc4f70e4e8fa6cbeaa764 data\fugos-trails-and-tales-reimagined\loot_table\blocks\avocado_fence_gate.json
 c59caeae6ba9ec5250db578daa1d3d6f3a712938 data\fugos-trails-and-tales-reimagined\loot_table\blocks\chestnut_trapdoor.json
 66b5a49920e14e15a3f20a6d27a4ec7dc4445a6f data\fugos-trails-and-tales-reimagined\loot_table\blocks\chestnut_slab.json
 c1878d683407f05b8f868754543e01c64ff20a0c data\fugos-trails-and-tales-reimagined\loot_table\blocks\maple_wood.json
-1d22bd848b105d447bdf2508e02e389e3f239f44 data\fugos-trails-and-tales-reimagined\loot_table\blocks\avocado_leaves.json
+fce3dc0e37698818c764c66482eecaf2e587c84f data\fugos-trails-and-tales-reimagined\loot_table\blocks\avocado_leaves.json
 89570b78484444416978ba9bf3066694fc2ef3e7 data\fugos-trails-and-tales-reimagined\loot_table\blocks\stripped_pine_log.json
 386fa93681e2a6a95460471f3243e7960411b6e0 data\fugos-trails-and-tales-reimagined\loot_table\blocks\avocado_button.json
 7c10709bc1594b9bad15090fc3964398dac6de6e data\fugos-trails-and-tales-reimagined\loot_table\blocks\pine_trapdoor.json
@@ -45,8 +45,8 @@ b2a5fb1175accc2c4fc29123fcead3edc3d1d8f6 data\fugos-trails-and-tales-reimagined\
 da829bd219f3617019ab3094db5fb062dc21f291 data\fugos-trails-and-tales-reimagined\loot_table\blocks\maple_stairs.json
 f77ed491f59fa156deabd839b9294e642283ebaa data\fugos-trails-and-tales-reimagined\loot_table\blocks\avocado_stairs.json
 b004e82b5f0314629cc27b071f2507e6b28a47c8 data\fugos-trails-and-tales-reimagined\loot_table\blocks\pine_door.json
-0ea1c650ea5be64e4b74ad8829efaad3ed89f6e9 data\fugos-trails-and-tales-reimagined\loot_table\blocks\avocado_fence.json
 b7eb4e6d481f1c13b4ea757656eafe4e0ad264dd data\fugos-trails-and-tales-reimagined\loot_table\blocks\avocado_planks.json
+0ea1c650ea5be64e4b74ad8829efaad3ed89f6e9 data\fugos-trails-and-tales-reimagined\loot_table\blocks\avocado_fence.json
 e2cd74e95cc1e679de333f993fa28ff168d71440 data\fugos-trails-and-tales-reimagined\loot_table\blocks\stripped_chestnut_wood.json
 c62d07131abba0a61020bad21f9ac9957bda95bc data\fugos-trails-and-tales-reimagined\loot_table\blocks\chestnut_door.json
 e5933990303730cd973786c146f24bf3f2f8d0ad data\fugos-trails-and-tales-reimagined\loot_table\blocks\maple_pressure_plate.json
