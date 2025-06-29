@@ -17,6 +17,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(ItemTags.LEAVES)
+                .add(ModBlocks.AVOCADO_LEAVES.asItem())
+                .add(ModBlocks.CHESTNUT_LEAVES.asItem())
                 .add(ModBlocks.MAPLE_LEAVES.asItem())
                 .add(ModBlocks.PINE_LEAVES.asItem());
 

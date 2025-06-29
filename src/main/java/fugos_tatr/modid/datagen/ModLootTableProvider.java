@@ -3,6 +3,7 @@ package fugos_tatr.modid.datagen;
 import fugos_tatr.modid.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
@@ -17,6 +18,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         RegistryWrapper.Impl<Enchantment> impl = this.registries.getOrThrow(RegistryKeys.ENCHANTMENT);
+
+        addDrop(ModBlocks.AVOCADO_LEAVES, leavesDrops(ModBlocks.AVOCADO_LEAVES, Blocks.OAK_SAPLING, 0.0625f));
 
         addDrop(ModBlocks.AVOCADO_LOG);
         addDrop(ModBlocks.STRIPPED_AVOCADO_LOG);
@@ -36,6 +39,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.AVOCADO_TRAPDOOR);
 
 
+
+        addDrop(ModBlocks.CHESTNUT_LEAVES, leavesDrops(ModBlocks.CHESTNUT_LEAVES, Blocks.OAK_SAPLING, 0.0625f));
 
         addDrop(ModBlocks.CHESTNUT_LOG);
         addDrop(ModBlocks.STRIPPED_CHESTNUT_LOG);

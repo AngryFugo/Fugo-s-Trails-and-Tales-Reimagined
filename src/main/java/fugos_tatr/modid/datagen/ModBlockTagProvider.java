@@ -64,6 +64,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINE_TRAPDOOR);
 
         getOrCreateTagBuilder(BlockTags.LEAVES)
+                .add(ModBlocks.AVOCADO_LEAVES)
+                .add(ModBlocks.CHESTNUT_LEAVES)
                 .add(ModBlocks.MAPLE_LEAVES)
                 .add(ModBlocks.PINE_LEAVES);
 

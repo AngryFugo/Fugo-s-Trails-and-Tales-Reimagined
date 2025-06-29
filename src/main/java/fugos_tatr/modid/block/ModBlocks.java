@@ -18,6 +18,8 @@ import net.minecraft.util.Identifier;
 import java.util.function.Function;
 
 public class ModBlocks {
+    public static final Block AVOCADO_LEAVES = registerBlock("avocado_leaves", LeavesBlock::new, AbstractBlock.Settings.copy(Blocks.BIRCH_LEAVES));
+
     public static final Block AVOCADO_LOG = registerBlock("avocado_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.BIRCH_LOG));
     public static final Block STRIPPED_AVOCADO_LOG = registerBlock("stripped_avocado_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_BIRCH_LOG));
     public static final Block AVOCADO_WOOD = registerBlock("avocado_wood", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.BIRCH_WOOD));
@@ -38,6 +40,8 @@ public class ModBlocks {
     public static final Block AVOCADO_TRAPDOOR = registerBlock("avocado_trapdoor", settings -> new TrapdoorBlock(BlockSetType.BIRCH, settings), AbstractBlock.Settings.copy(Blocks.BIRCH_TRAPDOOR));
 
 
+
+    public static final Block CHESTNUT_LEAVES = registerBlock("chestnut_leaves", LeavesBlock::new, AbstractBlock.Settings.copy(Blocks.MANGROVE_LEAVES));
 
     public static final Block CHESTNUT_LOG = registerBlock("chestnut_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.MANGROVE_LOG));
     public static final Block STRIPPED_CHESTNUT_LOG = registerBlock("stripped_chestnut_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_MANGROVE_LOG));
