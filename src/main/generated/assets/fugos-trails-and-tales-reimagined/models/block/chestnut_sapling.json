@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "fugos-trails-and-tales-reimagined:block/chestnut_sapling"
+  }
+}

@@ -35,6 +35,7 @@ public class FugosTrailsAndTalesReimagined implements ModInitializer {
 		StrippableBlockRegistry.register(ModBlocks.AVOCADO_LOG, ModBlocks.STRIPPED_AVOCADO_LOG);
 		StrippableBlockRegistry.register(ModBlocks.AVOCADO_WOOD, ModBlocks.STRIPPED_AVOCADO_WOOD);
 
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.AVOCADO_LEAVES, 30, 60);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.AVOCADO_LOG, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_AVOCADO_LOG, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.AVOCADO_WOOD, 5, 5);
@@ -45,6 +46,7 @@ public class FugosTrailsAndTalesReimagined implements ModInitializer {
 		StrippableBlockRegistry.register(ModBlocks.CHESTNUT_LOG, ModBlocks.STRIPPED_CHESTNUT_LOG);
 		StrippableBlockRegistry.register(ModBlocks.CHESTNUT_WOOD, ModBlocks.STRIPPED_CHESTNUT_WOOD);
 
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_LEAVES, 30, 60);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_LOG, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_CHESTNUT_LOG, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_WOOD, 5, 5);

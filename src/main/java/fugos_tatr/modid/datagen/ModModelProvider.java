@@ -15,6 +15,8 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.AVOCADO_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+
         blockStateModelGenerator.registerSingleton(ModBlocks.AVOCADO_LEAVES, TexturedModel.LEAVES);
 
         blockStateModelGenerator.registerLog(ModBlocks.AVOCADO_LOG).log(ModBlocks.AVOCADO_LOG).wood(ModBlocks.AVOCADO_WOOD);
@@ -33,6 +35,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTrapdoor(ModBlocks.AVOCADO_TRAPDOOR);
 
 
+
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.CHESTNUT_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         blockStateModelGenerator.registerSingleton(ModBlocks.CHESTNUT_LEAVES, TexturedModel.LEAVES);
 
@@ -96,6 +100,10 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ModBlocks.AVOCADO_SAPLING.asItem(), Models.GENERATED);
+
+        itemModelGenerator.register(ModBlocks.CHESTNUT_SAPLING.asItem(), Models.GENERATED);
+
         itemModelGenerator.register(ModBlocks.MAPLE_SAPLING.asItem(), Models.GENERATED);
 
         itemModelGenerator.register(ModBlocks.PINE_SAPLING.asItem(), Models.GENERATED);

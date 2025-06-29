@@ -22,6 +22,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.MAPLE_LEAVES.asItem())
                 .add(ModBlocks.PINE_LEAVES.asItem());
 
+        getOrCreateTagBuilder(ItemTags.SAPLINGS)
+                .add(ModBlocks.AVOCADO_SAPLING.asItem())
+                .add(ModBlocks.CHESTNUT_SAPLING.asItem())
+                .add(ModBlocks.MAPLE_SAPLING.asItem())
+                .add(ModBlocks.PINE_SAPLING.asItem());
+
         getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
                 .add(ModBlocks.AVOCADO_LOG.asItem())
                 .add(ModBlocks.STRIPPED_AVOCADO_LOG.asItem())

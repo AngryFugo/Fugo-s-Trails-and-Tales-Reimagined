@@ -15,6 +15,8 @@ public class ModItemGroups {
             Identifier.of(FugosTrailsAndTalesReimagined.MOD_ID, "fugos_trails_and_tales_reimagined_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.fugos_trails_and_tales_reimagined_group"))
                     .icon(() -> new ItemStack(ModBlocks.AVOCADO_PLANKS)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.AVOCADO_SAPLING);
+
                         entries.add(ModBlocks.AVOCADO_LEAVES);
 
                         entries.add(ModBlocks.AVOCADO_LOG);
@@ -34,6 +36,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.AVOCADO_TRAPDOOR);
 
 
+
+                        entries.add(ModBlocks.CHESTNUT_SAPLING);
 
                         entries.add(ModBlocks.CHESTNUT_LEAVES);
 

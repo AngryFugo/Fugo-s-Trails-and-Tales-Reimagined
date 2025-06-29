@@ -7,6 +7,12 @@ import net.minecraft.block.SaplingGenerator;
 import java.util.Optional;
 
 public class ModSaplingGenerators {
+    public static final SaplingGenerator AVOCADO = new SaplingGenerator(FugosTrailsAndTalesReimagined.MOD_ID + ":avocado",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.AVOCADO_TREE_KEY), Optional.empty());
+
+    public static final SaplingGenerator CHESTNUT = new SaplingGenerator(FugosTrailsAndTalesReimagined.MOD_ID + ":chestnut",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.CHESTNUT_TREE_KEY), Optional.empty());
+
     public static final SaplingGenerator MAPLE = new SaplingGenerator(FugosTrailsAndTalesReimagined.MOD_ID + ":maple",
             Optional.empty(), Optional.of(ModConfiguredFeatures.MAPLE_TREE_KEY), Optional.empty());
 

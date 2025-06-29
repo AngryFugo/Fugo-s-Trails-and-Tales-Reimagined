@@ -1,4 +1,4 @@
-// 1.21.3	2025-06-29T02:12:26.1043209	Fugo's Trails and Tales: Reimagined/Model Definitions
+// 1.21.3	2025-06-29T03:01:10.1537717	Fugo's Trails and Tales: Reimagined/Model Definitions
 2d0a2aa33573dbd9eb24ff54f16ed6d5426f7b61 assets\fugos-trails-and-tales-reimagined\blockstates\avocado_button.json
 30512d0269d8634cd6e70534c48a63195dd3c9b9 assets\fugos-trails-and-tales-reimagined\blockstates\pine_wood.json
 f78ed2c1a7eeb97a72c0f82113b906ad4e54a950 assets\fugos-trails-and-tales-reimagined\models\block\maple_fence_gate.json
@@ -77,6 +77,7 @@ fbfafef5cb40650470285d257f0b79f6c6ece6d2 assets\fugos-trails-and-tales-reimagine
 7062cb60d5ba72737d09553cc4c283ee9bbe8cf4 assets\fugos-trails-and-tales-reimagined\models\block\chestnut_button_inventory.json
 248350c3593a84d2076e3476edd8d5c3b037e216 assets\fugos-trails-and-tales-reimagined\blockstates\avocado_pressure_plate.json
 b5b9509329c52042d3b67878f5715d2fe555abe4 assets\fugos-trails-and-tales-reimagined\models\block\maple_door_bottom_left_open.json
+452a5f0cad19c75282e815abbb3221814ba38fdd assets\fugos-trails-and-tales-reimagined\models\item\avocado_sapling.json
 13b95d7751ec615c247b933f631b6bb308f4cbfd assets\fugos-trails-and-tales-reimagined\models\block\avocado_slab.json
 3afdc2a0c875f1265e6f6c4a23505d777135858f assets\fugos-trails-and-tales-reimagined\models\block\stripped_pine_wood.json
 7b425a3a753a14d900d9ffa37997c3ee136843fe assets\fugos-trails-and-tales-reimagined\blockstates\avocado_stairs.json
@@ -97,8 +98,9 @@ fa61b69a593f9f589cdcb9984070e9c3d7c81189 assets\fugos-trails-and-tales-reimagine
 67e4c1c4d103c181531052835103412242483c9b assets\fugos-trails-and-tales-reimagined\models\block\maple_stairs_outer.json
 76fc2b6abe10cf09a18b5db2412b80aae220cfe1 assets\fugos-trails-and-tales-reimagined\blockstates\maple_fence.json
 1aaeaeda044b308acf4bb6520d6947b6a78e6280 assets\fugos-trails-and-tales-reimagined\models\block\chestnut_stairs.json
-369033705465b5dc65d61cd9c660cd260bbba939 assets\fugos-trails-and-tales-reimagined\models\block\pine_door_top_left_open.json
 121f1047e597e3d03576f932f38eeb58f72fc0ac assets\fugos-trails-and-tales-reimagined\models\block\avocado_button_pressed.json
+369033705465b5dc65d61cd9c660cd260bbba939 assets\fugos-trails-and-tales-reimagined\models\block\pine_door_top_left_open.json
+7f5a24dd608594dc224d3036c203f184b4ee4656 assets\fugos-trails-and-tales-reimagined\blockstates\chestnut_sapling.json
 2530ebeb53d9d9883df0ddf8279b701cd71d6e63 assets\fugos-trails-and-tales-reimagined\models\block\avocado_door_top_right.json
 dea8186bdf91815e4303690ad67621e45eff7cb0 assets\fugos-trails-and-tales-reimagined\models\block\maple_pressure_plate.json
 4bfebb9b5d3386c1249fc1a673835b5344d5eafb assets\fugos-trails-and-tales-reimagined\blockstates\pine_log.json
@@ -126,6 +128,7 @@ abef3230015035854ea54b53f4e0296393655205 assets\fugos-trails-and-tales-reimagine
 b8a6d6f7c732b520ca5fed4fe0af4215f6429db5 assets\fugos-trails-and-tales-reimagined\models\item\maple_trapdoor.json
 4e4a97e7d3dec6c8a0f6a2929e0cd8cceef18809 assets\fugos-trails-and-tales-reimagined\models\block\maple_trapdoor_open.json
 036651bf3c790fe3b8da37a9ca4ec11bbbe75165 assets\fugos-trails-and-tales-reimagined\models\item\pine_fence.json
+3cffacc6d9152c18b0a6bcd76fc633cc2548fbc5 assets\fugos-trails-and-tales-reimagined\models\item\chestnut_sapling.json
 7375e69c62d56cdca9158dedc82f6892dac88952 assets\fugos-trails-and-tales-reimagined\models\block\avocado_stairs.json
 9040cfa530d85dae996d6cbfd55bdf186d58c66e assets\fugos-trails-and-tales-reimagined\models\block\chestnut_fence_gate_open.json
 e3cf02c4ac8394a8182ab26d0713a34cfb77104b assets\fugos-trails-and-tales-reimagined\models\block\avocado_fence_gate_open.json
@@ -223,6 +226,7 @@ bd734f0691800401c136d3995cea3b9ef9d1a64b assets\fugos-trails-and-tales-reimagine
 09fd1761f544871b49d9751568912409d5244398 assets\fugos-trails-and-tales-reimagined\models\item\pine_pressure_plate.json
 2548d7de357e490f515f99b9674408868f35b25f assets\fugos-trails-and-tales-reimagined\models\block\pine_door_bottom_right_open.json
 3e46fbd2c6a7c30082a6d89fe05ffce14b61c2a7 assets\fugos-trails-and-tales-reimagined\models\block\pine_trapdoor_bottom.json
+9983a51cdd0c9590bab023f983b3293984f231b5 assets\fugos-trails-and-tales-reimagined\blockstates\avocado_sapling.json
 441413fcb7533b380b2d9fcc779fca5cbd1f1645 assets\fugos-trails-and-tales-reimagined\blockstates\avocado_wood.json
 97b248e6978960f9aa9deeb12bfc663d2b84bbb9 assets\fugos-trails-and-tales-reimagined\models\item\stripped_chestnut_log.json
 b442a660d01fa43f97e530a866675ca49c797608 assets\fugos-trails-and-tales-reimagined\models\block\pine_sapling.json
@@ -240,15 +244,17 @@ fbe9aac0376467fca71bd3f13d9e928620c1d7ed assets\fugos-trails-and-tales-reimagine
 6ab0df3c5cdd43e0e1fcb20c51f36fea74cbf289 assets\fugos-trails-and-tales-reimagined\models\block\avocado_pressure_plate.json
 c31e51b947a56bcd2a3623e78cac171fd76f8d04 assets\fugos-trails-and-tales-reimagined\models\item\maple_wood.json
 79ee1d7316dea19c2a235e08251edd26fac088ff assets\fugos-trails-and-tales-reimagined\models\block\maple_trapdoor_top.json
+8343a9c6597940b1092c01b4b10bacf19b87bbf9 assets\fugos-trails-and-tales-reimagined\models\block\chestnut_sapling.json
 11cda2152bfa4bfbf1a67df273784ba28bb188c3 assets\fugos-trails-and-tales-reimagined\models\item\chestnut_wood.json
 20cdd4baabf1de3e21444c5ab577ca0aa8100922 assets\fugos-trails-and-tales-reimagined\models\item\chestnut_slab.json
 8e5a73ca32ab75de5d670ec05a18d782764d6c09 assets\fugos-trails-and-tales-reimagined\models\block\avocado_trapdoor_top.json
-5977404fb3b2a1418f910968d1c0c31c636bc2d3 assets\fugos-trails-and-tales-reimagined\models\block\pine_button.json
 67dbfe0ae4559fe6151462092321908a34d632b4 assets\fugos-trails-and-tales-reimagined\models\item\avocado_leaves.json
+5977404fb3b2a1418f910968d1c0c31c636bc2d3 assets\fugos-trails-and-tales-reimagined\models\block\pine_button.json
 358126311ff2338011e72792ac15a63ae2787822 assets\fugos-trails-and-tales-reimagined\models\block\pine_button_inventory.json
 c2b269e8c933249125849a82803c502fa5cce600 assets\fugos-trails-and-tales-reimagined\models\block\avocado_door_bottom_left_open.json
 52a9740c5d8304a0671eff892475ca3dbea1a5b9 assets\fugos-trails-and-tales-reimagined\models\block\avocado_door_top_right_open.json
 d3c654208a53bc6f8a60cb26508ac7a9f171e36c assets\fugos-trails-and-tales-reimagined\models\block\stripped_avocado_log.json
+d6c48159164d13e3c082b460bb7acfea5f95ec0c assets\fugos-trails-and-tales-reimagined\models\block\avocado_sapling.json
 11e23ccbec0db53eb2eaf325d999cb76d34337cc assets\fugos-trails-and-tales-reimagined\models\block\chestnut_leaves.json
 53e9d3d723dbe82c799e2d4c8f02eadaecd3fe5d assets\fugos-trails-and-tales-reimagined\models\block\avocado_fence_side.json
 2ec5a0d1eb930862d00bab2a9095a5221b2388a7 assets\fugos-trails-and-tales-reimagined\blockstates\pine_door.json

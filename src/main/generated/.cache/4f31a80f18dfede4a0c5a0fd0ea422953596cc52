@@ -1,4 +1,4 @@
-// 1.21.3	2025-06-29T02:12:26.1063443	Fugo's Trails and Tales: Reimagined/Block Loot Tables
+// 1.21.3	2025-06-29T03:01:10.155772	Fugo's Trails and Tales: Reimagined/Block Loot Tables
 530b40d21dfa5e03053d767941800002620d66a2 data\fugos-trails-and-tales-reimagined\loot_table\blocks\pine_button.json
 94005fda3462c46a372eda4e06dd4cf9bdbcef6e data\fugos-trails-and-tales-reimagined\loot_table\blocks\maple_leaves.json
 a4c820b2c6d35722e833af0905f6f210dc1d0c05 data\fugos-trails-and-tales-reimagined\loot_table\blocks\chestnut_planks.json
@@ -25,6 +25,7 @@ c1878d683407f05b8f868754543e01c64ff20a0c data\fugos-trails-and-tales-reimagined\
 e9dc5c37368b914a6ddfaac7a9f423253f0d0b53 data\fugos-trails-and-tales-reimagined\loot_table\blocks\stripped_chestnut_log.json
 5d0e54a44a24112cc80380527b8707d4fbc661ff data\fugos-trails-and-tales-reimagined\loot_table\blocks\avocado_wood.json
 165300a98b93f0837ba95b731d4eb13d870b4a21 data\fugos-trails-and-tales-reimagined\loot_table\blocks\pine_pressure_plate.json
+21d33e56dda0baefae5caaa620797074e9d26314 data\fugos-trails-and-tales-reimagined\loot_table\blocks\chestnut_sapling.json
 ed5b7e88c65049f531436bfb79ae4e96c6ca5a65 data\fugos-trails-and-tales-reimagined\loot_table\blocks\pine_planks.json
 22a0dd0ff438d5ece13914d95fe0ca5902723045 data\fugos-trails-and-tales-reimagined\loot_table\blocks\chestnut_pressure_plate.json
 281cb2fd7e9d732a063f8e81afa1e11fb46cc0da data\fugos-trails-and-tales-reimagined\loot_table\blocks\chestnut_button.json
@@ -49,6 +50,7 @@ b7eb4e6d481f1c13b4ea757656eafe4e0ad264dd data\fugos-trails-and-tales-reimagined\
 e2cd74e95cc1e679de333f993fa28ff168d71440 data\fugos-trails-and-tales-reimagined\loot_table\blocks\stripped_chestnut_wood.json
 c62d07131abba0a61020bad21f9ac9957bda95bc data\fugos-trails-and-tales-reimagined\loot_table\blocks\chestnut_door.json
 e5933990303730cd973786c146f24bf3f2f8d0ad data\fugos-trails-and-tales-reimagined\loot_table\blocks\maple_pressure_plate.json
+9c901fa4d7f7af36761dbf4fc6250d3d1ea1c895 data\fugos-trails-and-tales-reimagined\loot_table\blocks\avocado_sapling.json
 27915e6b63065157f4872490d711001567c096d8 data\fugos-trails-and-tales-reimagined\loot_table\blocks\pine_wood.json
 e8889e1452a461eee7a1dae49b301ed2f2cc58c1 data\fugos-trails-and-tales-reimagined\loot_table\blocks\pine_fence.json
 7d56cc3e135bb05655fa19f8f5b83cf84fde8c4d data\fugos-trails-and-tales-reimagined\loot_table\blocks\pine_sapling.json

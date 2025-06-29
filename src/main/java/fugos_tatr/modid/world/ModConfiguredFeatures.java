@@ -2,7 +2,6 @@ package fugos_tatr.modid.world;
 
 import fugos_tatr.modid.FugosTrailsAndTalesReimagined;
 import fugos_tatr.modid.block.ModBlocks;
-import net.minecraft.block.BlockSetType;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
@@ -20,10 +19,30 @@ import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 
 public class ModConfiguredFeatures {
+    public static final RegistryKey<ConfiguredFeature<?, ?>> AVOCADO_TREE_KEY = registerKey("avocado_tree");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> CHESTNUT_TREE_KEY = registerKey("chestnut_tree");
     public static final RegistryKey<ConfiguredFeature<?, ?>> MAPLE_TREE_KEY = registerKey("maple_tree");
     public static final RegistryKey<ConfiguredFeature<?, ?>> PINE_TREE_KEY = registerKey("pine_tree");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
+        register(context, AVOCADO_TREE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.AVOCADO_LOG),
+                new StraightTrunkPlacer(5,1,1),
+
+                BlockStateProvider.of(ModBlocks.AVOCADO_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3),
+
+                new TwoLayersFeatureSize(3, 1, 3)).dirtProvider(BlockStateProvider.of(Blocks.GRASS_BLOCK)).build());
+
+        register(context, CHESTNUT_TREE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.CHESTNUT_LOG),
+                new StraightTrunkPlacer(5,1,1),
+
+                BlockStateProvider.of(ModBlocks.CHESTNUT_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3),
+
+                new TwoLayersFeatureSize(3, 1, 3)).dirtProvider(BlockStateProvider.of(Blocks.GRASS_BLOCK)).build());
+
         register(context, MAPLE_TREE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.MAPLE_LOG),
                 new StraightTrunkPlacer(5,1,1),

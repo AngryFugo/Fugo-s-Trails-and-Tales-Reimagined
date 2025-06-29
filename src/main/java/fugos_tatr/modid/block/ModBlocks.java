@@ -18,6 +18,10 @@ import net.minecraft.util.Identifier;
 import java.util.function.Function;
 
 public class ModBlocks {
+    public static final Block AVOCADO_SAPLING = registerBlockAlt("avocado_sapling", properties -> new ModSaplingBlock(ModSaplingGenerators.AVOCADO, properties.mapColor(MapColor.WHITE)
+            .noCollision().ticksRandomly().breakInstantly()
+            .sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY), Blocks.GRASS_BLOCK));
+
     public static final Block AVOCADO_LEAVES = registerBlock("avocado_leaves", LeavesBlock::new, AbstractBlock.Settings.copy(Blocks.BIRCH_LEAVES));
 
     public static final Block AVOCADO_LOG = registerBlock("avocado_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.BIRCH_LOG));
@@ -40,6 +44,10 @@ public class ModBlocks {
     public static final Block AVOCADO_TRAPDOOR = registerBlock("avocado_trapdoor", settings -> new TrapdoorBlock(BlockSetType.BIRCH, settings), AbstractBlock.Settings.copy(Blocks.BIRCH_TRAPDOOR));
 
 
+
+    public static final Block CHESTNUT_SAPLING = registerBlockAlt("chestnut_sapling", properties -> new ModSaplingBlock(ModSaplingGenerators.CHESTNUT, properties.mapColor(MapColor.GREEN)
+            .noCollision().ticksRandomly().breakInstantly()
+            .sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY), Blocks.GRASS_BLOCK));
 
     public static final Block CHESTNUT_LEAVES = registerBlock("chestnut_leaves", LeavesBlock::new, AbstractBlock.Settings.copy(Blocks.MANGROVE_LEAVES));
 

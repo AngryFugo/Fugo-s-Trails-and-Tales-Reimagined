@@ -13,11 +13,21 @@ import net.minecraft.world.gen.placementmodifier.PlacementModifier;
 import java.util.List;
 
 public class ModPlacedFeatures {
+    public static final RegistryKey<PlacedFeature> AVOCADO_TREE_PLACED_KEY = registerKey("avocado_tree_placed");
+    public static final RegistryKey<PlacedFeature> CHESTNUT_TREE_PLACED_KEY = registerKey("chestnut_tree_placed");
     public static final RegistryKey<PlacedFeature> MAPLE_TREE_PLACED_KEY = registerKey("maple_tree_placed");
     public static final RegistryKey<PlacedFeature> PINE_TREE_PLACED_KEY = registerKey("pine_tree_placed");
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
+
+        register(context, AVOCADO_TREE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.AVOCADO_TREE_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
+                        PlacedFeatures.createCountExtraModifier(2, 0.1f, 2), ModBlocks.AVOCADO_SAPLING));
+
+        register(context, CHESTNUT_TREE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CHESTNUT_TREE_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
+                        PlacedFeatures.createCountExtraModifier(2, 0.1f, 2), ModBlocks.CHESTNUT_SAPLING));
 
         register(context, MAPLE_TREE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MAPLE_TREE_KEY),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(

@@ -19,7 +19,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         RegistryWrapper.Impl<Enchantment> impl = this.registries.getOrThrow(RegistryKeys.ENCHANTMENT);
 
-        addDrop(ModBlocks.AVOCADO_LEAVES, leavesDrops(ModBlocks.AVOCADO_LEAVES, Blocks.OAK_SAPLING, 0.0625f));
+        addDrop(ModBlocks.AVOCADO_SAPLING);
+
+        addDrop(ModBlocks.AVOCADO_LEAVES, leavesDrops(ModBlocks.AVOCADO_LEAVES, ModBlocks.AVOCADO_SAPLING, 0.0625f));
 
         addDrop(ModBlocks.AVOCADO_LOG);
         addDrop(ModBlocks.STRIPPED_AVOCADO_LOG);
@@ -40,7 +42,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
 
 
-        addDrop(ModBlocks.CHESTNUT_LEAVES, leavesDrops(ModBlocks.CHESTNUT_LEAVES, Blocks.OAK_SAPLING, 0.0625f));
+        addDrop(ModBlocks.CHESTNUT_SAPLING);
+
+        addDrop(ModBlocks.CHESTNUT_LEAVES, leavesDrops(ModBlocks.CHESTNUT_LEAVES, ModBlocks.CHESTNUT_SAPLING, 0.0625f));
 
         addDrop(ModBlocks.CHESTNUT_LOG);
         addDrop(ModBlocks.STRIPPED_CHESTNUT_LOG);
