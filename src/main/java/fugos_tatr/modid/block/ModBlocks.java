@@ -23,7 +23,7 @@ public class ModBlocks {
             .noCollision().ticksRandomly().breakInstantly()
             .sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY), Blocks.GRASS_BLOCK));
 
-    public static final Block AVOCADO_LEAVES = registerBlockAlt("avocado_leaves", settings -> new UntintedParticleLeavesBlock(0.00f, ParticleTypes.CHERRY_LEAVES, settings));
+    public static final Block AVOCADO_LEAVES = registerBlock("avocado_leaves", settings -> new UntintedParticleLeavesBlock(0.00f, ParticleTypes.CHERRY_LEAVES, settings), AbstractBlock.Settings.copy(Blocks.BIRCH_LEAVES));
 
     public static final Block AVOCADO_LOG = registerBlock("avocado_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.BIRCH_LOG));
     public static final Block STRIPPED_AVOCADO_LOG = registerBlock("stripped_avocado_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_BIRCH_LOG));
@@ -50,7 +50,7 @@ public class ModBlocks {
             .noCollision().ticksRandomly().breakInstantly()
             .sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY), Blocks.GRASS_BLOCK));
 
-    public static final Block CHESTNUT_LEAVES = registerBlockAlt("chestnut_leaves", settings -> new UntintedParticleLeavesBlock(0.00f, ParticleTypes.CHERRY_LEAVES, settings));
+    public static final Block CHESTNUT_LEAVES = registerBlock("chestnut_leaves", settings -> new UntintedParticleLeavesBlock(0.00f, ParticleTypes.CHERRY_LEAVES, settings), AbstractBlock.Settings.copy(Blocks.MANGROVE_LEAVES));
 
     public static final Block CHESTNUT_LOG = registerBlock("chestnut_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.MANGROVE_LOG));
     public static final Block STRIPPED_CHESTNUT_LOG = registerBlock("stripped_chestnut_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_MANGROVE_LOG));
@@ -75,7 +75,7 @@ public class ModBlocks {
             .noCollision().ticksRandomly().breakInstantly()
             .sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY), Blocks.GRASS_BLOCK));
 
-    public static final Block MAPLE_LEAVES = registerBlockAlt("maple_leaves", settings -> new UntintedParticleLeavesBlock(0.00f, ParticleTypes.CHERRY_LEAVES, settings));
+    public static final Block MAPLE_LEAVES = registerBlock("maple_leaves", settings -> new UntintedParticleLeavesBlock(0.00f, ParticleTypes.CHERRY_LEAVES, settings), AbstractBlock.Settings.copy(Blocks.OAK_LEAVES));
 
     public static final Block MAPLE_LOG = registerBlock("maple_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.OAK_LOG));
     public static final Block STRIPPED_MAPLE_LOG = registerBlock("stripped_maple_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG));
@@ -102,7 +102,7 @@ public class ModBlocks {
             .noCollision().ticksRandomly().breakInstantly()
             .sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY), Blocks.GRASS_BLOCK));
 
-    public static final Block PINE_LEAVES = registerBlockAlt("pine_leaves", settings -> new UntintedParticleLeavesBlock(0.00f, ParticleTypes.CHERRY_LEAVES, settings));
+    public static final Block PINE_LEAVES = registerBlock("pine_leaves", settings -> new UntintedParticleLeavesBlock(0.00f, ParticleTypes.CHERRY_LEAVES, settings), AbstractBlock.Settings.copy(Blocks.SPRUCE_LEAVES));
 
     public static final Block PINE_LOG = registerBlock("pine_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.SPRUCE_LOG));
     public static final Block STRIPPED_PINE_LOG = registerBlock("stripped_pine_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_SPRUCE_LOG));
