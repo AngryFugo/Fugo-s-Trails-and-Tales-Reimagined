@@ -4,8 +4,8 @@ import fugos_tatr.modid.block.ModBlocks;
 import fugos_tatr.modid.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
-import net.minecraft.data.server.recipe.RecipeExporter;
-import net.minecraft.data.server.recipe.RecipeGenerator;
+import net.minecraft.data.recipe.RecipeExporter;
+import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
@@ -22,6 +22,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         return new RecipeGenerator(wrapperLookup, recipeExporter) {
             @Override
             public void generate() {
+                createShapeless(RecipeCategory.MISC, Items.SLIME_BALL, 1)
+                        .input(Items.MAGMA_CREAM)
+                        .criterion(hasItem(Items.MAGMA_CREAM), conditionsFromItem(Items.MAGMA_CREAM))
+                        .offerTo(exporter);
+
+                createShapeless(RecipeCategory.MISC, Items.MAGMA_CREAM, 1)
+                        .input(Items.SLIME_BALL)
+                        .criterion(hasItem(Items.SLIME_BALL), conditionsFromItem(Items.SLIME_BALL))
+                        .offerTo(exporter);
+
+
+
                 createShapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AVOCADO_PLANKS, 4)
                         .input(ModTags.Items.AVOCADO_LOGS)
                         .criterion(hasItem(ModBlocks.AVOCADO_LOG), conditionsFromItem(ModBlocks.AVOCADO_LOG))
