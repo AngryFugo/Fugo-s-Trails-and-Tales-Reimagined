@@ -1,0 +1,23 @@
+{
+  "display": {
+    "title": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.root"
+    },
+    "description": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.root.desc"
+    },
+    "icon": {
+      "id": "fugos-trails-and-tales-reimagined:mason_jar"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "hidden": false,
+    "background": "block/moss_block"
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

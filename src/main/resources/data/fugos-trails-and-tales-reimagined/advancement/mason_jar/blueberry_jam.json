@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.blueberry_jam"
+    },
+    "description": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.blueberry_jam.desc"
+    },
+    "icon": {
+      "id": "fugos-trails-and-tales-reimagined:blue_berry_jam"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "fugos-trails-and-tales-reimagined:blue_berry_jam"
+      }
+    }
+  },
+  "parent": "fugos-trails-and-tales-reimagined:mason_jar/mason_jar"
+}
