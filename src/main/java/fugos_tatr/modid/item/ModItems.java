@@ -20,7 +20,7 @@ public class ModItems {
     public static final Item MASON_JAR = register("mason_jar", Item::new, new Item.Settings());
 
     public static final Item PEAR = register("pear", Item::new, new Item.Settings().food(FoodComponents.APPLE));
-    public static final Item PEAR_JUICE = register("pear_juice", Item::new, new Item.Settings().food(ModFoodComponents.PEAR_JAM));
+    public static final Item PEAR_JUICE = register("pear_juice", Item::new, new Item.Settings().food(ModFoodComponents.PEAR_JAM, ConsumableComponents.drink().consumeSeconds(2.0F).sound(SoundEvents.ITEM_HONEY_BOTTLE_DRINK).build()).useRemainder(ModItems.MASON_JAR));
 
     public static final Item BLUE_BERRIES = register("blue_berries", createBlockItemWithUniqueName(ModBlocks.BLUE_BERRY_BUSH), new Item.Settings().food(ModFoodComponents.BLUE_BERRIES, ConsumableComponents.DRIED_KELP));
     public static final Item BLUE_BERRY_JAM = register("blue_berry_jam", Item::new, new Item.Settings().food(ModFoodComponents.BLUE_BERRY_JAM, ConsumableComponents.drink().consumeSeconds(2.0F).sound(SoundEvents.ITEM_HONEY_BOTTLE_DRINK).build()).useRemainder(ModItems.MASON_JAR));

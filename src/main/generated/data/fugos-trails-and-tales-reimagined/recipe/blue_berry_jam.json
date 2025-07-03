@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "fugos-trails-and-tales-reimagined:blue_berries",
+    "fugos-trails-and-tales-reimagined:blue_berries",
+    "fugos-trails-and-tales-reimagined:blue_berries",
+    "fugos-trails-and-tales-reimagined:blue_berries",
+    "fugos-trails-and-tales-reimagined:blue_berries",
+    "fugos-trails-and-tales-reimagined:mason_jar",
+    "fugos-trails-and-tales-reimagined:mason_jar",
+    "fugos-trails-and-tales-reimagined:mason_jar"
+  ],
+  "result": {
+    "count": 3,
+    "id": "fugos-trails-and-tales-reimagined:blue_berry_jam"
+  }
+}

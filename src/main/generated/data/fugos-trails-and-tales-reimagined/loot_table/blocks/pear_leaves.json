@@ -37,7 +37,7 @@
                   ]
                 }
               ],
-              "name": "fugos-trails-and-tales-reimagined:chestnut_leaves"
+              "name": "fugos-trails-and-tales-reimagined:pear_leaves"
             },
             {
               "type": "minecraft:item",
@@ -53,7 +53,7 @@
                   "enchantment": "minecraft:fortune"
                 }
               ],
-              "name": "fugos-trails-and-tales-reimagined:chestnut_sapling"
+              "name": "fugos-trails-and-tales-reimagined:pear_sapling"
             }
           ]
         }

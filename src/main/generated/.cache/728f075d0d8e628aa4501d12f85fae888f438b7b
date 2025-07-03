@@ -35,8 +35,12 @@ a8ca17d21a55562f2319ea0a09328b4a951cfab8 data/fugos-trails-and-tales-reimagined/
 aff25ec2e38b4cc58933af6abd532aa688fdf17a data/fugos-trails-and-tales-reimagined/advancement/recipes/building_blocks/pine_stairs.json
 54923a5b787879a610a21b5433a76cd4f049da4a data/fugos-trails-and-tales-reimagined/advancement/recipes/building_blocks/pine_trapdoor.json
 d859e587c6eea223c8318c41c86173da1441f5fb data/fugos-trails-and-tales-reimagined/advancement/recipes/building_blocks/pine_wood.json
+999ce08e08208f0b20efc276bdba4bef8688e9cc data/fugos-trails-and-tales-reimagined/advancement/recipes/food/blue_berry_jam.json
+b06c9e1855c8e2e42458e8a99b834c89c6766bc3 data/fugos-trails-and-tales-reimagined/advancement/recipes/food/pear_juice.json
 9fb72783db9a8e976b1a5812421da15b13bf9c2c data/fugos-trails-and-tales-reimagined/advancement/recipes/misc/magma_cream.json
+99c7581a3a455beb2d475d151bdd39ac36b3ca6b data/fugos-trails-and-tales-reimagined/advancement/recipes/misc/mason_jar.json
 719628f1e7d37e7c9f847ee42c5d416b7d5afdef data/fugos-trails-and-tales-reimagined/advancement/recipes/misc/slime_ball.json
+596ee13e807fffe8d250ae23e4cc8cda09db1fd8 data/fugos-trails-and-tales-reimagined/recipe/blue_berry_jam.json
 79425f71b64c263460ecc08885d62864ce36e2a9 data/fugos-trails-and-tales-reimagined/recipe/chestnut_door.json
 1c06a6abda17f17077dd52ca314e254ce3f28806 data/fugos-trails-and-tales-reimagined/recipe/chestnut_fence.json
 73c209e1954b86695b9291a96fd8429e1f2b1b13 data/fugos-trails-and-tales-reimagined/recipe/chestnut_fence_gate.json
@@ -56,9 +60,11 @@ b61a4360b17066d91d016282daa2006a90aebe5b data/fugos-trails-and-tales-reimagined/
 08cc7bd4f46b615b909a46368fc7fa308b820906 data/fugos-trails-and-tales-reimagined/recipe/maple_stairs.json
 ab1505acb39425c195d573be8d012cc714f042c6 data/fugos-trails-and-tales-reimagined/recipe/maple_trapdoor.json
 6c2f8a871d23b66f26ffef1d9a7169edc6485f31 data/fugos-trails-and-tales-reimagined/recipe/maple_wood.json
+f33ec8fae96d7686363d3ba0a44e98e8974c17ef data/fugos-trails-and-tales-reimagined/recipe/mason_jar.json
 3210f6ebf6d906f533276043e58edf17a0bd6a39 data/fugos-trails-and-tales-reimagined/recipe/pear_door.json
 3a5b0ecb64ae66f2c584b54a99916fa19c80477e data/fugos-trails-and-tales-reimagined/recipe/pear_fence.json
 afe9b5c828859b174e48e6a8b3d6e37915852709 data/fugos-trails-and-tales-reimagined/recipe/pear_fence_gate.json
+9c1acb224134ac00c21d17457a2ee4f5c500c233 data/fugos-trails-and-tales-reimagined/recipe/pear_juice.json
 2859760b7038742a108a19b81be220df884f582a data/fugos-trails-and-tales-reimagined/recipe/pear_planks.json
 7bdf64c95f8872c2089c3b40691ae8e7d4f02aa5 data/fugos-trails-and-tales-reimagined/recipe/pear_pressure_plate.json
 b08277a7273d598915ea6eee64358c985dc25f8b data/fugos-trails-and-tales-reimagined/recipe/pear_slab.json

@@ -1,6 +1,7 @@
 package fugos_tatr.modid.datagen;
 
 import fugos_tatr.modid.block.ModBlocks;
+import fugos_tatr.modid.item.ModItems;
 import fugos_tatr.modid.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -9,6 +10,7 @@ import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -30,6 +32,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 createShapeless(RecipeCategory.MISC, Items.MAGMA_CREAM, 1)
                         .input(Items.SLIME_BALL)
                         .criterion(hasItem(Items.SLIME_BALL), conditionsFromItem(Items.SLIME_BALL))
+                        .offerTo(exporter);
+
+                createShapeless(RecipeCategory.MISC, ModItems.MASON_JAR, 6)
+                        .input(Items.GLASS_BOTTLE, 6)
+                        .input(ItemTags.WOODEN_BUTTONS)
+                        .criterion(hasItem(Items.GLASS_BOTTLE), conditionsFromItem(Items.GLASS_BOTTLE))
+                        .offerTo(exporter);
+
+                createShapeless(RecipeCategory.FOOD, ModItems.PEAR_JUICE, 6)
+                        .input(ModItems.PEAR, 3)
+                        .input(ModItems.MASON_JAR, 6)
+                        .criterion(hasItem(ModItems.PEAR), conditionsFromItem(ModItems.PEAR))
+                        .offerTo(exporter);
+
+                createShapeless(RecipeCategory.FOOD, ModItems.BLUE_BERRY_JAM, 3)
+                        .input(ModItems.BLUE_BERRIES, 5)
+                        .input(ModItems.MASON_JAR, 3)
+                        .criterion(hasItem(ModItems.BLUE_BERRIES), conditionsFromItem(ModItems.BLUE_BERRIES))
                         .offerTo(exporter);
 
 
