@@ -60,6 +60,7 @@ e0540b89189edc0cdbd689621c754edccfe6e576 assets/fugos-trails-and-tales-reimagine
 7553ec648fb22c8f906bb6f4b376fc6712e59c97 assets/fugos-trails-and-tales-reimagined/blockstates/stripped_pear_wood.json
 1d1dbeff6dba585090f1a243840365891c78bad9 assets/fugos-trails-and-tales-reimagined/blockstates/stripped_pine_log.json
 b15cbce0fb7d77c673c2ca0e9a2510da3ccc80d5 assets/fugos-trails-and-tales-reimagined/blockstates/stripped_pine_wood.json
+87f0ede52947784407c8f7df7e52b18e17ea5f3c assets/fugos-trails-and-tales-reimagined/items/alleycat_daggers.json
 888d74c11cb32fac04c93ebe481fce9462e63b90 assets/fugos-trails-and-tales-reimagined/items/blue_berries.json
 14ba0421edf4773ad94c5c21bb00b83378598d5b assets/fugos-trails-and-tales-reimagined/items/blue_berry_bush.json
 cde70333f9e209b8ed44cfd736d61c564872850d assets/fugos-trails-and-tales-reimagined/items/blue_berry_jam.json
@@ -278,6 +279,7 @@ c0895b2cf95ebd3d6b9b116dbdb8ac5efed3d137 assets/fugos-trails-and-tales-reimagine
 8a99a65c7f2a5eb943fc8a5fdb1d4e069853cd00 assets/fugos-trails-and-tales-reimagined/models/block/stripped_pine_log.json
 59a2175035b0c2eb144b6d3d53eebec0d919cffb assets/fugos-trails-and-tales-reimagined/models/block/stripped_pine_log_horizontal.json
 3afdc2a0c875f1265e6f6c4a23505d777135858f assets/fugos-trails-and-tales-reimagined/models/block/stripped_pine_wood.json
+08e24f80fc82f93c2681beea90ae94b1ef25a4f3 assets/fugos-trails-and-tales-reimagined/models/item/alleycat_daggers.json
 d2a24385b770699c090a8917beaead40e08142ae assets/fugos-trails-and-tales-reimagined/models/item/blue_berries.json
 91699fa1994680473329be5c7d1a58b3be7e9ccb assets/fugos-trails-and-tales-reimagined/models/item/blue_berry_jam.json
 ef01b20d1eeee7bd11a57038b962f038912f443b assets/fugos-trails-and-tales-reimagined/models/item/chestnut_door.json

@@ -110,6 +110,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.BLUE_BERRIES);
                         entries.add(ModItems.BLUE_BERRY_JAM);
+
+                        entries.add(ModItems.ALLEYCAT_DAGGERS);
                     }).build());
 
     public static void registerItemGroups() {

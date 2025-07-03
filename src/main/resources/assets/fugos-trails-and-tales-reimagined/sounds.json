@@ -1,0 +1,12 @@
+{
+  "alleycat_knife_throw": {
+    "subtitle": "sounds.fugos-trails-and-tales-reimagined.alleycat_knife_throw",
+    "sounds": [
+      "fugos-trails-and-tales-reimagined:alleycat_knife_throw_1",
+      "fugos-trails-and-tales-reimagined:alleycat_knife_throw_2",
+      "fugos-trails-and-tales-reimagined:alleycat_knife_throw_3",
+      "fugos-trails-and-tales-reimagined:alleycat_knife_throw_4",
+      "fugos-trails-and-tales-reimagined:alleycat_knife_throw_5"
+    ]
+  }
+}

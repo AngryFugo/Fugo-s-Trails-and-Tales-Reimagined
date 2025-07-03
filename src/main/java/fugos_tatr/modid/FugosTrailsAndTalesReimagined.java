@@ -3,6 +3,7 @@ package fugos_tatr.modid;
 import fugos_tatr.modid.block.ModBlocks;
 import fugos_tatr.modid.item.ModItemGroups;
 import fugos_tatr.modid.item.ModItems;
+import fugos_tatr.modid.sound.ModSounds;
 import fugos_tatr.modid.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
@@ -31,6 +32,8 @@ public class FugosTrailsAndTalesReimagined implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModWorldGeneration.generateModWorldGen();
+
+		ModSounds.registerSounds();
 
 		StrippableBlockRegistry.register(ModBlocks.PEAR_LOG, ModBlocks.STRIPPED_PEAR_LOG);
 		StrippableBlockRegistry.register(ModBlocks.PEAR_WOOD, ModBlocks.STRIPPED_PEAR_WOOD);

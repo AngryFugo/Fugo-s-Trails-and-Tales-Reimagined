@@ -2,6 +2,7 @@ package fugos_tatr.modid.item;
 
 import fugos_tatr.modid.FugosTrailsAndTalesReimagined;
 import fugos_tatr.modid.block.ModBlocks;
+import fugos_tatr.modid.item.custom.AlleycatDaggersItem;
 import net.minecraft.block.Block;
 import net.minecraft.component.type.ConsumableComponents;
 import net.minecraft.component.type.FoodComponents;
@@ -13,6 +14,7 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 import java.util.function.Function;
 
@@ -24,6 +26,8 @@ public class ModItems {
 
     public static final Item BLUE_BERRIES = register("blue_berries", createBlockItemWithUniqueName(ModBlocks.BLUE_BERRY_BUSH), new Item.Settings().food(ModFoodComponents.BLUE_BERRIES, ConsumableComponents.DRIED_KELP));
     public static final Item BLUE_BERRY_JAM = register("blue_berry_jam", Item::new, new Item.Settings().food(ModFoodComponents.BLUE_BERRY_JAM, ConsumableComponents.drink().consumeSeconds(2.0F).sound(SoundEvents.ITEM_HONEY_BOTTLE_DRINK).build()).useRemainder(ModItems.MASON_JAR));
+
+    public static final Item ALLEYCAT_DAGGERS = register("alleycat_daggers", AlleycatDaggersItem::new, new Item.Settings().maxCount(1).useCooldown(1.1F).rarity(Rarity.EPIC));
 
     public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
         // Create the item key.
