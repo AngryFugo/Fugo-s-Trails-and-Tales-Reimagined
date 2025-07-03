@@ -8,10 +8,10 @@ import net.minecraft.client.render.BlockRenderLayer;
 public class FugosTrailsAndTalesReimaginedClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        BlockRenderLayerMap.putBlock(ModBlocks.AVOCADO_SAPLING, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(ModBlocks.PEAR_SAPLING, BlockRenderLayer.CUTOUT);
 
-        BlockRenderLayerMap.putBlock(ModBlocks.AVOCADO_DOOR, BlockRenderLayer.CUTOUT);
-        BlockRenderLayerMap.putBlock(ModBlocks.AVOCADO_TRAPDOOR, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(ModBlocks.PEAR_DOOR, BlockRenderLayer.CUTOUT);
+        BlockRenderLayerMap.putBlock(ModBlocks.PEAR_TRAPDOOR, BlockRenderLayer.CUTOUT);
 
         BlockRenderLayerMap.putBlock(ModBlocks.CHESTNUT_SAPLING, BlockRenderLayer.CUTOUT);
 
@@ -27,5 +27,9 @@ public class FugosTrailsAndTalesReimaginedClient implements ClientModInitializer
 
         BlockRenderLayerMap.putBlock(ModBlocks.PINE_DOOR, BlockRenderLayer.CUTOUT);
         BlockRenderLayerMap.putBlock(ModBlocks.PINE_TRAPDOOR, BlockRenderLayer.CUTOUT);
+
+
+
+        BlockRenderLayerMap.putBlock(ModBlocks.BLUE_BERRY_BUSH, BlockRenderLayer.CUTOUT);
     }
 }

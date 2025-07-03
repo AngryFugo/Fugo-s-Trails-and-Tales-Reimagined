@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_top_right",
-  "textures": {
-    "bottom": "fugos-trails-and-tales-reimagined:block/avocado_door_bottom",
-    "top": "fugos-trails-and-tales-reimagined:block/avocado_door_top"
-  }
-}

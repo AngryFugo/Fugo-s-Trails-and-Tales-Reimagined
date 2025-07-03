@@ -1,6 +1,8 @@
 package fugos_tatr.modid.datagen;
 
 import fugos_tatr.modid.block.ModBlocks;
+import fugos_tatr.modid.block.custom.BlueBerryBush;
+import fugos_tatr.modid.item.ModItems;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.client.data.BlockStateModelGenerator;
@@ -15,24 +17,24 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.AVOCADO_SAPLING, BlockStateModelGenerator.CrossType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.PEAR_SAPLING, BlockStateModelGenerator.CrossType.NOT_TINTED);
 
-        blockStateModelGenerator.registerSingleton(ModBlocks.AVOCADO_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.PEAR_LEAVES, TexturedModel.LEAVES);
 
-        blockStateModelGenerator.createLogTexturePool(ModBlocks.AVOCADO_LOG).log(ModBlocks.AVOCADO_LOG).wood(ModBlocks.AVOCADO_WOOD);
-        blockStateModelGenerator.createLogTexturePool(ModBlocks.STRIPPED_AVOCADO_LOG).log(ModBlocks.STRIPPED_AVOCADO_LOG).wood(ModBlocks.STRIPPED_AVOCADO_WOOD);
+        blockStateModelGenerator.createLogTexturePool(ModBlocks.PEAR_LOG).log(ModBlocks.PEAR_LOG).wood(ModBlocks.PEAR_WOOD);
+        blockStateModelGenerator.createLogTexturePool(ModBlocks.STRIPPED_PEAR_LOG).log(ModBlocks.STRIPPED_PEAR_LOG).wood(ModBlocks.STRIPPED_PEAR_WOOD);
 
-        BlockStateModelGenerator.BlockTexturePool avocadoPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.AVOCADO_PLANKS);
+        BlockStateModelGenerator.BlockTexturePool avocadoPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PEAR_PLANKS);
 
-        avocadoPool.stairs(ModBlocks.AVOCADO_STAIRS);
-        avocadoPool.slab(ModBlocks.AVOCADO_SLAB);
-        avocadoPool.button(ModBlocks.AVOCADO_BUTTON);
-        avocadoPool.pressurePlate(ModBlocks.AVOCADO_PRESSURE_PLATE);
-        avocadoPool.fence(ModBlocks.AVOCADO_FENCE);
-        avocadoPool.fenceGate(ModBlocks.AVOCADO_FENCE_GATE);
+        avocadoPool.stairs(ModBlocks.PEAR_STAIRS);
+        avocadoPool.slab(ModBlocks.PEAR_SLAB);
+        avocadoPool.button(ModBlocks.PEAR_BUTTON);
+        avocadoPool.pressurePlate(ModBlocks.PEAR_PRESSURE_PLATE);
+        avocadoPool.fence(ModBlocks.PEAR_FENCE);
+        avocadoPool.fenceGate(ModBlocks.PEAR_FENCE_GATE);
 
-        blockStateModelGenerator.registerDoor(ModBlocks.AVOCADO_DOOR);
-        blockStateModelGenerator.registerTrapdoor(ModBlocks.AVOCADO_TRAPDOOR);
+        blockStateModelGenerator.registerDoor(ModBlocks.PEAR_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.PEAR_TRAPDOOR);
 
 
 
@@ -96,16 +98,30 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerDoor(ModBlocks.PINE_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PINE_TRAPDOOR);
+
+
+
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BLUE_BERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED,
+                BlueBerryBush.AGE, 0, 1, 2, 3);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ModBlocks.AVOCADO_SAPLING.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.PEAR_SAPLING.asItem(), Models.GENERATED);
 
         itemModelGenerator.register(ModBlocks.CHESTNUT_SAPLING.asItem(), Models.GENERATED);
 
         itemModelGenerator.register(ModBlocks.MAPLE_SAPLING.asItem(), Models.GENERATED);
 
         itemModelGenerator.register(ModBlocks.PINE_SAPLING.asItem(), Models.GENERATED);
+
+
+
+        itemModelGenerator.register(ModItems.MASON_JAR, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.PEAR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PEAR_JUICE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.BLUE_BERRY_JAM, Models.GENERATED);
     }
 }

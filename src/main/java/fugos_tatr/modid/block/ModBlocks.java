@@ -1,6 +1,7 @@
 package fugos_tatr.modid.block;
 
 import fugos_tatr.modid.FugosTrailsAndTalesReimagined;
+import fugos_tatr.modid.block.custom.BlueBerryBush;
 import fugos_tatr.modid.block.custom.ModSaplingBlock;
 import fugos_tatr.modid.world.tree.ModSaplingGenerators;
 import net.minecraft.block.*;
@@ -19,30 +20,30 @@ import net.minecraft.util.Identifier;
 import java.util.function.Function;
 
 public class ModBlocks {
-    public static final Block AVOCADO_SAPLING = registerBlockAlt("avocado_sapling", properties -> new ModSaplingBlock(ModSaplingGenerators.AVOCADO, properties.mapColor(MapColor.WHITE)
+    public static final Block PEAR_SAPLING = registerBlockAlt("pear_sapling", properties -> new ModSaplingBlock(ModSaplingGenerators.PEAR, properties.mapColor(MapColor.WHITE)
             .noCollision().ticksRandomly().breakInstantly()
             .sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY), Blocks.GRASS_BLOCK));
 
-    public static final Block AVOCADO_LEAVES = registerBlock("avocado_leaves", settings -> new UntintedParticleLeavesBlock(0.00f, ParticleTypes.CHERRY_LEAVES, settings), AbstractBlock.Settings.copy(Blocks.BIRCH_LEAVES));
+    public static final Block PEAR_LEAVES = registerBlock("pear_leaves", settings -> new UntintedParticleLeavesBlock(0.00f, ParticleTypes.CHERRY_LEAVES, settings), AbstractBlock.Settings.copy(Blocks.BIRCH_LEAVES));
 
-    public static final Block AVOCADO_LOG = registerBlock("avocado_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.BIRCH_LOG));
-    public static final Block STRIPPED_AVOCADO_LOG = registerBlock("stripped_avocado_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_BIRCH_LOG));
-    public static final Block AVOCADO_WOOD = registerBlock("avocado_wood", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.BIRCH_WOOD));
-    public static final Block STRIPPED_AVOCADO_WOOD = registerBlock("stripped_avocado_wood", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_BIRCH_WOOD));
+    public static final Block PEAR_LOG = registerBlock("pear_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.BIRCH_LOG));
+    public static final Block STRIPPED_PEAR_LOG = registerBlock("stripped_pear_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_BIRCH_LOG));
+    public static final Block PEAR_WOOD = registerBlock("pear_wood", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.BIRCH_WOOD));
+    public static final Block STRIPPED_PEAR_WOOD = registerBlock("stripped_pear_wood", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.STRIPPED_BIRCH_WOOD));
 
-    public static final Block AVOCADO_PLANKS = registerBlock("avocado_planks", Block::new, AbstractBlock.Settings.copy(Blocks.BIRCH_PLANKS));
+    public static final Block PEAR_PLANKS = registerBlock("pear_planks", Block::new, AbstractBlock.Settings.copy(Blocks.BIRCH_PLANKS));
 
-    public static final Block AVOCADO_STAIRS = registerBlock("avocado_stairs", settings -> new StairsBlock(ModBlocks.AVOCADO_PLANKS.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.BIRCH_STAIRS));
-    public static final Block AVOCADO_SLAB = registerBlock("avocado_slab", SlabBlock::new, AbstractBlock.Settings.copy(Blocks.BIRCH_SLAB));
+    public static final Block PEAR_STAIRS = registerBlock("pear_stairs", settings -> new StairsBlock(ModBlocks.PEAR_PLANKS.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.BIRCH_STAIRS));
+    public static final Block PEAR_SLAB = registerBlock("pear_slab", SlabBlock::new, AbstractBlock.Settings.copy(Blocks.BIRCH_SLAB));
 
-    public static final Block AVOCADO_BUTTON = registerBlockAlt("avocado_button", settings -> new ButtonBlock(BlockSetType.BIRCH, 20, settings));
-    public static final Block AVOCADO_PRESSURE_PLATE = registerBlock("avocado_pressure_plate", settings -> new PressurePlateBlock(BlockSetType.BIRCH, settings), AbstractBlock.Settings.copy(Blocks.BIRCH_PRESSURE_PLATE));
+    public static final Block PEAR_BUTTON = registerBlockAlt("pear_button", settings -> new ButtonBlock(BlockSetType.BIRCH, 20, settings));
+    public static final Block PEAR_PRESSURE_PLATE = registerBlock("pear_pressure_plate", settings -> new PressurePlateBlock(BlockSetType.BIRCH, settings), AbstractBlock.Settings.copy(Blocks.BIRCH_PRESSURE_PLATE));
 
-    public static final Block AVOCADO_FENCE = registerBlock("avocado_fence", FenceBlock::new, AbstractBlock.Settings.copy(Blocks.BIRCH_FENCE));
-    public static final Block AVOCADO_FENCE_GATE = registerBlock("avocado_fence_gate", settings -> new FenceGateBlock(WoodType.BIRCH, settings), AbstractBlock.Settings.copy(Blocks.BIRCH_FENCE_GATE));
+    public static final Block PEAR_FENCE = registerBlock("pear_fence", FenceBlock::new, AbstractBlock.Settings.copy(Blocks.BIRCH_FENCE));
+    public static final Block PEAR_FENCE_GATE = registerBlock("pear_fence_gate", settings -> new FenceGateBlock(WoodType.BIRCH, settings), AbstractBlock.Settings.copy(Blocks.BIRCH_FENCE_GATE));
 
-    public static final Block AVOCADO_DOOR = registerBlock("avocado_door", settings -> new DoorBlock(BlockSetType.BIRCH, settings), AbstractBlock.Settings.copy(Blocks.BIRCH_DOOR));
-    public static final Block AVOCADO_TRAPDOOR = registerBlock("avocado_trapdoor", settings -> new TrapdoorBlock(BlockSetType.BIRCH, settings), AbstractBlock.Settings.copy(Blocks.BIRCH_TRAPDOOR));
+    public static final Block PEAR_DOOR = registerBlock("pear_door", settings -> new DoorBlock(BlockSetType.BIRCH, settings), AbstractBlock.Settings.copy(Blocks.BIRCH_DOOR));
+    public static final Block PEAR_TRAPDOOR = registerBlock("pear_trapdoor", settings -> new TrapdoorBlock(BlockSetType.BIRCH, settings), AbstractBlock.Settings.copy(Blocks.BIRCH_TRAPDOOR));
 
 
 
@@ -122,6 +123,8 @@ public class ModBlocks {
 
     public static final Block PINE_DOOR = registerBlock("pine_door", settings -> new DoorBlock(BlockSetType.SPRUCE, settings), AbstractBlock.Settings.copy(Blocks.SPRUCE_DOOR));
     public static final Block PINE_TRAPDOOR = registerBlock("pine_trapdoor", settings -> new TrapdoorBlock(BlockSetType.SPRUCE, settings), AbstractBlock.Settings.copy(Blocks.SPRUCE_TRAPDOOR));
+
+    public static final Block BLUE_BERRY_BUSH = registerBlock("blue_berry_bush", BlueBerryBush::new, AbstractBlock.Settings.create().mapColor(MapColor.LAPIS_BLUE).ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY));
 
     private static Block registerBlock(String path, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {
         final Identifier identifier = Identifier.of(FugosTrailsAndTalesReimagined.MOD_ID, path);

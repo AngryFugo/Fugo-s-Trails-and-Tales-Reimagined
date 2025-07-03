@@ -1,25 +1,25 @@
 {
   "itemgroup.fugos_trails_and_tales_reimagined_group": "Fugo's Trails and Tales: Reimagined",
 
-  "block.fugos-trails-and-tales-reimagined.avocado_sapling": "Avocado Sapling",
+  "block.fugos-trails-and-tales-reimagined.pear_sapling": "Pear Sapling",
 
-  "block.fugos-trails-and-tales-reimagined.avocado_leaves": "Avocado Leaves",
+  "block.fugos-trails-and-tales-reimagined.pear_leaves": "Pear Leaves",
 
-  "block.fugos-trails-and-tales-reimagined.avocado_log": "Avocado Log",
-  "block.fugos-trails-and-tales-reimagined.stripped_avocado_log": "Stripped Avocado Log",
-  "block.fugos-trails-and-tales-reimagined.avocado_wood": "Avocado Wood",
-  "block.fugos-trails-and-tales-reimagined.stripped_avocado_wood": "Stripped Avocado Wood",
+  "block.fugos-trails-and-tales-reimagined.pear_log": "Pear Log",
+  "block.fugos-trails-and-tales-reimagined.stripped_pear_log": "Stripped Pear Log",
+  "block.fugos-trails-and-tales-reimagined.pear_wood": "Pear Wood",
+  "block.fugos-trails-and-tales-reimagined.stripped_pear_wood": "Stripped Pear Wood",
 
-  "block.fugos-trails-and-tales-reimagined.avocado_planks": "Avocado Planks",
+  "block.fugos-trails-and-tales-reimagined.pear_planks": "Pear Planks",
 
-  "block.fugos-trails-and-tales-reimagined.avocado_stairs": "Avocado Stairs",
-  "block.fugos-trails-and-tales-reimagined.avocado_slab": "Avocado Slab",
-  "block.fugos-trails-and-tales-reimagined.avocado_button": "Avocado Button",
-  "block.fugos-trails-and-tales-reimagined.avocado_pressure_plate": "Avocado Pressure Plate",
-  "block.fugos-trails-and-tales-reimagined.avocado_fence": "Avocado Fence",
-  "block.fugos-trails-and-tales-reimagined.avocado_fence_gate": "Avocado Fence Gate",
-  "block.fugos-trails-and-tales-reimagined.avocado_door": "Avocado Door",
-  "block.fugos-trails-and-tales-reimagined.avocado_trapdoor": "Avocado Trapdoor",
+  "block.fugos-trails-and-tales-reimagined.pear_stairs": "Pear Stairs",
+  "block.fugos-trails-and-tales-reimagined.pear_slab": "Pear Slab",
+  "block.fugos-trails-and-tales-reimagined.pear_button": "Pear Button",
+  "block.fugos-trails-and-tales-reimagined.pear_pressure_plate": "Pear Pressure Plate",
+  "block.fugos-trails-and-tales-reimagined.pear_fence": "Pear Fence",
+  "block.fugos-trails-and-tales-reimagined.pear_fence_gate": "Pear Fence Gate",
+  "block.fugos-trails-and-tales-reimagined.pear_door": "Pear Door",
+  "block.fugos-trails-and-tales-reimagined.pear_trapdoor": "Pear Trapdoor",
 
 
 
@@ -85,5 +85,16 @@
   "block.fugos-trails-and-tales-reimagined.pine_fence": "Pine Fence",
   "block.fugos-trails-and-tales-reimagined.pine_fence_gate": "Pine Fence Gate",
   "block.fugos-trails-and-tales-reimagined.pine_door": "Pine Door",
-  "block.fugos-trails-and-tales-reimagined.pine_trapdoor": "Pine Trapdoor"
+  "block.fugos-trails-and-tales-reimagined.pine_trapdoor": "Pine Trapdoor",
+
+
+
+  "item.fugos-trails-and-tales-reimagined.mason_jar": "Mason Jar",
+
+  "item.fugos-trails-and-tales-reimagined.pear": "Pear",
+  "item.fugos-trails-and-tales-reimagined.pear_juice": "Pear Jam",
+
+  "item.fugos-trails-and-tales-reimagined.blue_berries": "Blueberries",
+  "item.fugos-trails-and-tales-reimagined.blue_berry_jam": "Blueberry Jam",
+  "item.fugos-trails-and-tales-reimagined.blue_berry_bush": "Blueberry Bush"
 }

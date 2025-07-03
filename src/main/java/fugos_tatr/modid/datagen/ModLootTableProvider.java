@@ -1,10 +1,19 @@
 package fugos_tatr.modid.datagen;
 
 import fugos_tatr.modid.block.ModBlocks;
+import fugos_tatr.modid.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.item.Items;
+import net.minecraft.loot.LootPool;
+import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.TableBonusLootCondition;
+import net.minecraft.loot.entry.ItemEntry;
+import net.minecraft.loot.entry.LeafEntry;
+import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 
@@ -19,26 +28,26 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         RegistryWrapper.Impl<Enchantment> impl = this.registries.getOrThrow(RegistryKeys.ENCHANTMENT);
 
-        addDrop(ModBlocks.AVOCADO_SAPLING);
+        addDrop(ModBlocks.PEAR_SAPLING);
 
-        addDrop(ModBlocks.AVOCADO_LEAVES, leavesDrops(ModBlocks.AVOCADO_LEAVES, ModBlocks.AVOCADO_SAPLING, 0.0625f));
+        addDrop(ModBlocks.PEAR_LEAVES, pearLeavesDrops(ModBlocks.PEAR_LEAVES, ModBlocks.PEAR_SAPLING, 0.0625f));
 
-        addDrop(ModBlocks.AVOCADO_LOG);
-        addDrop(ModBlocks.STRIPPED_AVOCADO_LOG);
-        addDrop(ModBlocks.AVOCADO_WOOD);
-        addDrop(ModBlocks.STRIPPED_AVOCADO_WOOD);
+        addDrop(ModBlocks.PEAR_LOG);
+        addDrop(ModBlocks.STRIPPED_PEAR_LOG);
+        addDrop(ModBlocks.PEAR_WOOD);
+        addDrop(ModBlocks.STRIPPED_PEAR_WOOD);
 
-        addDrop(ModBlocks.AVOCADO_PLANKS);
+        addDrop(ModBlocks.PEAR_PLANKS);
 
-        addDrop(ModBlocks.AVOCADO_STAIRS);
-        addDrop(ModBlocks.AVOCADO_SLAB);
-        addDrop(ModBlocks.AVOCADO_BUTTON);
-        addDrop(ModBlocks.AVOCADO_PRESSURE_PLATE);
-        addDrop(ModBlocks.AVOCADO_FENCE);
-        addDrop(ModBlocks.AVOCADO_FENCE_GATE);
+        addDrop(ModBlocks.PEAR_STAIRS);
+        addDrop(ModBlocks.PEAR_SLAB);
+        addDrop(ModBlocks.PEAR_BUTTON);
+        addDrop(ModBlocks.PEAR_PRESSURE_PLATE);
+        addDrop(ModBlocks.PEAR_FENCE);
+        addDrop(ModBlocks.PEAR_FENCE_GATE);
 
-        addDrop(ModBlocks.AVOCADO_DOOR, doorDrops(ModBlocks.AVOCADO_DOOR));
-        addDrop(ModBlocks.AVOCADO_TRAPDOOR);
+        addDrop(ModBlocks.PEAR_DOOR, doorDrops(ModBlocks.PEAR_DOOR));
+        addDrop(ModBlocks.PEAR_TRAPDOOR);
 
 
 
@@ -108,5 +117,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.PINE_DOOR, doorDrops(ModBlocks.PINE_DOOR));
         addDrop(ModBlocks.PINE_TRAPDOOR);
+    }
+
+    public LootTable.Builder pearLeavesDrops(Block leaves, Block sapling, float... saplingChance) {
+        RegistryWrapper.Impl<Enchantment> impl = this.registries.getOrThrow(RegistryKeys.ENCHANTMENT);
+        return this.leavesDrops(leaves, sapling, saplingChance).pool(LootPool.builder().rolls(ConstantLootNumberProvider.create(1.0F)).conditionally(this.createWithoutShearsOrSilkTouchCondition()).with(((LeafEntry.Builder)this.addSurvivesExplosionCondition(leaves, ItemEntry.builder(ModItems.PEAR))).conditionally(TableBonusLootCondition.builder(impl.getOrThrow(Enchantments.FORTUNE), new float[]{0.005F, 0.0055555557F, 0.00625F, 0.008333334F, 0.025F}))));
     }
 }

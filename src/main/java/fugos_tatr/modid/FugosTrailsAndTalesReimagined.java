@@ -32,15 +32,15 @@ public class FugosTrailsAndTalesReimagined implements ModInitializer {
 
 		ModWorldGeneration.generateModWorldGen();
 
-		StrippableBlockRegistry.register(ModBlocks.AVOCADO_LOG, ModBlocks.STRIPPED_AVOCADO_LOG);
-		StrippableBlockRegistry.register(ModBlocks.AVOCADO_WOOD, ModBlocks.STRIPPED_AVOCADO_WOOD);
+		StrippableBlockRegistry.register(ModBlocks.PEAR_LOG, ModBlocks.STRIPPED_PEAR_LOG);
+		StrippableBlockRegistry.register(ModBlocks.PEAR_WOOD, ModBlocks.STRIPPED_PEAR_WOOD);
 
-		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.AVOCADO_LEAVES, 30, 60);
-		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.AVOCADO_LOG, 5, 5);
-		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_AVOCADO_LOG, 5, 5);
-		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.AVOCADO_WOOD, 5, 5);
-		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_AVOCADO_WOOD, 5, 5);
-		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.AVOCADO_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PEAR_LEAVES, 30, 60);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PEAR_LOG, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_PEAR_LOG, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PEAR_WOOD, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_PEAR_WOOD, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PEAR_PLANKS, 5, 20);
 
 
 		StrippableBlockRegistry.register(ModBlocks.CHESTNUT_LOG, ModBlocks.STRIPPED_CHESTNUT_LOG);

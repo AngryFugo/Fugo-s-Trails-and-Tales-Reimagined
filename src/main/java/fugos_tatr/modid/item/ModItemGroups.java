@@ -14,26 +14,26 @@ public class ModItemGroups {
     public static final ItemGroup FUGOS_TRAILS_AND_TALES_REIMAGINED_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(FugosTrailsAndTalesReimagined.MOD_ID, "fugos_trails_and_tales_reimagined_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.fugos_trails_and_tales_reimagined_group"))
-                    .icon(() -> new ItemStack(ModBlocks.AVOCADO_PLANKS)).entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.AVOCADO_SAPLING);
+                    .icon(() -> new ItemStack(ModBlocks.PEAR_PLANKS)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.PEAR_SAPLING);
 
-                        entries.add(ModBlocks.AVOCADO_LEAVES);
+                        entries.add(ModBlocks.PEAR_LEAVES);
 
-                        entries.add(ModBlocks.AVOCADO_LOG);
-                        entries.add(ModBlocks.STRIPPED_AVOCADO_LOG);
-                        entries.add(ModBlocks.AVOCADO_WOOD);
-                        entries.add(ModBlocks.STRIPPED_AVOCADO_WOOD);
+                        entries.add(ModBlocks.PEAR_LOG);
+                        entries.add(ModBlocks.STRIPPED_PEAR_LOG);
+                        entries.add(ModBlocks.PEAR_WOOD);
+                        entries.add(ModBlocks.STRIPPED_PEAR_WOOD);
 
-                        entries.add(ModBlocks.AVOCADO_PLANKS);
+                        entries.add(ModBlocks.PEAR_PLANKS);
 
-                        entries.add(ModBlocks.AVOCADO_STAIRS);
-                        entries.add(ModBlocks.AVOCADO_SLAB);
-                        entries.add(ModBlocks.AVOCADO_BUTTON);
-                        entries.add(ModBlocks.AVOCADO_PRESSURE_PLATE);
-                        entries.add(ModBlocks.AVOCADO_FENCE);
-                        entries.add(ModBlocks.AVOCADO_FENCE_GATE);
-                        entries.add(ModBlocks.AVOCADO_DOOR);
-                        entries.add(ModBlocks.AVOCADO_TRAPDOOR);
+                        entries.add(ModBlocks.PEAR_STAIRS);
+                        entries.add(ModBlocks.PEAR_SLAB);
+                        entries.add(ModBlocks.PEAR_BUTTON);
+                        entries.add(ModBlocks.PEAR_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PEAR_FENCE);
+                        entries.add(ModBlocks.PEAR_FENCE_GATE);
+                        entries.add(ModBlocks.PEAR_DOOR);
+                        entries.add(ModBlocks.PEAR_TRAPDOOR);
 
 
 
@@ -100,6 +100,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PINE_FENCE_GATE);
                         entries.add(ModBlocks.PINE_DOOR);
                         entries.add(ModBlocks.PINE_TRAPDOOR);
+
+
+
+                        entries.add(ModItems.MASON_JAR);
+
+                        entries.add(ModItems.PEAR);
+                        entries.add(ModItems.PEAR_JUICE);
+
+                        entries.add(ModItems.BLUE_BERRIES);
+                        entries.add(ModItems.BLUE_BERRY_JAM);
                     }).build());
 
     public static void registerItemGroups() {

@@ -17,22 +17,22 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         valueLookupBuilder(ItemTags.LEAVES)
-                .add(ModBlocks.AVOCADO_LEAVES.asItem())
+                .add(ModBlocks.PEAR_LEAVES.asItem())
                 .add(ModBlocks.CHESTNUT_LEAVES.asItem())
                 .add(ModBlocks.MAPLE_LEAVES.asItem())
                 .add(ModBlocks.PINE_LEAVES.asItem());
 
         valueLookupBuilder(ItemTags.SAPLINGS)
-                .add(ModBlocks.AVOCADO_SAPLING.asItem())
+                .add(ModBlocks.PEAR_SAPLING.asItem())
                 .add(ModBlocks.CHESTNUT_SAPLING.asItem())
                 .add(ModBlocks.MAPLE_SAPLING.asItem())
                 .add(ModBlocks.PINE_SAPLING.asItem());
 
         valueLookupBuilder(ItemTags.LOGS_THAT_BURN)
-                .add(ModBlocks.AVOCADO_LOG.asItem())
-                .add(ModBlocks.STRIPPED_AVOCADO_LOG.asItem())
-                .add(ModBlocks.AVOCADO_WOOD.asItem())
-                .add(ModBlocks.STRIPPED_AVOCADO_WOOD.asItem())
+                .add(ModBlocks.PEAR_LOG.asItem())
+                .add(ModBlocks.STRIPPED_PEAR_LOG.asItem())
+                .add(ModBlocks.PEAR_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_PEAR_WOOD.asItem())
 
                 .add(ModBlocks.CHESTNUT_LOG.asItem())
                 .add(ModBlocks.STRIPPED_CHESTNUT_LOG.asItem())
@@ -50,10 +50,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.STRIPPED_PINE_WOOD.asItem());
 
         valueLookupBuilder(ItemTags.LOGS)
-                .add(ModBlocks.AVOCADO_LOG.asItem())
-                .add(ModBlocks.STRIPPED_AVOCADO_LOG.asItem())
-                .add(ModBlocks.AVOCADO_WOOD.asItem())
-                .add(ModBlocks.STRIPPED_AVOCADO_WOOD.asItem())
+                .add(ModBlocks.PEAR_LOG.asItem())
+                .add(ModBlocks.STRIPPED_PEAR_LOG.asItem())
+                .add(ModBlocks.PEAR_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_PEAR_WOOD.asItem())
 
                 .add(ModBlocks.CHESTNUT_LOG.asItem())
                 .add(ModBlocks.STRIPPED_CHESTNUT_LOG.asItem())
@@ -71,16 +71,16 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.STRIPPED_PINE_WOOD.asItem());
 
         valueLookupBuilder(ItemTags.PLANKS)
-                .add(ModBlocks.AVOCADO_PLANKS.asItem())
+                .add(ModBlocks.PEAR_PLANKS.asItem())
                 .add(ModBlocks.CHESTNUT_PLANKS.asItem())
                 .add(ModBlocks.MAPLE_PLANKS.asItem())
                 .add(ModBlocks.PINE_PLANKS.asItem());
 
         valueLookupBuilder(ModTags.Items.AVOCADO_LOGS)
-                .add(ModBlocks.AVOCADO_LOG.asItem())
-                .add(ModBlocks.STRIPPED_AVOCADO_LOG.asItem())
-                .add(ModBlocks.AVOCADO_WOOD.asItem())
-                .add(ModBlocks.STRIPPED_AVOCADO_WOOD.asItem());
+                .add(ModBlocks.PEAR_LOG.asItem())
+                .add(ModBlocks.STRIPPED_PEAR_LOG.asItem())
+                .add(ModBlocks.PEAR_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_PEAR_WOOD.asItem());
 
         valueLookupBuilder(ModTags.Items.CHESTNUT_LOGS)
                 .add(ModBlocks.CHESTNUT_LOG.asItem())

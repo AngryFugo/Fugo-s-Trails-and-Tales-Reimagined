@@ -34,75 +34,75 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
-                createShapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AVOCADO_PLANKS, 4)
+                createShapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PEAR_PLANKS, 4)
                         .input(ModTags.Items.AVOCADO_LOGS)
-                        .criterion(hasItem(ModBlocks.AVOCADO_LOG), conditionsFromItem(ModBlocks.AVOCADO_LOG))
+                        .criterion(hasItem(ModBlocks.PEAR_LOG), conditionsFromItem(ModBlocks.PEAR_LOG))
                         .offerTo(exporter);
 
-                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AVOCADO_WOOD, 3)
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PEAR_WOOD, 3)
                         .pattern("   ")
                         .pattern(" RR")
                         .pattern(" RR")
-                        .input('R', ModBlocks.AVOCADO_LOG.asItem())
-                        .criterion(hasItem(ModBlocks.AVOCADO_LOG), conditionsFromItem(ModBlocks.AVOCADO_LOG))
+                        .input('R', ModBlocks.PEAR_LOG.asItem())
+                        .criterion(hasItem(ModBlocks.PEAR_LOG), conditionsFromItem(ModBlocks.PEAR_LOG))
                         .offerTo(exporter);
 
-                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AVOCADO_DOOR, 3)
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PEAR_DOOR, 3)
                         .pattern(" RR")
                         .pattern(" RR")
                         .pattern(" RR")
-                        .input('R', ModBlocks.AVOCADO_PLANKS.asItem())
-                        .criterion(hasItem(ModBlocks.AVOCADO_PLANKS), conditionsFromItem(ModBlocks.AVOCADO_PLANKS))
+                        .input('R', ModBlocks.PEAR_PLANKS.asItem())
+                        .criterion(hasItem(ModBlocks.PEAR_PLANKS), conditionsFromItem(ModBlocks.PEAR_PLANKS))
                         .offerTo(exporter);
 
-                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AVOCADO_TRAPDOOR, 2)
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PEAR_TRAPDOOR, 2)
                         .pattern("   ")
                         .pattern("RRR")
                         .pattern("RRR")
-                        .input('R', ModBlocks.AVOCADO_PLANKS.asItem())
-                        .criterion(hasItem(ModBlocks.AVOCADO_PLANKS), conditionsFromItem(ModBlocks.AVOCADO_PLANKS))
+                        .input('R', ModBlocks.PEAR_PLANKS.asItem())
+                        .criterion(hasItem(ModBlocks.PEAR_PLANKS), conditionsFromItem(ModBlocks.PEAR_PLANKS))
                         .offerTo(exporter);
 
-                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AVOCADO_PRESSURE_PLATE, 1)
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PEAR_PRESSURE_PLATE, 1)
                         .pattern("   ")
                         .pattern("   ")
                         .pattern(" RR")
-                        .input('R', ModBlocks.AVOCADO_PLANKS.asItem())
-                        .criterion(hasItem(ModBlocks.AVOCADO_PLANKS), conditionsFromItem(ModBlocks.AVOCADO_PLANKS))
+                        .input('R', ModBlocks.PEAR_PLANKS.asItem())
+                        .criterion(hasItem(ModBlocks.PEAR_PLANKS), conditionsFromItem(ModBlocks.PEAR_PLANKS))
                         .offerTo(exporter);
 
-                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AVOCADO_FENCE, 3)
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PEAR_FENCE, 3)
                         .pattern("   ")
                         .pattern("RSR")
                         .pattern("RSR")
-                        .input('R', ModBlocks.AVOCADO_PLANKS.asItem())
+                        .input('R', ModBlocks.PEAR_PLANKS.asItem())
                         .input('S', Items.STICK)
-                        .criterion(hasItem(ModBlocks.AVOCADO_PLANKS), conditionsFromItem(ModBlocks.AVOCADO_PLANKS))
+                        .criterion(hasItem(ModBlocks.PEAR_PLANKS), conditionsFromItem(ModBlocks.PEAR_PLANKS))
                         .offerTo(exporter);
 
-                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AVOCADO_FENCE_GATE, 1)
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PEAR_FENCE_GATE, 1)
                         .pattern("   ")
                         .pattern("SRS")
                         .pattern("SRS")
-                        .input('R', ModBlocks.AVOCADO_PLANKS.asItem())
+                        .input('R', ModBlocks.PEAR_PLANKS.asItem())
                         .input('S', Items.STICK)
-                        .criterion(hasItem(ModBlocks.AVOCADO_PLANKS), conditionsFromItem(ModBlocks.AVOCADO_PLANKS))
+                        .criterion(hasItem(ModBlocks.PEAR_PLANKS), conditionsFromItem(ModBlocks.PEAR_PLANKS))
                         .offerTo(exporter);
 
-                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AVOCADO_STAIRS, 4)
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PEAR_STAIRS, 4)
                         .pattern("  R")
                         .pattern(" RR")
                         .pattern("RRR")
-                        .input('R', ModBlocks.AVOCADO_PLANKS.asItem())
-                        .criterion(hasItem(ModBlocks.AVOCADO_PLANKS), conditionsFromItem(ModBlocks.AVOCADO_PLANKS))
+                        .input('R', ModBlocks.PEAR_PLANKS.asItem())
+                        .criterion(hasItem(ModBlocks.PEAR_PLANKS), conditionsFromItem(ModBlocks.PEAR_PLANKS))
                         .offerTo(exporter);
 
-                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AVOCADO_SLAB, 6)
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PEAR_SLAB, 6)
                         .pattern("   ")
                         .pattern("   ")
                         .pattern("RRR")
-                        .input('R', ModBlocks.AVOCADO_PLANKS.asItem())
-                        .criterion(hasItem(ModBlocks.AVOCADO_PLANKS), conditionsFromItem(ModBlocks.AVOCADO_PLANKS))
+                        .input('R', ModBlocks.PEAR_PLANKS.asItem())
+                        .criterion(hasItem(ModBlocks.PEAR_PLANKS), conditionsFromItem(ModBlocks.PEAR_PLANKS))
                         .offerTo(exporter);
 
 
