@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "fugos-trails-and-tales-reimagined:block/chestnut_planks",
-    "side": "fugos-trails-and-tales-reimagined:block/chestnut_planks",
-    "top": "fugos-trails-and-tales-reimagined:block/chestnut_planks"
-  }
-}

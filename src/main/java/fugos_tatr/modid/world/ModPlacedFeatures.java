@@ -7,7 +7,9 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
+import net.minecraft.world.gen.YOffset;
 import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.gen.placementmodifier.HeightRangePlacementModifier;
 import net.minecraft.world.gen.placementmodifier.PlacementModifier;
 
 import java.util.List;
@@ -17,6 +19,8 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> CHESTNUT_TREE_PLACED_KEY = registerKey("chestnut_tree_placed");
     public static final RegistryKey<PlacedFeature> MAPLE_TREE_PLACED_KEY = registerKey("maple_tree_placed");
     public static final RegistryKey<PlacedFeature> PINE_TREE_PLACED_KEY = registerKey("pine_tree_placed");
+
+    public static final RegistryKey<PlacedFeature> TITANIUM_PLACED_KEY = registerKey("titanium_placed");
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
@@ -36,6 +40,12 @@ public class ModPlacedFeatures {
         register(context, PINE_TREE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.PINE_TREE_KEY),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
                         PlacedFeatures.createCountExtraModifier(2, 0.1f, 2), ModBlocks.PINE_SAPLING));
+
+
+
+        register(context, TITANIUM_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TITANIUM_KEY),
+                ModOrePlacement.modifiersWithCount(4,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-20), YOffset.fixed(20))));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {

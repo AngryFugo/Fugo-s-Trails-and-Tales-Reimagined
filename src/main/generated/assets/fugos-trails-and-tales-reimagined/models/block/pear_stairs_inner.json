@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "fugos-trails-and-tales-reimagined:block/pear_planks",
-    "side": "fugos-trails-and-tales-reimagined:block/pear_planks",
-    "top": "fugos-trails-and-tales-reimagined:block/pear_planks"
-  }
-}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "fugos-trails-and-tales-reimagined:titanium_ingot",
+  "base": "minecraft:netherite_axe",
+  "result": {
+    "count": 1,
+    "id": "fugos-trails-and-tales-reimagined:titanium_axe"
+  },
+  "template": "fugos-trails-and-tales-reimagined:titanium_upgrade_smithing_template"
+}

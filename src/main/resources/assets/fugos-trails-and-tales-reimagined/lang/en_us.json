@@ -12,6 +12,9 @@
 
   "itemgroup.fugos_trails_and_tales_reimagined_group": "Fugo's Trails and Tales: Reimagined",
 
+  "block.fugos-trails-and-tales-reimagined.salt_block": "Salt Block",
+  "block.fugos-trails-and-tales-reimagined.salt_bricks": "Salt Bricks",
+
   "block.fugos-trails-and-tales-reimagined.pear_sapling": "Pear Sapling",
 
   "block.fugos-trails-and-tales-reimagined.pear_leaves": "Pear Leaves",
@@ -108,6 +111,22 @@
   "item.fugos-trails-and-tales-reimagined.blue_berries": "Blueberries",
   "item.fugos-trails-and-tales-reimagined.blue_berry_jam": "Blueberry Jam",
   "item.fugos-trails-and-tales-reimagined.blue_berry_bush": "Blueberry Bush",
+
+  "block.fugos-trails-and-tales-reimagined.tuff_titanium_ore": "Tuff Titanium Ore",
+  "block.fugos-trails-and-tales-reimagined.titanium_block": "Titanium Block",
+
+  "item.fugos-trails-and-tales-reimagined.raw_titanium": "Raw Titanium",
+  "item.fugos-trails-and-tales-reimagined.titanium_ingot": "Titanium Ingot",
+  "item.fugos-trails-and-tales-reimagined.titanium_upgrade_smithing_template": "Titanium Upgrade Smithing Template",
+
+  "item.fugos-trails-and-tales-reimagined.ancient_tome": "Ancient Tome",
+  "item.fugos-trails-and-tales-reimagined.alloy_elytra": "Alloy Elytra",
+
+  "item.fugos-trails-and-tales-reimagined.titanium_sword": "Titanium Sword",
+  "item.fugos-trails-and-tales-reimagined.titanium_shovel": "Titanium Shovel",
+  "item.fugos-trails-and-tales-reimagined.titanium_pickaxe": "Titanium Pickaxe",
+  "item.fugos-trails-and-tales-reimagined.titanium_axe": "Titanium Axe",
+  "item.fugos-trails-and-tales-reimagined.titanium_hoe": "Titanium Hoe",
 
   "item.fugos-trails-and-tales-reimagined.alleycat_daggers": "Alleycat Daggers"
 }

@@ -103,6 +103,14 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BLUE_BERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED,
                 BlueBerryBush.AGE, 0, 1, 2, 3);
+
+
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SALT_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SALT_BRICKS);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TUFF_TITANIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TITANIUM_BLOCK);
     }
 
     @Override
@@ -123,6 +131,19 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PEAR_JUICE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.BLUE_BERRY_JAM, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.RAW_TITANIUM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TITANIUM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TITANIUM_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.ANCIENT_TOME, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ALLOY_ELYTRA, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.TITANIUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TITANIUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TITANIUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TITANIUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TITANIUM_HOE, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.ALLEYCAT_DAGGERS, Models.HANDHELD);
     }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "fugos-trails-and-tales-reimagined:raw_titanium",
+  "result": {
+    "count": 1,
+    "id": "fugos-trails-and-tales-reimagined:titanium_ingot"
+  }
+}

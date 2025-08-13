@@ -15,6 +15,10 @@ public class ModItemGroups {
             Identifier.of(FugosTrailsAndTalesReimagined.MOD_ID, "fugos_trails_and_tales_reimagined_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.fugos_trails_and_tales_reimagined_group"))
                     .icon(() -> new ItemStack(ModBlocks.PEAR_PLANKS)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.SALT_BLOCK);
+                        entries.add(ModBlocks.SALT_BRICKS);
+
+
                         entries.add(ModBlocks.PEAR_SAPLING);
 
                         entries.add(ModBlocks.PEAR_LEAVES);
@@ -110,6 +114,22 @@ public class ModItemGroups {
 
                         entries.add(ModItems.BLUE_BERRIES);
                         entries.add(ModItems.BLUE_BERRY_JAM);
+
+                        entries.add(ModBlocks.TUFF_TITANIUM_ORE);
+                        entries.add(ModBlocks.TITANIUM_BLOCK);
+
+                        entries.add(ModItems.RAW_TITANIUM);
+                        entries.add(ModItems.TITANIUM_INGOT);
+                        entries.add(ModItems.TITANIUM_UPGRADE_SMITHING_TEMPLATE);
+
+                        entries.add(ModItems.ANCIENT_TOME);
+                        entries.add(ModItems.ALLOY_ELYTRA);
+
+                        entries.add(ModItems.TITANIUM_SWORD);
+                        entries.add(ModItems.TITANIUM_SHOVEL);
+                        entries.add(ModItems.TITANIUM_PICKAXE);
+                        entries.add(ModItems.TITANIUM_AXE);
+                        entries.add(ModItems.TITANIUM_HOE);
 
                         entries.add(ModItems.ALLEYCAT_DAGGERS);
                     }).build());

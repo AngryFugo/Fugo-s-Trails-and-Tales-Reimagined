@@ -6,12 +6,12 @@ import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.tag.BlockTags;
+import net.minecraft.structure.rule.RuleTest;
+import net.minecraft.structure.rule.TagMatchRuleTest;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
-import net.minecraft.world.gen.feature.ConfiguredFeature;
-import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.gen.feature.FeatureConfig;
-import net.minecraft.world.gen.feature.TreeFeatureConfig;
+import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
 import net.minecraft.world.gen.foliage.LargeOakFoliagePlacer;
@@ -20,13 +20,20 @@ import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.trunk.LargeOakTrunkPlacer;
 import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 
+import java.util.List;
+
 public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> PEAR_TREE_KEY = registerKey("pear_tree");
     public static final RegistryKey<ConfiguredFeature<?, ?>> CHESTNUT_TREE_KEY = registerKey("chestnut_tree");
     public static final RegistryKey<ConfiguredFeature<?, ?>> MAPLE_TREE_KEY = registerKey("maple_tree");
     public static final RegistryKey<ConfiguredFeature<?, ?>> PINE_TREE_KEY = registerKey("pine_tree");
 
+    public static final RegistryKey<ConfiguredFeature<?, ?>> TITANIUM_KEY = registerKey("titanium");
+
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
+        RuleTest stoneReplaceable = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
+        RuleTest deepslateReplaceable = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+
         register(context, PEAR_TREE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.PEAR_LOG),
                 new LargeOakTrunkPlacer(5, 7, 2),
@@ -62,6 +69,12 @@ public class ModConfiguredFeatures {
                 new MegaPineFoliagePlacer(ConstantIntProvider.create(1), ConstantIntProvider.create(0), ConstantIntProvider.create(8)),
 
                 new TwoLayersFeatureSize(3, 1, 3)).dirtProvider(BlockStateProvider.of(Blocks.GRASS_BLOCK)).build());
+
+        List<OreFeatureConfig.Target> overworldTitaniumOre =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceable, ModBlocks.TUFF_TITANIUM_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplaceable, ModBlocks.TUFF_TITANIUM_ORE.getDefaultState()));
+
+        register(context, TITANIUM_KEY, Feature.ORE, new OreFeatureConfig(overworldTitaniumOre, 4));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

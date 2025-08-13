@@ -1,5 +1,6 @@
 package fugos_tatr.modid.datagen;
 
+import fugos_tatr.modid.FugosTrailsAndTalesReimagined;
 import fugos_tatr.modid.block.ModBlocks;
 import fugos_tatr.modid.item.ModItems;
 import fugos_tatr.modid.util.ModTags;
@@ -8,9 +9,11 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.recipe.RecipeExporter;
 import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.SmithingRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
+import net.minecraft.util.Identifier;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -53,6 +56,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .offerTo(exporter);
 
 
+
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SALT_BRICKS, 4)
+                        .pattern("   ")
+                        .pattern(" RR")
+                        .pattern(" RR")
+                        .input('R', ModBlocks.SALT_BLOCK.asItem())
+                        .criterion(hasItem(ModBlocks.SALT_BLOCK), conditionsFromItem(ModBlocks.SALT_BLOCK))
+                        .offerTo(exporter);
 
                 createShapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PEAR_PLANKS, 4)
                         .input(ModTags.Items.AVOCADO_LOGS)
@@ -343,6 +354,30 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('R', ModBlocks.PINE_PLANKS.asItem())
                         .criterion(hasItem(ModBlocks.PINE_PLANKS), conditionsFromItem(ModBlocks.PINE_PLANKS))
                         .offerTo(exporter);
+
+
+
+                createShaped(RecipeCategory.MISC, ModItems.TITANIUM_UPGRADE_SMITHING_TEMPLATE, 1)
+                        .pattern("RRR")
+                        .pattern("RFR")
+                        .pattern("RRR")
+                        .input('R', ModItems.TITANIUM_INGOT)
+                        .input('F', Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE)
+                        .criterion(hasItem(ModItems.TITANIUM_INGOT), conditionsFromItem(ModItems.TITANIUM_INGOT))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TITANIUM_BLOCK, 1)
+                        .pattern("RRR")
+                        .pattern("RRR")
+                        .pattern("RRR")
+                        .input('R', ModItems.TITANIUM_INGOT)
+                        .criterion(hasItem(ModItems.TITANIUM_INGOT), conditionsFromItem(ModItems.TITANIUM_INGOT))
+                        .offerTo(exporter);
+
+                createShapeless(RecipeCategory.MISC, ModItems.TITANIUM_INGOT, 9)
+                        .input(ModBlocks.TITANIUM_BLOCK)
+                        .criterion(hasItem(ModBlocks.TITANIUM_BLOCK.asItem()), conditionsFromItem(ModBlocks.TITANIUM_BLOCK.asItem()))
+                        .offerTo(exporter, String.valueOf(Identifier.of(FugosTrailsAndTalesReimagined.MOD_ID, "block_to_titanium")));
             }
         };
     }

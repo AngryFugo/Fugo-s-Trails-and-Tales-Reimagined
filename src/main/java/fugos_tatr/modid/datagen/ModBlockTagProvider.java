@@ -157,5 +157,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINE_FENCE_GATE)
                 .add(ModBlocks.PINE_DOOR)
                 .add(ModBlocks.PINE_TRAPDOOR);
+
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.SALT_BLOCK)
+                .add(ModBlocks.SALT_BRICKS)
+
+                .add(ModBlocks.TUFF_TITANIUM_ORE)
+                .add(ModBlocks.TITANIUM_BLOCK);
+
+        valueLookupBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.TUFF_TITANIUM_ORE)
+                .add(ModBlocks.TITANIUM_BLOCK);
     }
 }

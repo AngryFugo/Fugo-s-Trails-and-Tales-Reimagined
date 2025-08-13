@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "fugos-trails-and-tales-reimagined:block/maple_planks",
-    "side": "fugos-trails-and-tales-reimagined:block/maple_planks",
-    "top": "fugos-trails-and-tales-reimagined:block/maple_planks"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/button_pressed",
-  "textures": {
-    "texture": "fugos-trails-and-tales-reimagined:block/maple_planks"
-  }
-}

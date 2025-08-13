@@ -1,6 +1,8 @@
 package fugos_tatr.modid.datagen;
 
 import fugos_tatr.modid.block.ModBlocks;
+import fugos_tatr.modid.item.ModItemTags;
+import fugos_tatr.modid.item.ModItems;
 import fugos_tatr.modid.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
@@ -99,5 +101,30 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.STRIPPED_PINE_LOG.asItem())
                 .add(ModBlocks.PINE_WOOD.asItem())
                 .add(ModBlocks.STRIPPED_PINE_WOOD.asItem());
+
+        valueLookupBuilder(ItemTags.SWORDS)
+                .add(ModItems.TITANIUM_SWORD);
+
+        valueLookupBuilder(ItemTags.SHOVELS)
+                .add(ModItems.TITANIUM_SHOVEL);
+
+        valueLookupBuilder(ItemTags.PICKAXES)
+                .add(ModItems.TITANIUM_PICKAXE);
+
+        valueLookupBuilder(ItemTags.AXES)
+                .add(ModItems.TITANIUM_AXE);
+
+        valueLookupBuilder(ItemTags.HOES)
+                .add(ModItems.TITANIUM_HOE);
+
+        valueLookupBuilder(ModItemTags.TITANIUM_TOOLS)
+                .add(ModItems.TITANIUM_SWORD)
+                .add(ModItems.TITANIUM_SHOVEL)
+                .add(ModItems.TITANIUM_PICKAXE)
+                .add(ModItems.TITANIUM_AXE)
+                .add(ModItems.TITANIUM_HOE);
+
+        valueLookupBuilder(ModItemTags.TITANIUM_TOOL_MATERIALS)
+                .add(ModItems.TITANIUM_INGOT);
     }
 }

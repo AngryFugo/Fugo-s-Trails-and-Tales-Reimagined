@@ -124,7 +124,17 @@ public class ModBlocks {
     public static final Block PINE_DOOR = registerBlock("pine_door", settings -> new DoorBlock(BlockSetType.SPRUCE, settings), AbstractBlock.Settings.copy(Blocks.SPRUCE_DOOR));
     public static final Block PINE_TRAPDOOR = registerBlock("pine_trapdoor", settings -> new TrapdoorBlock(BlockSetType.SPRUCE, settings), AbstractBlock.Settings.copy(Blocks.SPRUCE_TRAPDOOR));
 
+
+
     public static final Block BLUE_BERRY_BUSH = registerBlock("blue_berry_bush", BlueBerryBush::new, AbstractBlock.Settings.create().mapColor(MapColor.LAPIS_BLUE).ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY));
+
+    public static final Block SALT_BLOCK = registerBlock("salt_block",Block::new, AbstractBlock.Settings.copy(Blocks.CALCITE));
+    public static final Block SALT_BRICKS = registerBlock("salt_bricks", Block::new, AbstractBlock.Settings.copy(Blocks.NETHER_BRICKS));
+
+
+
+    public static final Block TUFF_TITANIUM_ORE = registerBlock("tuff_titanium_ore", Block::new, AbstractBlock.Settings.copy(Blocks.DIAMOND_ORE));
+    public static final Block TITANIUM_BLOCK = registerBlock("titanium_block", Block::new, AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK));
 
     private static Block registerBlock(String path, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {
         final Identifier identifier = Identifier.of(FugosTrailsAndTalesReimagined.MOD_ID, path);

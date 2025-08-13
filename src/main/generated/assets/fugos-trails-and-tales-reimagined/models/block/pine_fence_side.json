@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/fence_side",
-  "textures": {
-    "texture": "fugos-trails-and-tales-reimagined:block/pine_planks"
-  }
-}
