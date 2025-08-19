@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "fugos-trails-and-tales-reimagined:maple_planks",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "   ",
+    "RSR",
+    "RSR"
+  ],
+  "result": {
+    "count": 3,
+    "id": "fugos-trails-and-tales-reimagined:maple_fence"
+  }
+}

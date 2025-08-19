@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "fugos-trails-and-tales-reimagined:block/pine_leaves"
+  }
+}

@@ -128,12 +128,21 @@ public class ModBlocks {
 
     public static final Block BLUE_BERRY_BUSH = registerBlock("blue_berry_bush", BlueBerryBush::new, AbstractBlock.Settings.create().mapColor(MapColor.LAPIS_BLUE).ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH).pistonBehavior(PistonBehavior.DESTROY));
 
+    public static final Block COBBLED_SALT = registerBlock("cobbled_salt", Block::new, AbstractBlock.Settings.copy(Blocks.COBBLESTONE));
+    public static final Block COBBLED_SALT_STAIRS = registerBlock("cobbled_salt_stairs", settings -> new StairsBlock(ModBlocks.COBBLED_SALT.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.COBBLESTONE_STAIRS));
+    public static final Block COBBLED_SALT_SLAB = registerBlock("cobbled_salt_slab", SlabBlock::new, AbstractBlock.Settings.copy(Blocks.COBBLESTONE_SLAB));
+    public static final Block COBBLED_SALT_WALL = registerBlock("cobbled_salt_wall", WallBlock::new, AbstractBlock.Settings.copy(Blocks.COBBLESTONE_WALL));
+
     public static final Block SALT_BLOCK = registerBlock("salt_block",Block::new, AbstractBlock.Settings.copy(Blocks.CALCITE));
     public static final Block SALT_BRICKS = registerBlock("salt_bricks", Block::new, AbstractBlock.Settings.copy(Blocks.NETHER_BRICKS));
+    public static final Block SALT_TILES = registerBlock("salt_tiles", Block::new, AbstractBlock.Settings.copy(Blocks.DEEPSLATE_TILES));
 
 
 
+    public static final Block TITANIUM_ORE = registerBlock("titanium_ore", Block::new, AbstractBlock.Settings.copy(Blocks.DIAMOND_ORE));
     public static final Block TUFF_TITANIUM_ORE = registerBlock("tuff_titanium_ore", Block::new, AbstractBlock.Settings.copy(Blocks.DIAMOND_ORE));
+    public static final Block DEEPSLATE_TITANIUM_ORE = registerBlock("deepslate_titanium_ore", Block::new, AbstractBlock.Settings.copy(Blocks.DEEPSLATE_DIAMOND_ORE));
+
     public static final Block TITANIUM_BLOCK = registerBlock("titanium_block", Block::new, AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK));
 
     private static Block registerBlock(String path, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {

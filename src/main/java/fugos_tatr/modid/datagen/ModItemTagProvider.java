@@ -78,6 +78,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.MAPLE_PLANKS.asItem())
                 .add(ModBlocks.PINE_PLANKS.asItem());
 
+        valueLookupBuilder(ItemTags.SLABS)
+                .add(ModBlocks.PEAR_SLAB.asItem())
+                .add(ModBlocks.CHESTNUT_SLAB.asItem())
+                .add(ModBlocks.MAPLE_SLAB.asItem())
+                .add(ModBlocks.PINE_SLAB.asItem());
+
         valueLookupBuilder(ModTags.Items.AVOCADO_LOGS)
                 .add(ModBlocks.PEAR_LOG.asItem())
                 .add(ModBlocks.STRIPPED_PEAR_LOG.asItem())

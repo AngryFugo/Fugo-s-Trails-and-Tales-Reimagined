@@ -106,10 +106,19 @@ public class ModModelProvider extends FabricModelProvider {
 
 
 
+        BlockStateModelGenerator.BlockTexturePool cobbled_salt_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.COBBLED_SALT);
+
+        cobbled_salt_pool.stairs(ModBlocks.COBBLED_SALT_STAIRS);
+        cobbled_salt_pool.slab(ModBlocks.COBBLED_SALT_SLAB);
+        cobbled_salt_pool.wall(ModBlocks.COBBLED_SALT_WALL);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SALT_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SALT_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SALT_TILES);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TITANIUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TUFF_TITANIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_TITANIUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TITANIUM_BLOCK);
     }
 

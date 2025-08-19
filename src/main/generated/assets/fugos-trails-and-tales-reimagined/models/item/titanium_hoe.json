@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "fugos-trails-and-tales-reimagined:item/titanium_hoe"
+  }
+}

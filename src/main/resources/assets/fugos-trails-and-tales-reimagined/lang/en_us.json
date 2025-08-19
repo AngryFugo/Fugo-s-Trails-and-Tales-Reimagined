@@ -12,8 +12,10 @@
 
   "itemgroup.fugos_trails_and_tales_reimagined_group": "Fugo's Trails and Tales: Reimagined",
 
+  "block.fugos-trails-and-tales-reimagined.cobbled_salt": "Cobbled Salt",
   "block.fugos-trails-and-tales-reimagined.salt_block": "Salt Block",
   "block.fugos-trails-and-tales-reimagined.salt_bricks": "Salt Bricks",
+  "block.fugos-trails-and-tales-reimagined.salt_tiles": "Salt Tiles",
 
   "block.fugos-trails-and-tales-reimagined.pear_sapling": "Pear Sapling",
 
@@ -106,13 +108,15 @@
   "item.fugos-trails-and-tales-reimagined.mason_jar": "Mason Jar",
 
   "item.fugos-trails-and-tales-reimagined.pear": "Pear",
-  "item.fugos-trails-and-tales-reimagined.pear_juice": "Pear Jam",
+  "item.fugos-trails-and-tales-reimagined.pear_juice": "Pear Juice",
 
   "item.fugos-trails-and-tales-reimagined.blue_berries": "Blueberries",
   "item.fugos-trails-and-tales-reimagined.blue_berry_jam": "Blueberry Jam",
   "item.fugos-trails-and-tales-reimagined.blue_berry_bush": "Blueberry Bush",
 
+  "block.fugos-trails-and-tales-reimagined.titanium_ore": "Titanium Ore",
   "block.fugos-trails-and-tales-reimagined.tuff_titanium_ore": "Tuff Titanium Ore",
+  "block.fugos-trails-and-tales-reimagined.deepslate_titanium_ore": "Deepslate Titanium Ore",
   "block.fugos-trails-and-tales-reimagined.titanium_block": "Titanium Block",
 
   "item.fugos-trails-and-tales-reimagined.raw_titanium": "Raw Titanium",

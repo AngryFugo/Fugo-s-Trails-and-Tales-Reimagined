@@ -32,8 +32,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         RegistryWrapper.Impl<Enchantment> impl = this.registries.getOrThrow(RegistryKeys.ENCHANTMENT);
 
+        addDrop(ModBlocks.COBBLED_SALT);
+        addDrop(ModBlocks.COBBLED_SALT_STAIRS);
+        addDrop(ModBlocks.COBBLED_SALT_SLAB);
+        addDrop(ModBlocks.COBBLED_SALT_WALL);
+
         addDrop(ModBlocks.SALT_BLOCK);
         addDrop(ModBlocks.SALT_BRICKS);
+        addDrop(ModBlocks.SALT_TILES);
 
         addDrop(ModBlocks.PEAR_SAPLING);
 
@@ -126,8 +132,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PINE_TRAPDOOR);
 
 
-
+        addDrop(ModBlocks.TITANIUM_ORE, multipleOreDrops(ModBlocks.TITANIUM_ORE, ModItems.RAW_TITANIUM, 1, 2));
         addDrop(ModBlocks.TUFF_TITANIUM_ORE, multipleOreDrops(ModBlocks.TUFF_TITANIUM_ORE, ModItems.RAW_TITANIUM, 1, 2));
+        addDrop(ModBlocks.DEEPSLATE_TITANIUM_ORE, multipleOreDrops(ModBlocks.DEEPSLATE_TITANIUM_ORE, ModItems.RAW_TITANIUM, 1, 3));
         addDrop(ModBlocks.TITANIUM_BLOCK);
     }
 

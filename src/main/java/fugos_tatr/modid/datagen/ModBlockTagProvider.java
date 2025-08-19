@@ -27,13 +27,20 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAPLE_FENCE_GATE)
                 .add(ModBlocks.PINE_FENCE_GATE);
 
+        valueLookupBuilder(BlockTags.WALLS)
+                .add(ModBlocks.COBBLED_SALT_WALL);
+
         valueLookupBuilder(BlockTags.STAIRS)
+                .add(ModBlocks.COBBLED_SALT_STAIRS)
+
                 .add(ModBlocks.PEAR_STAIRS)
                 .add(ModBlocks.CHESTNUT_STAIRS)
                 .add(ModBlocks.MAPLE_STAIRS)
                 .add(ModBlocks.PINE_STAIRS);
 
         valueLookupBuilder(BlockTags.SLABS)
+                .add(ModBlocks.COBBLED_SALT_SLAB)
+
                 .add(ModBlocks.PEAR_SLAB)
                 .add(ModBlocks.CHESTNUT_SLAB)
                 .add(ModBlocks.MAPLE_SLAB)
@@ -159,14 +166,26 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINE_TRAPDOOR);
 
         valueLookupBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.COBBLED_SALT)
+                .add(ModBlocks.COBBLED_SALT_STAIRS)
+                .add(ModBlocks.COBBLED_SALT_SLAB)
+                .add(ModBlocks.COBBLED_SALT_WALL)
+
                 .add(ModBlocks.SALT_BLOCK)
                 .add(ModBlocks.SALT_BRICKS)
+                .add(ModBlocks.SALT_TILES)
 
+                .add(ModBlocks.TITANIUM_ORE)
                 .add(ModBlocks.TUFF_TITANIUM_ORE)
+                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE)
                 .add(ModBlocks.TITANIUM_BLOCK);
+
+        valueLookupBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.TITANIUM_ORE);
 
         valueLookupBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.TUFF_TITANIUM_ORE)
+                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE)
                 .add(ModBlocks.TITANIUM_BLOCK);
     }
 }

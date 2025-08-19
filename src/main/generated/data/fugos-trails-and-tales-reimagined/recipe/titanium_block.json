@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "fugos-trails-and-tales-reimagined:titanium_ingot"
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fugos-trails-and-tales-reimagined:titanium_block"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fugos-trails-and-tales-reimagined:item/raw_titanium"
+  }
+}

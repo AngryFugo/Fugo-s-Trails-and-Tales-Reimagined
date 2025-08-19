@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": "minecraft:netherite_upgrade_smithing_template",
+    "R": "fugos-trails-and-tales-reimagined:titanium_ingot"
+  },
+  "pattern": [
+    "RRR",
+    "RFR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fugos-trails-and-tales-reimagined:titanium_upgrade_smithing_template"
+  }
+}

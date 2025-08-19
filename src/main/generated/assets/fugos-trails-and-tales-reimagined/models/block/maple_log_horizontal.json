@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "fugos-trails-and-tales-reimagined:block/maple_log_top",
+    "side": "fugos-trails-and-tales-reimagined:block/maple_log"
+  }
+}

@@ -71,8 +71,8 @@ public class ModConfiguredFeatures {
                 new TwoLayersFeatureSize(3, 1, 3)).dirtProvider(BlockStateProvider.of(Blocks.GRASS_BLOCK)).build());
 
         List<OreFeatureConfig.Target> overworldTitaniumOre =
-                List.of(OreFeatureConfig.createTarget(stoneReplaceable, ModBlocks.TUFF_TITANIUM_ORE.getDefaultState()),
-                        OreFeatureConfig.createTarget(deepslateReplaceable, ModBlocks.TUFF_TITANIUM_ORE.getDefaultState()));
+                List.of(OreFeatureConfig.createTarget(stoneReplaceable, ModBlocks.TITANIUM_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplaceable, ModBlocks.DEEPSLATE_TITANIUM_ORE.getDefaultState()));
 
         register(context, TITANIUM_KEY, Feature.ORE, new OreFeatureConfig(overworldTitaniumOre, 4));
     }

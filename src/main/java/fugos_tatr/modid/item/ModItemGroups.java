@@ -15,8 +15,14 @@ public class ModItemGroups {
             Identifier.of(FugosTrailsAndTalesReimagined.MOD_ID, "fugos_trails_and_tales_reimagined_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.fugos_trails_and_tales_reimagined_group"))
                     .icon(() -> new ItemStack(ModBlocks.PEAR_PLANKS)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.COBBLED_SALT);
+                        entries.add(ModBlocks.COBBLED_SALT_STAIRS);
+                        entries.add(ModBlocks.COBBLED_SALT_SLAB);
+                        entries.add(ModBlocks.COBBLED_SALT_WALL);
+
                         entries.add(ModBlocks.SALT_BLOCK);
                         entries.add(ModBlocks.SALT_BRICKS);
+                        entries.add(ModBlocks.SALT_TILES);
 
 
                         entries.add(ModBlocks.PEAR_SAPLING);
@@ -115,7 +121,9 @@ public class ModItemGroups {
                         entries.add(ModItems.BLUE_BERRIES);
                         entries.add(ModItems.BLUE_BERRY_JAM);
 
+                        entries.add(ModBlocks.TITANIUM_ORE);
                         entries.add(ModBlocks.TUFF_TITANIUM_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TITANIUM_ORE);
                         entries.add(ModBlocks.TITANIUM_BLOCK);
 
                         entries.add(ModItems.RAW_TITANIUM);

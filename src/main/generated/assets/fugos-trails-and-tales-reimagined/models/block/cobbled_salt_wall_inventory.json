@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "fugos-trails-and-tales-reimagined:block/cobbled_salt"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "fugos-trails-and-tales-reimagined:pear_planks"
+  },
+  "pattern": [
+    "  R",
+    " RR",
+    "RRR"
+  ],
+  "result": {
+    "count": 4,
+    "id": "fugos-trails-and-tales-reimagined:pear_stairs"
+  }
+}

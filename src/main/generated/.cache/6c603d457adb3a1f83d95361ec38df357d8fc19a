@@ -1,0 +1,17 @@
+// 1.21.6	-999999999-01-01T00:00:00	Fugo's Trails and Tales: Reimagined/Tags for minecraft:block
+aae9fc8ff2bb6b70738e1ddcff9de48828b56f7c data/minecraft/tags/block/buttons.json
+67a8d3d88231035ad97e533e978ee8e3944aebdf data/minecraft/tags/block/doors.json
+7700f834f5ed3973029ee9aa03464dc1b394d671 data/minecraft/tags/block/fence_gates.json
+4fc33930e568f596f5f0485a55150a6e423774ab data/minecraft/tags/block/fences.json
+b257a0cb2181e099819609d1427e2f7ba3c063e7 data/minecraft/tags/block/leaves.json
+7536f89b17a63ddfd906106ac479e7fedb87c611 data/minecraft/tags/block/logs.json
+7536f89b17a63ddfd906106ac479e7fedb87c611 data/minecraft/tags/block/logs_that_burn.json
+83fc3421fa5e5fd2eaf908b2da01803cf63009fe data/minecraft/tags/block/mineable/pickaxe.json
+b3c3eb6fa76cec310cc6c06def62aedc47a8ccc4 data/minecraft/tags/block/needs_diamond_tool.json
+f270fc5620cf7ba434795a42bac23c0c832cae12 data/minecraft/tags/block/needs_iron_tool.json
+d76a9623b8ae754ca6914bc927687412380363d3 data/minecraft/tags/block/planks.json
+a1ce69db2cb20108bbbbecac44a7e81db1580473 data/minecraft/tags/block/pressure_plates.json
+8a48a73342eade478ec3ef99dd5010772ffd2d25 data/minecraft/tags/block/saplings.json
+d44a7e33cb8a2e868574c5cb3b04359ee81e0cc7 data/minecraft/tags/block/slabs.json
+d2deb92d2cc1597e526d9e76eff9ce43006eb0bb data/minecraft/tags/block/stairs.json
+046ccdecce31a3b6a1a9fe00d576cc2024094197 data/minecraft/tags/block/trapdoors.json
