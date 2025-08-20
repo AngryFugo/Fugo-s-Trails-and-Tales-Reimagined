@@ -1,0 +1,47 @@
+{
+  "display": {
+    "title": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.titanium_armor"
+    },
+    "description": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.titanium_armor.desc"
+    },
+    "icon": {
+      "id": "fugos-trails-and-tales-reimagined:titanium_chestplate"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fugos-trails-and-tales-reimagined:titanium_helmet"
+            ]
+          },
+          {
+            "items": [
+              "fugos-trails-and-tales-reimagined:titanium_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "fugos-trails-and-tales-reimagined:titanium_leggings"
+            ]
+          },
+          {
+            "items": [
+              "fugos-trails-and-tales-reimagined:titanium_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fugos-trails-and-tales-reimagined:root"
+}
