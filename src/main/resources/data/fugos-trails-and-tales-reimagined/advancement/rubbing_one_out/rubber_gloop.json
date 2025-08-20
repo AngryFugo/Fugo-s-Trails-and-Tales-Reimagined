@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.rubber_gloop"
+    },
+    "description": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.rubber_gloop.desc"
+    },
+    "icon": {
+      "id": "fugos-trails-and-tales-reimagined:rubber_gloop_bottle"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "fugos-trails-and-tales-reimagined:rubber_gloop_bottle"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fugos-trails-and-tales-reimagined:root"
+}

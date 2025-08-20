@@ -6,7 +6,6 @@ import fugos_tatr.modid.item.ModArmorMaterials;
 import fugos_tatr.modid.item.ModItems;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.minecraft.block.Blocks;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
@@ -176,7 +175,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ESTROLITE_ORE);
 
-        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.BLUE_ROSE, BlockStateModelGenerator.CrossType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.BLUE_ROSE_BLOCK, BlockStateModelGenerator.CrossType.NOT_TINTED);
 
         blockStateModelGenerator.registerAmethyst(ModBlocks.GARNET_CLUMP);
 
@@ -206,6 +205,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TITANIUM_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.ESTROLITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KOURTNEYS_ESTROGEN, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.ADAMANTITE_INGOT, Models.GENERATED);
 
@@ -229,7 +229,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.NETHERITE_HORSE_ARMOR, Models.GENERATED);
 
-        itemModelGenerator.register(ModBlocks.BLUE_ROSE.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLUE_ROSE, Models.GENERATED);
 
         itemModelGenerator.register(ModBlocks.GARNET_CLUMP.asItem(), Models.GENERATED);
 

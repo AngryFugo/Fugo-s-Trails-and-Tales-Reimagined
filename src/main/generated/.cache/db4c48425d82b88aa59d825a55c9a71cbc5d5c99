@@ -1,6 +1,6 @@
 // 1.21.6	-999999999-01-01T00:00:00	Fugo's Trails and Tales: Reimagined/Model Definitions
 12b3f4d65d4fd0333a479da9a7b6bdcb028e66a3 assets/fugos-trails-and-tales-reimagined/blockstates/blue_berry_bush.json
-56e590cfe1d272d84657de4cb373812e5a085e34 assets/fugos-trails-and-tales-reimagined/blockstates/blue_rose.json
+f09fbc8f80329dcdd41036f46b9c5a88d916e4aa assets/fugos-trails-and-tales-reimagined/blockstates/blue_rose_block.json
 e56d655e4ea77240f300e9150a65305251939be3 assets/fugos-trails-and-tales-reimagined/blockstates/chestnut_button.json
 8dc9b000cc08f347b853ba282583e9a8f17241a8 assets/fugos-trails-and-tales-reimagined/blockstates/chestnut_door.json
 eec7961bb9de8f2657968485338889f611d6651a assets/fugos-trails-and-tales-reimagined/blockstates/chestnut_fence.json
@@ -120,6 +120,7 @@ c28cb3c3bff0301729454561e4e1886f66f9d014 assets/fugos-trails-and-tales-reimagine
 14ba0421edf4773ad94c5c21bb00b83378598d5b assets/fugos-trails-and-tales-reimagined/items/blue_berry_bush.json
 cde70333f9e209b8ed44cfd736d61c564872850d assets/fugos-trails-and-tales-reimagined/items/blue_berry_jam.json
 6834c3e9146b68ac7db7b4e925ebbd7464da04ba assets/fugos-trails-and-tales-reimagined/items/blue_rose.json
+8f12b408b7cf17486914a29fa88aa144aa86cf15 assets/fugos-trails-and-tales-reimagined/items/blue_rose_block.json
 139a661b9d1c8c2ff5b51b18fcb1874ba1cc1ad1 assets/fugos-trails-and-tales-reimagined/items/chestnut_button.json
 c48b2b082fadc7b268ab10635ae0282a7143fccd assets/fugos-trails-and-tales-reimagined/items/chestnut_door.json
 090e6e61bc3df14ee275aa8770580a9b81c85bc3 assets/fugos-trails-and-tales-reimagined/items/chestnut_fence.json
@@ -144,6 +145,7 @@ e6107244b939f8b47f5bd50092cb5472a41079f4 assets/fugos-trails-and-tales-reimagine
 c16a20f571f267b454494d6cf1db30f05305ed15 assets/fugos-trails-and-tales-reimagined/items/estrolite.json
 965675fd92f5aafba3a6140cf86629023a9e3303 assets/fugos-trails-and-tales-reimagined/items/estrolite_ore.json
 04c25d264de199f059f90462ad291e8bcaeef3a0 assets/fugos-trails-and-tales-reimagined/items/garnet_clump.json
+d442a328c1d6c869374c74b6507f631910f24f60 assets/fugos-trails-and-tales-reimagined/items/kourtneys_estrogen.json
 46f9fd19cc5bb05ff705fe93dc7018eb76e32312 assets/fugos-trails-and-tales-reimagined/items/maple_button.json
 d276e482d97d8c092e5f513b7f5fd064f8d5cb96 assets/fugos-trails-and-tales-reimagined/items/maple_door.json
 dfb19351d1e5d75de46d0c5861263b4ed9a2806c assets/fugos-trails-and-tales-reimagined/items/maple_fence.json
@@ -256,7 +258,7 @@ e1b244c2b77bb2b80f6dddb309084a5a7e7f2d76 assets/fugos-trails-and-tales-reimagine
 dbd0017614da0478185bb2a3604d3d92bfd3aa04 assets/fugos-trails-and-tales-reimagined/models/block/blue_berry_bush_stage1.json
 cdd8eb7b50a1bc2c42666016d844a896b1fe8750 assets/fugos-trails-and-tales-reimagined/models/block/blue_berry_bush_stage2.json
 3d7a96fe9e8728e7566c0bdfcbfe73f83c91228a assets/fugos-trails-and-tales-reimagined/models/block/blue_berry_bush_stage3.json
-430dfd5c2e95a81a94bc67cc36eb39226817c821 assets/fugos-trails-and-tales-reimagined/models/block/blue_rose.json
+2ed92b8b6fddadb4387fc56397e7092b721007d5 assets/fugos-trails-and-tales-reimagined/models/block/blue_rose_block.json
 a66b75430eeb0f02e56317c6e56ceb472d943f7f assets/fugos-trails-and-tales-reimagined/models/block/chestnut_button.json
 7062cb60d5ba72737d09553cc4c283ee9bbe8cf4 assets/fugos-trails-and-tales-reimagined/models/block/chestnut_button_inventory.json
 78db1e571bb9f20efa410793127edceb6d9a569d assets/fugos-trails-and-tales-reimagined/models/block/chestnut_button_pressed.json
@@ -518,6 +520,7 @@ ef01b20d1eeee7bd11a57038b962f038912f443b assets/fugos-trails-and-tales-reimagine
 431950507351108201261dd564f478d3c1a10714 assets/fugos-trails-and-tales-reimagined/models/item/dried_rubber_clumps.json
 a3cff0dea21d6bd01b146c37f6a3ce316096f32d assets/fugos-trails-and-tales-reimagined/models/item/estrolite.json
 2993d86dd408a21e630192e2c317e6acc66be92c assets/fugos-trails-and-tales-reimagined/models/item/garnet_clump.json
+bc8ada75f073b2fee052ad0e91d07436a124a3a9 assets/fugos-trails-and-tales-reimagined/models/item/kourtneys_estrogen.json
 0473acb34e0e34319a7833a1280e0c516651db29 assets/fugos-trails-and-tales-reimagined/models/item/maple_door.json
 fbe9aac0376467fca71bd3f13d9e928620c1d7ed assets/fugos-trails-and-tales-reimagined/models/item/maple_sapling.json
 cd5f6412f1337626d7764aae9f043418f3afb6de assets/fugos-trails-and-tales-reimagined/models/item/mason_jar.json

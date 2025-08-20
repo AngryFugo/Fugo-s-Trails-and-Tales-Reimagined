@@ -185,6 +185,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.ESTROLITE_ORE);
                         entries.add(ModItems.ESTROLITE);
+                        entries.add(ModItems.KOURTNEYS_ESTROGEN);
 
                         entries.add(ModItems.ADAMANTITE_INGOT);
 
@@ -208,7 +209,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.NETHERITE_HORSE_ARMOR);
 
-                        entries.add(ModBlocks.BLUE_ROSE);
+                        entries.add(ModItems.BLUE_ROSE);
 
                         entries.add(ModBlocks.GARNET_CLUMP);
 

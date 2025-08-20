@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "fugos-trails-and-tales-reimagined:titanium_ingot",
+  "base": "minecraft:diamond_horse_armor",
+  "result": {
+    "count": 1,
+    "id": "fugos-trails-and-tales-reimagined:titanium_chestplate"
+  },
+  "template": "fugos-trails-and-tales-reimagined:netherite_horse_armor"
+}

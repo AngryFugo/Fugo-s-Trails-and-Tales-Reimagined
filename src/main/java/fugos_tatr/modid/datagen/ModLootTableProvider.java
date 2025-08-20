@@ -168,7 +168,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.ESTROLITE_ORE, multipleOreDrops(ModBlocks.ESTROLITE_ORE, ModItems.ESTROLITE, 1, 3));
 
-        addDrop(ModBlocks.BLUE_ROSE);
+        addDrop(ModBlocks.BLUE_ROSE_BLOCK);
 
         addDrop(ModBlocks.GARNET_CLUMP);
 

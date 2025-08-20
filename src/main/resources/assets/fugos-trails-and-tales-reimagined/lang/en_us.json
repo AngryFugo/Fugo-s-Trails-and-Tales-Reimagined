@@ -8,6 +8,9 @@
   "fugos-trails-and-tales-reimagined.adv.blueberry_jam": "It's jammed!",
   "fugos-trails-and-tales-reimagined.adv.blueberry_jam.desc": "Craft Blueberry Jam.",
 
+  "fugos-trails-and-tales-reimagined.adv.rubber_gloop": "I can't believe it's not rubber!",
+  "fugos-trails-and-tales-reimagined.adv.rubber_gloop.desc": "Obtain a bottle of Rubber Gloop",
+
 
 
   "itemgroup.fugos_trails_and_tales_reimagined_group": "Fugo's Trails and Tales: Reimagined",
@@ -182,6 +185,7 @@
   "item.fugos-trails-and-tales-reimagined.titanium_upgrade_smithing_template": "Titanium Upgrade Smithing Template",
 
   "item.fugos-trails-and-tales-reimagined.estrolite": "Estrolite",
+  "item.fugos-trails-and-tales-reimagined.kourtneys_estrogen": "Kourtney's Estrogen",
 
   "item.fugos-trails-and-tales-reimagined.ancient_tome": "Ancient Tome",
   "item.fugos-trails-and-tales-reimagined.alloy_elytra": "Alloy Elytra",
@@ -203,8 +207,10 @@
   "item.fugos-trails-and-tales-reimagined.titanium_leggings": "Titanium Leggings",
   "item.fugos-trails-and-tales-reimagined.titanium_boots": "Titanium Boots",
 
-  "block.fugos-trails-and-tales-reimagined.blue_rose": "Blue Rose",
+  "item.fugos-trails-and-tales-reimagined.blue_rose": "Blue Rose",
   "block.fugos-trails-and-tales-reimagined.garnet_clump": "Garnet Clump",
+
+  "item.fugos-trails-and-tales-reimagined.netherite_horse_armor": "Netherite Horse Armor",
 
   "item.fugos-trails-and-tales-reimagined.dried_rubber_clumps": "Dried Rubber Clumps",
   "block.fugos-trails-and-tales-reimagined.rubber_block": "Rubber Block",

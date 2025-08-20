@@ -45,6 +45,7 @@ public class ModItems {
     public static final Item TITANIUM_UPGRADE_SMITHING_TEMPLATE = registerAlt("titanium_upgrade_smithing_template", SmithingTemplateItem::of);
 
     public static final Item ESTROLITE = register("estrolite", Item::new, new Item.Settings().food(ModFoodComponents.ESTROLITE, ConsumableComponents.food().consumeEffect(new ApplyEffectsConsumeEffect(List.of(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 2), new StatusEffectInstance(StatusEffects.RESISTANCE, 100, 2), new StatusEffectInstance(StatusEffects.REGENERATION, 100, 4)))).build()));
+    public static final Item KOURTNEYS_ESTROGEN = register("kourtneys_estrogen", Item::new, new Item.Settings().food(ModFoodComponents.KOURTNEYS_ESTROGEN, ConsumableComponents.food().consumeEffect(new ApplyEffectsConsumeEffect(List.of(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 2), new StatusEffectInstance(StatusEffects.RESISTANCE, 100, 2), new StatusEffectInstance(StatusEffects.REGENERATION, 100, 4)))).build()).maxCount(99).rarity(Rarity.EPIC));
 
     public static final Item ADAMANTITE_INGOT = register("adamantite_ingot", Item::new, new Item.Settings());
 
@@ -65,6 +66,8 @@ public class ModItems {
 
     // public static final Item NETHERITE_TRIDENT = register("netherite_trident", NetheriteTridentItem::new, new Item.Settings().rarity(Rarity.RARE).maxDamage(750).attributeModifiers(TridentItem.createAttributeModifiers()).component(DataComponentTypes.TOOL, TridentItem.createToolComponent()).enchantable(3).component(DataComponentTypes.WEAPON, new WeaponComponent(2)));
     public static final Item NETHERITE_HORSE_ARMOR = register("netherite_horse_armor", settings -> new Item(settings.horseArmor(ArmorMaterials.NETHERITE).maxCount(1)), new Item.Settings());
+
+    public static final Item BLUE_ROSE = register("blue_rose", createBlockItemWithUniqueName(ModBlocks.BLUE_ROSE_BLOCK), new Item.Settings().rarity(Rarity.RARE));
 
     public static final Item DRIED_RUBBER_CLUMPS = register("dried_rubber_clumps", createBlockItemWithUniqueName(ModBlocks.DRIED_RUBBER_CLUMPS_BLOCK), new Item.Settings());
     public static final Item RUBBER_GLOOP_BOTTLE = register("rubber_gloop_bottle", Item::new, new Item.Settings().food(ModFoodComponents.RUBBER_GLOOP, ConsumableComponents.drink().consumeSeconds(2.0F).consumeEffect(new ApplyEffectsConsumeEffect(List.of(new StatusEffectInstance(StatusEffects.POISON, 600, 9), new StatusEffectInstance(StatusEffects.WEAKNESS, 600, 9), new StatusEffectInstance(StatusEffects.SLOWNESS, 600, 9), new StatusEffectInstance(StatusEffects.BLINDNESS, 600, 9), new StatusEffectInstance(StatusEffects.WITHER, 600, 9), new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 20, 9)))).build()).useRemainder(Items.GLASS_BOTTLE));
