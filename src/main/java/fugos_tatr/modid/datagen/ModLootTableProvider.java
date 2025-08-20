@@ -160,6 +160,26 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
 
 
+        addDrop(ModBlocks.RUBBER_PROPAGULE);
+
+        addDrop(ModBlocks.RUBBER_LEAVES, leavesDrops(ModBlocks.RUBBER_LEAVES, ModBlocks.RUBBER_PROPAGULE, 0.0625f));
+
+        addDrop(ModBlocks.RUBBER_LOG);
+        addDrop(ModBlocks.STRIPPED_RUBBER_LOG);
+        addDrop(ModBlocks.RUBBER_WOOD);
+        addDrop(ModBlocks.STRIPPED_RUBBER_WOOD);
+
+        addDrop(ModBlocks.RUBBER_PLANKS);
+
+        addDrop(ModBlocks.RUBBER_STAIRS);
+        addDrop(ModBlocks.RUBBER_SLAB);
+        addDrop(ModBlocks.RUBBER_BUTTON);
+        addDrop(ModBlocks.RUBBER_PRESSURE_PLATE);
+        addDrop(ModBlocks.RUBBER_FENCE);
+        addDrop(ModBlocks.RUBBER_FENCE_GATE);
+
+
+
         addDrop(ModBlocks.DEAD_PLANKS);
 
         addDrop(ModBlocks.DEAD_STAIRS);
