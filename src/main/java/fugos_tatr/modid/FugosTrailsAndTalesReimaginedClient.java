@@ -28,8 +28,16 @@ public class FugosTrailsAndTalesReimaginedClient implements ClientModInitializer
         BlockRenderLayerMap.putBlock(ModBlocks.PINE_DOOR, BlockRenderLayer.CUTOUT);
         BlockRenderLayerMap.putBlock(ModBlocks.PINE_TRAPDOOR, BlockRenderLayer.CUTOUT);
 
+        BlockRenderLayerMap.putBlock(ModBlocks.PALM_SEED, BlockRenderLayer.CUTOUT);
 
+        BlockRenderLayerMap.putBlock(ModBlocks.RUBBER_PROPAGULE, BlockRenderLayer.CUTOUT);
 
         BlockRenderLayerMap.putBlock(ModBlocks.BLUE_BERRY_BUSH, BlockRenderLayer.CUTOUT);
+
+        BlockRenderLayerMap.putBlock(ModBlocks.BLUE_ROSE, BlockRenderLayer.CUTOUT);
+
+        BlockRenderLayerMap.putBlock(ModBlocks.GARNET_CLUMP, BlockRenderLayer.CUTOUT);
+
+        BlockRenderLayerMap.putBlock(ModBlocks.DRIED_RUBBER_CLUMPS_BLOCK, BlockRenderLayer.CUTOUT);
     }
 }

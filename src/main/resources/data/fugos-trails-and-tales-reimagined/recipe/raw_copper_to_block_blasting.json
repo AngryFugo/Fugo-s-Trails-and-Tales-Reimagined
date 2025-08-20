@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:raw_copper_block",
+  "result": {
+    "count": 1,
+    "id": "copper_block"
+  }
+}

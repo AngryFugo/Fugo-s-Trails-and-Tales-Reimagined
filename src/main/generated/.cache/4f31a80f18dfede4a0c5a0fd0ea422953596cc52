@@ -1,4 +1,5 @@
 // 1.21.6	-999999999-01-01T00:00:00	Fugo's Trails and Tales: Reimagined/Block Loot Tables
+620bbff3bb1ab1951818468fda73764768ab7a4c data/fugos-trails-and-tales-reimagined/loot_table/blocks/blue_rose.json
 281cb2fd7e9d732a063f8e81afa1e11fb46cc0da data/fugos-trails-and-tales-reimagined/loot_table/blocks/chestnut_button.json
 c62d07131abba0a61020bad21f9ac9957bda95bc data/fugos-trails-and-tales-reimagined/loot_table/blocks/chestnut_door.json
 e23f2152c5ab136caaa2e78ea548be8bdf4b7861 data/fugos-trails-and-tales-reimagined/loot_table/blocks/chestnut_fence.json
@@ -17,6 +18,9 @@ c623698fed421c1aa185524283e5e77864f9c66f data/fugos-trails-and-tales-reimagined/
 9470fe7bfd0484c6d39755f2dd729ad6211eb2bb data/fugos-trails-and-tales-reimagined/loot_table/blocks/cobbled_salt_stairs.json
 194c020c1b7ba7de34d3acb91c8f27073254587d data/fugos-trails-and-tales-reimagined/loot_table/blocks/cobbled_salt_wall.json
 2168124df7d2a009aa43e5a54144d992f4060cf3 data/fugos-trails-and-tales-reimagined/loot_table/blocks/deepslate_titanium_ore.json
+f300ba3d7767215b076f4ab913aca9834c260b8a data/fugos-trails-and-tales-reimagined/loot_table/blocks/dried_rubber_clumps_block.json
+50b722e4e5093768b43475ceb579c291706d3d50 data/fugos-trails-and-tales-reimagined/loot_table/blocks/estrolite_ore.json
+de397bf2517f6de7934f880908c2a84bf26dfe8f data/fugos-trails-and-tales-reimagined/loot_table/blocks/garnet_clump.json
 291899326eb2a769b69869ceed264bc14a4d90e4 data/fugos-trails-and-tales-reimagined/loot_table/blocks/maple_button.json
 2b6d5b2b6f599450a26f83b0d5451ffe90386d49 data/fugos-trails-and-tales-reimagined/loot_table/blocks/maple_door.json
 b33551d3c132d32959ef0aab05b82dabe4712b8c data/fugos-trails-and-tales-reimagined/loot_table/blocks/maple_fence.json
@@ -30,6 +34,17 @@ fc38a303ee52e255256d17f4888755ba96e49c5c data/fugos-trails-and-tales-reimagined/
 da829bd219f3617019ab3094db5fb062dc21f291 data/fugos-trails-and-tales-reimagined/loot_table/blocks/maple_stairs.json
 483313aa2ebb1b4a092ad227d68ca52d9bf2e4db data/fugos-trails-and-tales-reimagined/loot_table/blocks/maple_trapdoor.json
 c1878d683407f05b8f868754543e01c64ff20a0c data/fugos-trails-and-tales-reimagined/loot_table/blocks/maple_wood.json
+ea5d061f36097b1043985163f995062041bb7107 data/fugos-trails-and-tales-reimagined/loot_table/blocks/palm_button.json
+424b8aefb324038282081a89c996b645a8b07345 data/fugos-trails-and-tales-reimagined/loot_table/blocks/palm_fence.json
+f5ba47055ade25754b61f91edc452ad900158197 data/fugos-trails-and-tales-reimagined/loot_table/blocks/palm_fence_gate.json
+91f78adf1bd5cd3912867e2dbea8ccc5f389aee1 data/fugos-trails-and-tales-reimagined/loot_table/blocks/palm_leaves.json
+0b961e64de7c728214f86ffb218c5d9f0c0dcefc data/fugos-trails-and-tales-reimagined/loot_table/blocks/palm_log.json
+a4a5c0df35cd2c3b4780aafeb8a9bd794d750c92 data/fugos-trails-and-tales-reimagined/loot_table/blocks/palm_planks.json
+83abe0da915718daba69e85ebded830f6060b256 data/fugos-trails-and-tales-reimagined/loot_table/blocks/palm_pressure_plate.json
+d533dd150feec7a4d771cd48093198d4e23048ef data/fugos-trails-and-tales-reimagined/loot_table/blocks/palm_seed.json
+f5fa65f9997eb221a1cbcb9670fdffb62bcc2d54 data/fugos-trails-and-tales-reimagined/loot_table/blocks/palm_slab.json
+35610ce94a42a2dc95f39ab3e576df7a04c5e2c1 data/fugos-trails-and-tales-reimagined/loot_table/blocks/palm_stairs.json
+a7dc96f05291c195ecf0410d1ab818ce85ec6a03 data/fugos-trails-and-tales-reimagined/loot_table/blocks/palm_wood.json
 e5f75b4de2b1e36f91d8c6f79f8d995a4e3dd9a6 data/fugos-trails-and-tales-reimagined/loot_table/blocks/pear_button.json
 b04ecba404ab4355aac93c932862839935a2d53d data/fugos-trails-and-tales-reimagined/loot_table/blocks/pear_door.json
 c9063da185a5bb120d6611c3c232b98b7f3499b5 data/fugos-trails-and-tales-reimagined/loot_table/blocks/pear_fence.json
@@ -56,13 +71,23 @@ b2a5fb1175accc2c4fc29123fcead3edc3d1d8f6 data/fugos-trails-and-tales-reimagined/
 9c0e530830eda1d0dfda32af2e853caa3a2866c2 data/fugos-trails-and-tales-reimagined/loot_table/blocks/pine_stairs.json
 7c10709bc1594b9bad15090fc3964398dac6de6e data/fugos-trails-and-tales-reimagined/loot_table/blocks/pine_trapdoor.json
 27915e6b63065157f4872490d711001567c096d8 data/fugos-trails-and-tales-reimagined/loot_table/blocks/pine_wood.json
+911722582ed21adc8e67f026a7d57fc52add7033 data/fugos-trails-and-tales-reimagined/loot_table/blocks/raw_titanium_block.json
+337db0580b6211146d45f65705f0d379be8a877a data/fugos-trails-and-tales-reimagined/loot_table/blocks/rubber_block.json
 1ed4d8f0b4a38a1749b67fbe8c3481e2eac03cf4 data/fugos-trails-and-tales-reimagined/loot_table/blocks/salt_block.json
+33ccb3e17bcd9b063a784f8e33ce9ea0ce5b80d8 data/fugos-trails-and-tales-reimagined/loot_table/blocks/salt_block_slab.json
+bca48c1d305ee20a1004dc2841987d11ba23e155 data/fugos-trails-and-tales-reimagined/loot_table/blocks/salt_block_stairs.json
+a1aaab5a48cfbf0969a34788f0164af13e8e9a8d data/fugos-trails-and-tales-reimagined/loot_table/blocks/salt_block_wall.json
+6880faadfccbdd54a65152fe548b0fd3d5d31205 data/fugos-trails-and-tales-reimagined/loot_table/blocks/salt_brick_slab.json
+45e2b3d59bbf28accfa94816b458840a3e86969d data/fugos-trails-and-tales-reimagined/loot_table/blocks/salt_brick_stairs.json
+da18ac7a6bb2721ce7294f9a960753a5f3cd1fb5 data/fugos-trails-and-tales-reimagined/loot_table/blocks/salt_brick_wall.json
 908eda71714e65fc94198200d767f196b2b79d00 data/fugos-trails-and-tales-reimagined/loot_table/blocks/salt_bricks.json
 02dd968751a1a68fb90fd7a1ded63d55b97003f8 data/fugos-trails-and-tales-reimagined/loot_table/blocks/salt_tiles.json
 e9dc5c37368b914a6ddfaac7a9f423253f0d0b53 data/fugos-trails-and-tales-reimagined/loot_table/blocks/stripped_chestnut_log.json
 e2cd74e95cc1e679de333f993fa28ff168d71440 data/fugos-trails-and-tales-reimagined/loot_table/blocks/stripped_chestnut_wood.json
 1ad1e285d78f004fd210d5680c64238d002722d3 data/fugos-trails-and-tales-reimagined/loot_table/blocks/stripped_maple_log.json
 0dfe6e27325420865e9c7bf8f0fdc8a60d7d0dc9 data/fugos-trails-and-tales-reimagined/loot_table/blocks/stripped_maple_wood.json
+c57a9770b6ff7a1a071a23750c15f281880d7b0c data/fugos-trails-and-tales-reimagined/loot_table/blocks/stripped_palm_log.json
+c8f8186db2633974e3bb6a71bfb633de02ebecda data/fugos-trails-and-tales-reimagined/loot_table/blocks/stripped_palm_wood.json
 c602bba6297eb7f751944ffeb1ed5c044c6948c4 data/fugos-trails-and-tales-reimagined/loot_table/blocks/stripped_pear_log.json
 79ab7a1867d5ee9dd64ffa6287528c8b4bbe4327 data/fugos-trails-and-tales-reimagined/loot_table/blocks/stripped_pear_wood.json
 89570b78484444416978ba9bf3066694fc2ef3e7 data/fugos-trails-and-tales-reimagined/loot_table/blocks/stripped_pine_log.json

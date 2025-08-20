@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "fugos-trails-and-tales-reimagined:block/palm_planks"
+  }
+}

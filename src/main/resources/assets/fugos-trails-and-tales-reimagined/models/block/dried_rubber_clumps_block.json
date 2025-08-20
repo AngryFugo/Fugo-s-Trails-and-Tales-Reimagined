@@ -1,0 +1,16 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "fugos-trails-and-tales-reimagined:block/dried_rubber_clumps_block",
+    "texture": "fugos-trails-and-tales-reimagined:block/dried_rubber_clumps_block"
+  },
+  "elements": [
+    {   "from": [ 0, 0, 0.1 ],
+      "to": [ 16, 16, 0.1 ],
+      "faces": {
+        "north": { "uv": [ 16, 0, 0, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+      }
+    }
+  ]
+}

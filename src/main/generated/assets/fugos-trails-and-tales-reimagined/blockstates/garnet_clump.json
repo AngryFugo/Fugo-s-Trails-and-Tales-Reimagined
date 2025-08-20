@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "fugos-trails-and-tales-reimagined:block/garnet_clump",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "fugos-trails-and-tales-reimagined:block/garnet_clump",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "fugos-trails-and-tales-reimagined:block/garnet_clump",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "fugos-trails-and-tales-reimagined:block/garnet_clump",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "fugos-trails-and-tales-reimagined:block/garnet_clump"
+    },
+    "facing=west": {
+      "model": "fugos-trails-and-tales-reimagined:block/garnet_clump",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

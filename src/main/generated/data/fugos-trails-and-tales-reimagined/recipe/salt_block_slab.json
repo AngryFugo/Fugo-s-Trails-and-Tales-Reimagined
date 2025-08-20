@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "fugos-trails-and-tales-reimagined:salt_block"
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "RRR"
+  ],
+  "result": {
+    "count": 6,
+    "id": "fugos-trails-and-tales-reimagined:salt_block_slab"
+  }
+}

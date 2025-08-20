@@ -19,8 +19,11 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> CHESTNUT_TREE_PLACED_KEY = registerKey("chestnut_tree_placed");
     public static final RegistryKey<PlacedFeature> MAPLE_TREE_PLACED_KEY = registerKey("maple_tree_placed");
     public static final RegistryKey<PlacedFeature> PINE_TREE_PLACED_KEY = registerKey("pine_tree_placed");
+    public static final RegistryKey<PlacedFeature> PALM_TREE_PLACED_KEY = registerKey("palm_tree_placed");
+    public static final RegistryKey<PlacedFeature> RUBBER_TREE_PLACED_KEY = registerKey("rubber_tree_placed");
 
     public static final RegistryKey<PlacedFeature> TITANIUM_PLACED_KEY = registerKey("titanium_placed");
+    public static final RegistryKey<PlacedFeature> ESTROLITE_PLACED_KEY = registerKey("estrolite_placed");
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
@@ -41,11 +44,24 @@ public class ModPlacedFeatures {
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
                         PlacedFeatures.createCountExtraModifier(2, 0.1f, 2), ModBlocks.PINE_SAPLING));
 
+        register(context, PALM_TREE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.PALM_TREE_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
+                        PlacedFeatures.createCountExtraModifier(0,0.1f,1), ModBlocks.PALM_SEED));
+
+        register(context, RUBBER_TREE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RUBBER_TREE_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
+                        PlacedFeatures.createCountExtraModifier(0, 0.1f, 1), ModBlocks.RUBBER_PROPAGULE));
+
 
 
         register(context, TITANIUM_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TITANIUM_KEY),
                 ModOrePlacement.modifiersWithCount(4,
                         HeightRangePlacementModifier.uniform(YOffset.fixed(-20), YOffset.fixed(20))));
+
+
+        register(context, ESTROLITE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ESTROLITE_KEY),
+                ModOrePlacement.modifiersWithCount(3,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-50), YOffset.fixed(50))));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {

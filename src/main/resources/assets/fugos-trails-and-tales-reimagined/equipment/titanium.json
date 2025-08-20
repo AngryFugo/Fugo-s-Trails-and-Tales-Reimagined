@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "fugos-trails-and-tales-reimagined:titanium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "fugos-trails-and-tales-reimagined:titanium"
+      }
+    ]
+  }
+}

@@ -13,9 +13,24 @@
   "itemgroup.fugos_trails_and_tales_reimagined_group": "Fugo's Trails and Tales: Reimagined",
 
   "block.fugos-trails-and-tales-reimagined.cobbled_salt": "Cobbled Salt",
+  "block.fugos-trails-and-tales-reimagined.cobbled_salt_stairs": "Cobbled Salt Stairs",
+  "block.fugos-trails-and-tales-reimagined.cobbled_salt_slab": "Cobbled Salt Slab",
+  "block.fugos-trails-and-tales-reimagined.cobbled_salt_wall": "Cobbled Salt Wall",
+
   "block.fugos-trails-and-tales-reimagined.salt_block": "Salt Block",
+  "block.fugos-trails-and-tales-reimagined.salt_block_stairs": "Salt Block Stairs",
+  "block.fugos-trails-and-tales-reimagined.salt_block_slab": "Salt Block Slab",
+  "block.fugos-trails-and-tales-reimagined.salt_block_wall": "Salt Block Wall",
+
   "block.fugos-trails-and-tales-reimagined.salt_bricks": "Salt Bricks",
+  "block.fugos-trails-and-tales-reimagined.salt_brick_stairs": "Salt Brick Stairs",
+  "block.fugos-trails-and-tales-reimagined.salt_brick_slab": "Salt Brick Slab",
+  "block.fugos-trails-and-tales-reimagined.salt_brick_wall": "Salt Brick Wall",
+
   "block.fugos-trails-and-tales-reimagined.salt_tiles": "Salt Tiles",
+  "block.fugos-trails-and-tales-reimagined.salt_tile_stairs": "Salt Tile Stairs",
+  "block.fugos-trails-and-tales-reimagined.salt_tile_slab": "Salt Tile Slab",
+  "block.fugos-trails-and-tales-reimagined.salt_tile_wall": "Salt Tile Wall",
 
   "block.fugos-trails-and-tales-reimagined.pear_sapling": "Pear Sapling",
 
@@ -105,6 +120,46 @@
 
 
 
+  "block.fugos-trails-and-tales-reimagined.palm_seed": "Palm Seed",
+
+  "block.fugos-trails-and-tales-reimagined.palm_leaves": "Palm Leaves",
+
+  "block.fugos-trails-and-tales-reimagined.palm_log": "Palm Log",
+  "block.fugos-trails-and-tales-reimagined.stripped_palm_log": "Stripped Palm Log",
+  "block.fugos-trails-and-tales-reimagined.palm_wood": "Palm Wood",
+  "block.fugos-trails-and-tales-reimagined.stripped_palm_wood": "Stripped Palm Wood",
+
+  "block.fugos-trails-and-tales-reimagined.palm_planks": "Palm Planks",
+
+  "block.fugos-trails-and-tales-reimagined.palm_stairs": "Palm Stairs",
+  "block.fugos-trails-and-tales-reimagined.palm_slab": "Palm Slab",
+  "block.fugos-trails-and-tales-reimagined.palm_button": "Palm Button",
+  "block.fugos-trails-and-tales-reimagined.palm_pressure_plate": "Palm Pressure Plate",
+  "block.fugos-trails-and-tales-reimagined.palm_fence": "Palm Fence",
+  "block.fugos-trails-and-tales-reimagined.palm_fence_gate": "Palm Fence Gate",
+
+
+
+  "block.fugos-trails-and-tales-reimagined.rubber_propagule": "Rubber Propagule",
+
+  "block.fugos-trails-and-tales-reimagined.rubber_leaves": "Rubber Leaves",
+
+  "block.fugos-trails-and-tales-reimagined.rubber_log": "Rubber Log",
+  "block.fugos-trails-and-tales-reimagined.stripped_rubber_log": "Stripped Rubber Log",
+  "block.fugos-trails-and-tales-reimagined.rubber_wood": "Rubber Wood",
+  "block.fugos-trails-and-tales-reimagined.stripped_rubber_wood": "Stripped Rubber Wood",
+
+  "block.fugos-trails-and-tales-reimagined.rubber_planks": "Rubber Planks",
+
+  "block.fugos-trails-and-tales-reimagined.rubber_stairs": "Rubber Stairs",
+  "block.fugos-trails-and-tales-reimagined.rubber_slab": "Rubber Slab",
+  "block.fugos-trails-and-tales-reimagined.rubber_button": "Rubber Button",
+  "block.fugos-trails-and-tales-reimagined.rubber_pressure_plate": "Rubber Pressure Plate",
+  "block.fugos-trails-and-tales-reimagined.rubber_fence": "Rubber Fence",
+  "block.fugos-trails-and-tales-reimagined.rubber_fence_gate": "Rubber Fence Gate",
+
+
+
   "item.fugos-trails-and-tales-reimagined.mason_jar": "Mason Jar",
 
   "item.fugos-trails-and-tales-reimagined.pear": "Pear",
@@ -117,20 +172,44 @@
   "block.fugos-trails-and-tales-reimagined.titanium_ore": "Titanium Ore",
   "block.fugos-trails-and-tales-reimagined.tuff_titanium_ore": "Tuff Titanium Ore",
   "block.fugos-trails-and-tales-reimagined.deepslate_titanium_ore": "Deepslate Titanium Ore",
+  "block.fugos-trails-and-tales-reimagined.raw_titanium_block": "Raw Titanium Block",
   "block.fugos-trails-and-tales-reimagined.titanium_block": "Titanium Block",
+
+  "block.fugos-trails-and-tales-reimagined.estrolite_ore": "Estrolite Ore",
 
   "item.fugos-trails-and-tales-reimagined.raw_titanium": "Raw Titanium",
   "item.fugos-trails-and-tales-reimagined.titanium_ingot": "Titanium Ingot",
   "item.fugos-trails-and-tales-reimagined.titanium_upgrade_smithing_template": "Titanium Upgrade Smithing Template",
 
+  "item.fugos-trails-and-tales-reimagined.estrolite": "Estrolite",
+
   "item.fugos-trails-and-tales-reimagined.ancient_tome": "Ancient Tome",
   "item.fugos-trails-and-tales-reimagined.alloy_elytra": "Alloy Elytra",
+
+  "item.fugos-trails-and-tales-reimagined.adamantite_ingot": "Adamantite Ingot",
+
+  "item.fugos-trails-and-tales-reimagined.cobalt_ingot": "Cobalt Ingot",
+
+  "item.fugos-trails-and-tales-reimagined.mythril_ingot": "Mythril Ingot",
 
   "item.fugos-trails-and-tales-reimagined.titanium_sword": "Titanium Sword",
   "item.fugos-trails-and-tales-reimagined.titanium_shovel": "Titanium Shovel",
   "item.fugos-trails-and-tales-reimagined.titanium_pickaxe": "Titanium Pickaxe",
   "item.fugos-trails-and-tales-reimagined.titanium_axe": "Titanium Axe",
   "item.fugos-trails-and-tales-reimagined.titanium_hoe": "Titanium Hoe",
+
+  "item.fugos-trails-and-tales-reimagined.titanium_helmet": "Titanium Helmet",
+  "item.fugos-trails-and-tales-reimagined.titanium_chestplate": "Titanium Chestplate",
+  "item.fugos-trails-and-tales-reimagined.titanium_leggings": "Titanium Leggings",
+  "item.fugos-trails-and-tales-reimagined.titanium_boots": "Titanium Boots",
+
+  "block.fugos-trails-and-tales-reimagined.blue_rose": "Blue Rose",
+  "block.fugos-trails-and-tales-reimagined.garnet_clump": "Garnet Clump",
+
+  "item.fugos-trails-and-tales-reimagined.dried_rubber_clumps": "Dried Rubber Clumps",
+  "block.fugos-trails-and-tales-reimagined.rubber_block": "Rubber Block",
+
+  "item.fugos-trails-and-tales-reimagined.rubber_gloop_bottle": "Rubber Gloop Bottle",
 
   "item.fugos-trails-and-tales-reimagined.alleycat_daggers": "Alleycat Daggers"
 }

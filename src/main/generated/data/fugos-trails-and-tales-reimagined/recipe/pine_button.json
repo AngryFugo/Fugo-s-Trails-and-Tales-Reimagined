@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "fugos-trails-and-tales-reimagined:pine_planks"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fugos-trails-and-tales-reimagined:pine_button"
+  }
+}

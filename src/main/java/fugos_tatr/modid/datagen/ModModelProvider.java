@@ -2,9 +2,11 @@ package fugos_tatr.modid.datagen;
 
 import fugos_tatr.modid.block.ModBlocks;
 import fugos_tatr.modid.block.custom.BlueBerryBush;
+import fugos_tatr.modid.item.ModArmorMaterials;
 import fugos_tatr.modid.item.ModItems;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.minecraft.block.Blocks;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
@@ -101,6 +103,42 @@ public class ModModelProvider extends FabricModelProvider {
 
 
 
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.PALM_SEED, BlockStateModelGenerator.CrossType.NOT_TINTED);
+
+        blockStateModelGenerator.registerSingleton(ModBlocks.PALM_LEAVES, TexturedModel.LEAVES);
+
+        blockStateModelGenerator.createLogTexturePool(ModBlocks.PALM_LOG).log(ModBlocks.PALM_LOG).wood(ModBlocks.PALM_WOOD);
+        blockStateModelGenerator.createLogTexturePool(ModBlocks.STRIPPED_PALM_LOG).log(ModBlocks.STRIPPED_PALM_LOG).wood(ModBlocks.STRIPPED_PALM_WOOD);
+
+        BlockStateModelGenerator.BlockTexturePool palmPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PALM_PLANKS);
+
+        palmPool.stairs(ModBlocks.PALM_STAIRS);
+        palmPool.slab(ModBlocks.PALM_SLAB);
+        palmPool.button(ModBlocks.PALM_BUTTON);
+        palmPool.pressurePlate(ModBlocks.PALM_PRESSURE_PLATE);
+        palmPool.fence(ModBlocks.PALM_FENCE);
+        palmPool.fenceGate(ModBlocks.PALM_FENCE_GATE);
+
+
+
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.RUBBER_PROPAGULE, BlockStateModelGenerator.CrossType.NOT_TINTED);
+
+        blockStateModelGenerator.registerSingleton(ModBlocks.RUBBER_LEAVES, TexturedModel.LEAVES);
+
+        blockStateModelGenerator.createLogTexturePool(ModBlocks.RUBBER_LOG).log(ModBlocks.RUBBER_LOG).wood(ModBlocks.RUBBER_WOOD);
+        blockStateModelGenerator.createLogTexturePool(ModBlocks.STRIPPED_RUBBER_LOG).log(ModBlocks.STRIPPED_RUBBER_LOG).wood(ModBlocks.STRIPPED_RUBBER_WOOD);
+
+        BlockStateModelGenerator.BlockTexturePool rubberPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RUBBER_PLANKS);
+
+        rubberPool.stairs(ModBlocks.RUBBER_STAIRS);
+        rubberPool.slab(ModBlocks.RUBBER_SLAB);
+        rubberPool.button(ModBlocks.RUBBER_BUTTON);
+        rubberPool.pressurePlate(ModBlocks.RUBBER_PRESSURE_PLATE);
+        rubberPool.fence(ModBlocks.RUBBER_FENCE);
+        rubberPool.fenceGate(ModBlocks.RUBBER_FENCE_GATE);
+
+
+
         blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BLUE_BERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED,
                 BlueBerryBush.AGE, 0, 1, 2, 3);
 
@@ -112,14 +150,38 @@ public class ModModelProvider extends FabricModelProvider {
         cobbled_salt_pool.slab(ModBlocks.COBBLED_SALT_SLAB);
         cobbled_salt_pool.wall(ModBlocks.COBBLED_SALT_WALL);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SALT_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SALT_BRICKS);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SALT_TILES);
+        BlockStateModelGenerator.BlockTexturePool salt_block_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SALT_BLOCK);
+
+        salt_block_pool.stairs(ModBlocks.SALT_BLOCK_STAIRS);
+        salt_block_pool.slab(ModBlocks.SALT_BLOCK_SLAB);
+        salt_block_pool.wall(ModBlocks.SALT_BLOCK_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool salt_brick_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SALT_BRICKS);
+
+        salt_brick_pool.stairs(ModBlocks.SALT_BRICK_STAIRS);
+        salt_brick_pool.slab(ModBlocks.SALT_BRICK_SLAB);
+        salt_brick_pool.wall(ModBlocks.SALT_BRICK_WALL);
+
+        BlockStateModelGenerator.BlockTexturePool salt_tile_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SALT_TILES);
+
+        salt_tile_pool.stairs(ModBlocks.SALT_TILE_STAIRS);
+        salt_tile_pool.slab(ModBlocks.SALT_TILE_SLAB);
+        salt_tile_pool.wall(ModBlocks.SALT_TILE_WALL);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TITANIUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TUFF_TITANIUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_TITANIUM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_TITANIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TITANIUM_BLOCK);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ESTROLITE_ORE);
+
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.BLUE_ROSE, BlockStateModelGenerator.CrossType.NOT_TINTED);
+
+        blockStateModelGenerator.registerAmethyst(ModBlocks.GARNET_CLUMP);
+
+        blockStateModelGenerator.registerMultifaceBlock(ModBlocks.DRIED_RUBBER_CLUMPS_BLOCK, ModItems.DRIED_RUBBER_CLUMPS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBBER_BLOCK);
     }
 
     @Override
@@ -132,8 +194,6 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModBlocks.PINE_SAPLING.asItem(), Models.GENERATED);
 
-
-
         itemModelGenerator.register(ModItems.MASON_JAR, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.PEAR, Models.GENERATED);
@@ -145,6 +205,14 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TITANIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.TITANIUM_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.ESTROLITE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.ADAMANTITE_INGOT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.COBALT_INGOT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.MYTHRIL_INGOT, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.ANCIENT_TOME, Models.GENERATED);
         itemModelGenerator.register(ModItems.ALLOY_ELYTRA, Models.GENERATED);
 
@@ -153,6 +221,19 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TITANIUM_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TITANIUM_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TITANIUM_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(ModItems.TITANIUM_HELMET, ModArmorMaterials.TITANIUM_ARMOR_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ModItems.TITANIUM_CHESTPLATE, ModArmorMaterials.TITANIUM_ARMOR_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ModItems.TITANIUM_LEGGINGS, ModArmorMaterials.TITANIUM_ARMOR_KEY, ItemModelGenerator.LEGGINGS_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ModItems.TITANIUM_BOOTS, ModArmorMaterials.TITANIUM_ARMOR_KEY, ItemModelGenerator.BOOTS_TRIM_ID_PREFIX, false);
+
+        itemModelGenerator.register(ModItems.NETHERITE_HORSE_ARMOR, Models.GENERATED);
+
+        itemModelGenerator.register(ModBlocks.BLUE_ROSE.asItem(), Models.GENERATED);
+
+        itemModelGenerator.register(ModBlocks.GARNET_CLUMP.asItem(), Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.RUBBER_GLOOP_BOTTLE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.ALLEYCAT_DAGGERS, Models.HANDHELD);
     }

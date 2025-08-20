@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fugos-trails-and-tales-reimagined:block/rubber_slab"
+    },
+    "type=double": {
+      "model": "fugos-trails-and-tales-reimagined:block/rubber_planks"
+    },
+    "type=top": {
+      "model": "fugos-trails-and-tales-reimagined:block/rubber_slab_top"
+    }
+  }
+}

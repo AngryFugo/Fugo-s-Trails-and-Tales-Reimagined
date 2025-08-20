@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "fugos-trails-and-tales-reimagined:block/rubber_planks"
+  }
+}

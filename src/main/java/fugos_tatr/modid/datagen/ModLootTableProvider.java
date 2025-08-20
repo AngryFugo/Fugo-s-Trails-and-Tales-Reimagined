@@ -8,7 +8,6 @@ import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
-import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.condition.TableBonusLootCondition;
@@ -38,7 +37,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.COBBLED_SALT_WALL);
 
         addDrop(ModBlocks.SALT_BLOCK);
+        addDrop(ModBlocks.SALT_BLOCK_STAIRS);
+        addDrop(ModBlocks.SALT_BLOCK_SLAB);
+        addDrop(ModBlocks.SALT_BLOCK_WALL);
+
         addDrop(ModBlocks.SALT_BRICKS);
+        addDrop(ModBlocks.SALT_BRICK_STAIRS);
+        addDrop(ModBlocks.SALT_BRICK_SLAB);
+        addDrop(ModBlocks.SALT_BRICK_WALL);
+
         addDrop(ModBlocks.SALT_TILES);
 
         addDrop(ModBlocks.PEAR_SAPLING);
@@ -132,10 +139,41 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PINE_TRAPDOOR);
 
 
+
+        addDrop(ModBlocks.PALM_SEED);
+
+        addDrop(ModBlocks.PALM_LEAVES, leavesDrops(ModBlocks.PALM_LEAVES, ModBlocks.PALM_SEED, 0.0625f));
+
+        addDrop(ModBlocks.PALM_LOG);
+        addDrop(ModBlocks.STRIPPED_PALM_LOG);
+        addDrop(ModBlocks.PALM_WOOD);
+        addDrop(ModBlocks.STRIPPED_PALM_WOOD);
+
+        addDrop(ModBlocks.PALM_PLANKS);
+
+        addDrop(ModBlocks.PALM_STAIRS);
+        addDrop(ModBlocks.PALM_SLAB);
+        addDrop(ModBlocks.PALM_BUTTON);
+        addDrop(ModBlocks.PALM_PRESSURE_PLATE);
+        addDrop(ModBlocks.PALM_FENCE);
+        addDrop(ModBlocks.PALM_FENCE_GATE);
+
+
+
         addDrop(ModBlocks.TITANIUM_ORE, multipleOreDrops(ModBlocks.TITANIUM_ORE, ModItems.RAW_TITANIUM, 1, 2));
         addDrop(ModBlocks.TUFF_TITANIUM_ORE, multipleOreDrops(ModBlocks.TUFF_TITANIUM_ORE, ModItems.RAW_TITANIUM, 1, 2));
         addDrop(ModBlocks.DEEPSLATE_TITANIUM_ORE, multipleOreDrops(ModBlocks.DEEPSLATE_TITANIUM_ORE, ModItems.RAW_TITANIUM, 1, 3));
+        addDrop(ModBlocks.RAW_TITANIUM_BLOCK);
         addDrop(ModBlocks.TITANIUM_BLOCK);
+
+        addDrop(ModBlocks.ESTROLITE_ORE, multipleOreDrops(ModBlocks.ESTROLITE_ORE, ModItems.ESTROLITE, 1, 3));
+
+        addDrop(ModBlocks.BLUE_ROSE);
+
+        addDrop(ModBlocks.GARNET_CLUMP);
+
+        addDrop(ModBlocks.DRIED_RUBBER_CLUMPS_BLOCK, ModItems.DRIED_RUBBER_CLUMPS);
+        addDrop(ModBlocks.RUBBER_BLOCK);
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

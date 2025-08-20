@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "fugos-trails-and-tales-reimagined:block/salt_bricks"
+  }
+}

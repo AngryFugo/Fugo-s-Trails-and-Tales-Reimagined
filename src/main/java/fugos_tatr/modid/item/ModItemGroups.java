@@ -21,8 +21,20 @@ public class ModItemGroups {
                         entries.add(ModBlocks.COBBLED_SALT_WALL);
 
                         entries.add(ModBlocks.SALT_BLOCK);
+                        entries.add(ModBlocks.SALT_BLOCK_STAIRS);
+                        entries.add(ModBlocks.SALT_BLOCK_SLAB);
+                        entries.add(ModBlocks.SALT_BLOCK_WALL);
+
                         entries.add(ModBlocks.SALT_BRICKS);
+                        entries.add(ModBlocks.SALT_BRICK_STAIRS);
+                        entries.add(ModBlocks.SALT_BRICK_SLAB);
+                        entries.add(ModBlocks.SALT_BRICK_WALL);
+
                         entries.add(ModBlocks.SALT_TILES);
+                        entries.add(ModBlocks.SALT_TILE_STAIRS);
+                        entries.add(ModBlocks.SALT_TILE_SLAB);
+                        entries.add(ModBlocks.SALT_TILE_WALL);
+
 
 
                         entries.add(ModBlocks.PEAR_SAPLING);
@@ -113,6 +125,46 @@ public class ModItemGroups {
 
 
 
+                        entries.add(ModBlocks.PALM_SEED);
+
+                        entries.add(ModBlocks.PALM_LEAVES);
+
+                        entries.add(ModBlocks.PALM_LOG);
+                        entries.add(ModBlocks.STRIPPED_PALM_LOG);
+                        entries.add(ModBlocks.PALM_WOOD);
+                        entries.add(ModBlocks.STRIPPED_PALM_WOOD);
+
+                        entries.add(ModBlocks.PALM_PLANKS);
+
+                        entries.add(ModBlocks.PALM_STAIRS);
+                        entries.add(ModBlocks.PALM_SLAB);
+                        entries.add(ModBlocks.PALM_BUTTON);
+                        entries.add(ModBlocks.PALM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PALM_FENCE);
+                        entries.add(ModBlocks.PALM_FENCE_GATE);
+
+
+
+                        entries.add(ModBlocks.RUBBER_PROPAGULE);
+
+                        entries.add(ModBlocks.RUBBER_LEAVES);
+
+                        entries.add(ModBlocks.RUBBER_LOG);
+                        entries.add(ModBlocks.STRIPPED_RUBBER_LOG);
+                        entries.add(ModBlocks.RUBBER_WOOD);
+                        entries.add(ModBlocks.STRIPPED_RUBBER_WOOD);
+
+                        entries.add(ModBlocks.RUBBER_PLANKS);
+
+                        entries.add(ModBlocks.RUBBER_STAIRS);
+                        entries.add(ModBlocks.RUBBER_SLAB);
+                        entries.add(ModBlocks.RUBBER_BUTTON);
+                        entries.add(ModBlocks.RUBBER_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RUBBER_FENCE);
+                        entries.add(ModBlocks.RUBBER_FENCE_GATE);
+
+
+
                         entries.add(ModItems.MASON_JAR);
 
                         entries.add(ModItems.PEAR);
@@ -124,11 +176,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TITANIUM_ORE);
                         entries.add(ModBlocks.TUFF_TITANIUM_ORE);
                         entries.add(ModBlocks.DEEPSLATE_TITANIUM_ORE);
+                        entries.add(ModBlocks.RAW_TITANIUM_BLOCK);
                         entries.add(ModBlocks.TITANIUM_BLOCK);
 
                         entries.add(ModItems.RAW_TITANIUM);
                         entries.add(ModItems.TITANIUM_INGOT);
                         entries.add(ModItems.TITANIUM_UPGRADE_SMITHING_TEMPLATE);
+
+                        entries.add(ModBlocks.ESTROLITE_ORE);
+                        entries.add(ModItems.ESTROLITE);
+
+                        entries.add(ModItems.ADAMANTITE_INGOT);
+
+                        entries.add(ModItems.COBALT_INGOT);
+
+                        entries.add(ModItems.MYTHRIL_INGOT);
 
                         entries.add(ModItems.ANCIENT_TOME);
                         entries.add(ModItems.ALLOY_ELYTRA);
@@ -138,6 +200,22 @@ public class ModItemGroups {
                         entries.add(ModItems.TITANIUM_PICKAXE);
                         entries.add(ModItems.TITANIUM_AXE);
                         entries.add(ModItems.TITANIUM_HOE);
+
+                        entries.add(ModItems.TITANIUM_HELMET);
+                        entries.add(ModItems.TITANIUM_CHESTPLATE);
+                        entries.add(ModItems.TITANIUM_LEGGINGS);
+                        entries.add(ModItems.TITANIUM_BOOTS);
+
+                        entries.add(ModItems.NETHERITE_HORSE_ARMOR);
+
+                        entries.add(ModBlocks.BLUE_ROSE);
+
+                        entries.add(ModBlocks.GARNET_CLUMP);
+
+                        entries.add(ModItems.DRIED_RUBBER_CLUMPS);
+                        entries.add(ModBlocks.RUBBER_BLOCK);
+
+                        entries.add(ModItems.RUBBER_GLOOP_BOTTLE);
 
                         entries.add(ModItems.ALLEYCAT_DAGGERS);
                     }).build());

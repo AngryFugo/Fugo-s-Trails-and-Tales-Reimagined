@@ -20,6 +20,8 @@ public class ModTags {
         public static final TagKey<Item> CHESTNUT_LOGS = createTag("chestnut_logs");
         public static final TagKey<Item> MAPLE_LOGS = createTag("maple_logs");
         public static final TagKey<Item> PINE_LOGS = createTag("pine_logs");
+        public static final TagKey<Item> PALM_LOGS = createTag("palm_logs");
+        public static final TagKey<Item> RUBBER_LOGS =  createTag("rubber_logs");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(FugosTrailsAndTalesReimagined.MOD_ID, name));

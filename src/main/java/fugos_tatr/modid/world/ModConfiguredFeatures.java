@@ -13,10 +13,12 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
+import net.minecraft.world.gen.foliage.AcaciaFoliagePlacer;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
 import net.minecraft.world.gen.foliage.LargeOakFoliagePlacer;
 import net.minecraft.world.gen.foliage.MegaPineFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
+import net.minecraft.world.gen.trunk.ForkingTrunkPlacer;
 import net.minecraft.world.gen.trunk.LargeOakTrunkPlacer;
 import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 
@@ -27,8 +29,11 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> CHESTNUT_TREE_KEY = registerKey("chestnut_tree");
     public static final RegistryKey<ConfiguredFeature<?, ?>> MAPLE_TREE_KEY = registerKey("maple_tree");
     public static final RegistryKey<ConfiguredFeature<?, ?>> PINE_TREE_KEY = registerKey("pine_tree");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> PALM_TREE_KEY = registerKey("palm_tree");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> RUBBER_TREE_KEY = registerKey("rubber_tree");
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> TITANIUM_KEY = registerKey("titanium");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ESTROLITE_KEY = registerKey("estrolite");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceable = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -70,11 +75,34 @@ public class ModConfiguredFeatures {
 
                 new TwoLayersFeatureSize(3, 1, 3)).dirtProvider(BlockStateProvider.of(Blocks.GRASS_BLOCK)).build());
 
+        register(context, PALM_TREE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.PALM_LOG),
+                new StraightTrunkPlacer(4, 8, 0),
+
+                BlockStateProvider.of(ModBlocks.PALM_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3),
+
+                new TwoLayersFeatureSize(0, 0, 0)).dirtProvider(BlockStateProvider.of(Blocks.SAND)).build());
+
+        register(context, RUBBER_TREE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.RUBBER_LOG),
+                new ForkingTrunkPlacer(4, 2, 2),
+
+                BlockStateProvider.of(ModBlocks.RUBBER_LEAVES),
+                new AcaciaFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0)),
+
+                new TwoLayersFeatureSize(0, 0, 0)).dirtProvider(BlockStateProvider.of(Blocks.GRASS_BLOCK)).build());
+
         List<OreFeatureConfig.Target> overworldTitaniumOre =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceable, ModBlocks.TITANIUM_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceable, ModBlocks.DEEPSLATE_TITANIUM_ORE.getDefaultState()));
 
         register(context, TITANIUM_KEY, Feature.ORE, new OreFeatureConfig(overworldTitaniumOre, 4));
+
+        List<OreFeatureConfig.Target> overworldEstroliteOre =
+                List.of(OreFeatureConfig.createTarget(stoneReplaceable, ModBlocks.ESTROLITE_ORE.getDefaultState()));
+
+        register(context, ESTROLITE_KEY, Feature.ORE, new OreFeatureConfig(overworldEstroliteOre, 3));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

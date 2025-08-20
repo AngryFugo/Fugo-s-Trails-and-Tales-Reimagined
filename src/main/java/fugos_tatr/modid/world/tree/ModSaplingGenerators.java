@@ -18,4 +18,10 @@ public class ModSaplingGenerators {
 
     public static final SaplingGenerator PINE = new SaplingGenerator(FugosTrailsAndTalesReimagined.MOD_ID + ":pine",
             Optional.empty(), Optional.of(ModConfiguredFeatures.PINE_TREE_KEY), Optional.empty());
+
+    public static final SaplingGenerator PALM = new SaplingGenerator(FugosTrailsAndTalesReimagined.MOD_ID + ":palm",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.PALM_TREE_KEY), Optional.empty());
+
+    public static final SaplingGenerator RUBBER = new SaplingGenerator(FugosTrailsAndTalesReimagined.MOD_ID + ":rubber",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.RUBBER_TREE_KEY), Optional.empty());
 }

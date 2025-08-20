@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fugos-trails-and-tales-reimagined:block/palm_slab"
+    },
+    "type=double": {
+      "model": "fugos-trails-and-tales-reimagined:block/palm_planks"
+    },
+    "type=top": {
+      "model": "fugos-trails-and-tales-reimagined:block/palm_slab_top"
+    }
+  }
+}

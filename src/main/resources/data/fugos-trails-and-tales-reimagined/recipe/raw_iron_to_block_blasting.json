@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:raw_iron_block",
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_block"
+  }
+}

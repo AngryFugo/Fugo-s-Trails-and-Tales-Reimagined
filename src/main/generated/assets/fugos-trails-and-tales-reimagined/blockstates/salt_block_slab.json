@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fugos-trails-and-tales-reimagined:block/salt_block_slab"
+    },
+    "type=double": {
+      "model": "fugos-trails-and-tales-reimagined:block/salt_block"
+    },
+    "type=top": {
+      "model": "fugos-trails-and-tales-reimagined:block/salt_block_slab_top"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "fugos-trails-and-tales-reimagined:cobbled_salt",
+  "result": {
+    "count": 1,
+    "id": "fugos-trails-and-tales-reimagined:salt_block"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": "fugos-trails-and-tales-reimagined:titanium_upgrade_smithing_template",
+    "G": "minecraft:cobbled_deepslate",
+    "R": "fugos-trails-and-tales-reimagined:titanium_ingot"
+  },
+  "pattern": [
+    "RFR",
+    "RGR",
+    "RRR"
+  ],
+  "result": {
+    "count": 2,
+    "id": "fugos-trails-and-tales-reimagined:titanium_upgrade_smithing_template"
+  }
+}

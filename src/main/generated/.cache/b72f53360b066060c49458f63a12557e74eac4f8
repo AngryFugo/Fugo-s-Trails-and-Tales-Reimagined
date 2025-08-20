@@ -1,11 +1,17 @@
 // 1.21.6	-999999999-01-01T00:00:00	Fugo's Trails and Tales: Reimagined/
 eab9a2947566cc4253dc34574e6312cffdc08736 data/fugos-trails-and-tales-reimagined/worldgen/configured_feature/chestnut_tree.json
+66c8fbe398413e9dd3626be7271ce9172294dfef data/fugos-trails-and-tales-reimagined/worldgen/configured_feature/estrolite.json
 7ae9f64d088f0916cd4e6157c5dd8c0561c5c2f7 data/fugos-trails-and-tales-reimagined/worldgen/configured_feature/maple_tree.json
+612891f1d927f5bd487da6a4d2aeb6f9bca454c1 data/fugos-trails-and-tales-reimagined/worldgen/configured_feature/palm_tree.json
 65e454032aadf3e01f923c07b5d6ff888034aa6d data/fugos-trails-and-tales-reimagined/worldgen/configured_feature/pear_tree.json
 67acd81ecab56e784defe1ad8bf3668261be30f8 data/fugos-trails-and-tales-reimagined/worldgen/configured_feature/pine_tree.json
+52b0d796295f981b6119695eafc34e4b0561e2ce data/fugos-trails-and-tales-reimagined/worldgen/configured_feature/rubber_tree.json
 c86e742229a9a8810b9029b5efbfe672d44e6c86 data/fugos-trails-and-tales-reimagined/worldgen/configured_feature/titanium.json
 9cf437e6e7861315c0a485a1654a589d60928733 data/fugos-trails-and-tales-reimagined/worldgen/placed_feature/chestnut_tree_placed.json
+2778ca007c0be44993d72cb1307b78f78391e351 data/fugos-trails-and-tales-reimagined/worldgen/placed_feature/estrolite_placed.json
 d4177c9f0f6bbe28e1e06b364e627e62d80ae4c2 data/fugos-trails-and-tales-reimagined/worldgen/placed_feature/maple_tree_placed.json
+e75dd57d582b3367d5ac72ca6c929d3040120b97 data/fugos-trails-and-tales-reimagined/worldgen/placed_feature/palm_tree_placed.json
 dd42f2cb4a0bcc92b546654471173ac873a58435 data/fugos-trails-and-tales-reimagined/worldgen/placed_feature/pear_tree_placed.json
 6b9af8fea7d34a0db86c001580b7cebe976223af data/fugos-trails-and-tales-reimagined/worldgen/placed_feature/pine_tree_placed.json
+fa7517cc81dccbd3fa194e11b7ead71a493aa141 data/fugos-trails-and-tales-reimagined/worldgen/placed_feature/rubber_tree_placed.json
 7e3d2ff151c9340e55b6d6243f57f04dfeec6735 data/fugos-trails-and-tales-reimagined/worldgen/placed_feature/titanium_placed.json

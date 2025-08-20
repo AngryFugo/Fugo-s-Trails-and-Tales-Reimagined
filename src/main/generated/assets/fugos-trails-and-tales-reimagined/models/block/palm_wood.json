@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "fugos-trails-and-tales-reimagined:block/palm_log",
+    "side": "fugos-trails-and-tales-reimagined:block/palm_log"
+  }
+}
