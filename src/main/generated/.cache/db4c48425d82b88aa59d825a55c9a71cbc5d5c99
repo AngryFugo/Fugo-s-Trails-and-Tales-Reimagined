@@ -72,6 +72,7 @@ f8ae079612d8f913df617e2468f1408788cc37b1 assets/fugos-trails-and-tales-reimagine
 882e06c29b02c8c3af1cbeb0b99c5588dd549e41 assets/fugos-trails-and-tales-reimagined/blockstates/pine_stairs.json
 75df20f43bbe65901e9b866923055c5a808e7b1c assets/fugos-trails-and-tales-reimagined/blockstates/pine_trapdoor.json
 30512d0269d8634cd6e70534c48a63195dd3c9b9 assets/fugos-trails-and-tales-reimagined/blockstates/pine_wood.json
+ff05ddf05a5cb1d57d3878f0cd5cdde8628edc09 assets/fugos-trails-and-tales-reimagined/blockstates/potted_blue_rose_block.json
 f9bd420a309aa20604787f483593fe6217d13fc4 assets/fugos-trails-and-tales-reimagined/blockstates/raw_titanium_block.json
 ead98d0ac8b517971072227153835d8813b61109 assets/fugos-trails-and-tales-reimagined/blockstates/rubber_block.json
 dca59366438f24d1a44e6ba9b2e33db4dbbc6d43 assets/fugos-trails-and-tales-reimagined/blockstates/rubber_button.json
@@ -201,6 +202,7 @@ bd35b31e0609e88d8c6430aa1a2292311e541f71 assets/fugos-trails-and-tales-reimagine
 e53a95d8c90d456526760ba86f17fb3679d67e1f assets/fugos-trails-and-tales-reimagined/items/pine_stairs.json
 4fd57714a7f5535fc689a05b9ab9c083412fbb91 assets/fugos-trails-and-tales-reimagined/items/pine_trapdoor.json
 ab2645f00825a3684236cb9b5a590c2486a3acf0 assets/fugos-trails-and-tales-reimagined/items/pine_wood.json
+e26522446c2bc87db65fe9810a7565b71e4c9557 assets/fugos-trails-and-tales-reimagined/items/potted_blue_rose_block.json
 adfb5f5ce65b465e2bfac68016e6611a646244a9 assets/fugos-trails-and-tales-reimagined/items/raw_titanium.json
 e591331122a2810c783a4efb972d43af1cd6f472 assets/fugos-trails-and-tales-reimagined/items/raw_titanium_block.json
 1d4a8ea46e4092e7a44dd2cf5001fdab98d99a30 assets/fugos-trails-and-tales-reimagined/items/rubber_block.json
@@ -431,6 +433,7 @@ c34db785a858c0f19beb8c964e3865c0d9ad8a53 assets/fugos-trails-and-tales-reimagine
 ec896b644137c258a728ff4db2c20941135381dc assets/fugos-trails-and-tales-reimagined/models/block/pine_trapdoor_open.json
 bd734f0691800401c136d3995cea3b9ef9d1a64b assets/fugos-trails-and-tales-reimagined/models/block/pine_trapdoor_top.json
 aeb43415467260af838cb1df4a3d8b6e5e26ef56 assets/fugos-trails-and-tales-reimagined/models/block/pine_wood.json
+0ec4ade4c0a4e2eaf2b50cd98d70d19b34dbac86 assets/fugos-trails-and-tales-reimagined/models/block/potted_blue_rose_block.json
 6c94455f92e2dfe6e22f3337eadc7eec359758c6 assets/fugos-trails-and-tales-reimagined/models/block/raw_titanium_block.json
 9cc740f61af5718f734a8f4e228d2006b3c96056 assets/fugos-trails-and-tales-reimagined/models/block/rubber_block.json
 4038c2cdc47b93dc5fc82f1d9609133d7ab576bb assets/fugos-trails-and-tales-reimagined/models/block/rubber_button.json

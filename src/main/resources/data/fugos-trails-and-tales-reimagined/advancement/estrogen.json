@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.estrogen"
+    },
+    "description": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.estrogen.desc"
+    },
+    "icon": {
+      "id": "fugos-trails-and-tales-reimagined:estrolite"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "fugos-trails-and-tales-reimagined:estrolite"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fugos-trails-and-tales-reimagined:root"
+}

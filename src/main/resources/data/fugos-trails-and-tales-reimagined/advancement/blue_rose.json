@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.blue_rose"
+    },
+    "description": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.blue_rose.desc"
+    },
+    "icon": {
+      "id": "fugos-trails-and-tales-reimagined:blue_rose"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "fugos-trails-and-tales-reimagined:blue_rose"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fugos-trails-and-tales-reimagined:root"
+}

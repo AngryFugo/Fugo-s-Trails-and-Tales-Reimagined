@@ -175,7 +175,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ESTROLITE_ORE);
 
-        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.BLUE_ROSE_BLOCK, BlockStateModelGenerator.CrossType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.BLUE_ROSE_BLOCK, ModBlocks.POTTED_BLUE_ROSE_BLOCK, BlockStateModelGenerator.CrossType.NOT_TINTED);
 
         blockStateModelGenerator.registerAmethyst(ModBlocks.GARNET_CLUMP);
 

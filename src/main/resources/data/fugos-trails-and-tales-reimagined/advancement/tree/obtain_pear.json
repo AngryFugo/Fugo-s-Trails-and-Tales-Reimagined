@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.obtain_pear"
+    },
+    "description": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.obtain_pear.desc"
+    },
+    "icon": {
+      "id": "fugos-trails-and-tales-reimagined:pear"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "fugos-trails-and-tales-reimagined:pear"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fugos-trails-and-tales-reimagined:root"
+}

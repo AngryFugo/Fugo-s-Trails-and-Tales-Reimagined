@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.netherite_horse_armor"
+    },
+    "description": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.netherite_horse_armor.desc"
+    },
+    "icon": {
+      "id": "fugos-trails-and-tales-reimagined:netherite_horse_armor"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "fugos-trails-and-tales-reimagined:horse_armor_to_netherite"
+      }
+    }
+  },
+  "parent": "fugos-trails-and-tales-reimagined:root"
+}

@@ -62,6 +62,8 @@ public class ModPlacedFeatures {
         register(context, ESTROLITE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.ESTROLITE_KEY),
                 ModOrePlacement.modifiersWithCount(3,
                         HeightRangePlacementModifier.uniform(YOffset.fixed(-50), YOffset.fixed(50))));
+
+
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {

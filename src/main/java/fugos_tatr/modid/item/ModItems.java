@@ -45,7 +45,7 @@ public class ModItems {
     public static final Item TITANIUM_UPGRADE_SMITHING_TEMPLATE = registerAlt("titanium_upgrade_smithing_template", SmithingTemplateItem::of);
 
     public static final Item ESTROLITE = register("estrolite", Item::new, new Item.Settings().food(ModFoodComponents.ESTROLITE, ConsumableComponents.food().consumeEffect(new ApplyEffectsConsumeEffect(List.of(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 2), new StatusEffectInstance(StatusEffects.RESISTANCE, 100, 2), new StatusEffectInstance(StatusEffects.REGENERATION, 100, 4)))).build()));
-    public static final Item KOURTNEYS_ESTROGEN = register("kourtneys_estrogen", Item::new, new Item.Settings().food(ModFoodComponents.KOURTNEYS_ESTROGEN, ConsumableComponents.food().consumeEffect(new ApplyEffectsConsumeEffect(List.of(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 2), new StatusEffectInstance(StatusEffects.RESISTANCE, 100, 2), new StatusEffectInstance(StatusEffects.REGENERATION, 100, 4)))).build()).maxCount(99).rarity(Rarity.EPIC));
+    public static final Item KOURTNEYS_ESTROGEN = register("kourtneys_estrogen", Item::new, new Item.Settings().food(ModFoodComponents.KOURTNEYS_ESTROGEN, ConsumableComponents.food().consumeEffect(new ApplyEffectsConsumeEffect(List.of(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 2), new StatusEffectInstance(StatusEffects.RESISTANCE, 100, 2), new StatusEffectInstance(StatusEffects.REGENERATION, 100, 4)))).build()).rarity(Rarity.EPIC));
 
     public static final Item ADAMANTITE_INGOT = register("adamantite_ingot", Item::new, new Item.Settings());
 

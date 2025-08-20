@@ -211,6 +211,7 @@ public class ModBlocks {
 
 
     public static final Block BLUE_ROSE_BLOCK = registerBlock("blue_rose_block", settings -> new FlowerBlock(StatusEffects.NIGHT_VISION, 5.0F, settings), AbstractBlock.Settings.copy(Blocks.POPPY));
+    public static final Block POTTED_BLUE_ROSE_BLOCK = registerBlock("potted_blue_rose_block", settings -> new FlowerPotBlock(ModBlocks.BLUE_ROSE_BLOCK, settings), AbstractBlock.Settings.copy(Blocks.POTTED_POPPY));
 
     public static final Block GARNET_CLUMP = registerBlock("garnet_clump", settings -> new AmethystClusterBlock(5, 10, settings), AbstractBlock.Settings.copy(Blocks.AMETHYST_CLUSTER));
 

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "title": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.rubber_clumps_place"
+    },
+    "description": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.rubber_clumps_place.desc"
+    },
+    "icon": {
+      "id": "fugos-trails-and-tales-reimagined:dried_rubber_clumps"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "fugos-trails-and-tales-reimagined:dried_rubber_clumps"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "fugos-trails-and-tales-reimagined:rubbing_one_out/rubber_gloop"
+}

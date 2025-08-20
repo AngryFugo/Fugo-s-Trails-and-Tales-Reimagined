@@ -1,0 +1,23 @@
+{
+  "display": {
+    "title": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.ulti_tools_crafting"
+    },
+    "description": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.ulti_tools_crafting.desc"
+    },
+    "icon": {
+      "id": "fugos-trails-and-tales-reimagined:mythril_ingot"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "fugos-trails-and-tales-reimagined:ores/three_ores_obtainment"
+}

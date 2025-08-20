@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.craft_alloy_elytra"
+    },
+    "description": {
+      "translate": "fugos-trails-and-tales-reimagined.adv.craft_alloy_elytra.desc"
+    },
+    "icon": {
+      "id": "fugos-trails-and-tales-reimagined:alloy_elytra"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "fugos-trails-and-tales-reimagined:elytra_to_alloy_elytra"
+      }
+    }
+  },
+  "parent": "fugos-trails-and-tales-reimagined:root"
+}
