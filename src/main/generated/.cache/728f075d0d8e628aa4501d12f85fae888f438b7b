@@ -12,6 +12,9 @@ f67da36267cb5dd9e38ba28be723ab5f0a644355 data/fugos-trails-and-tales-reimagined/
 a56eef99f85bff78d558e28b7346ebbaa89c4600 data/fugos-trails-and-tales-reimagined/advancement/recipes/building_blocks/cobbled_salt_slab.json
 cc1c6b89d8ccefef13488d7e6818dffc30faa8e8 data/fugos-trails-and-tales-reimagined/advancement/recipes/building_blocks/cobbled_salt_stairs.json
 b423af1e5fc7f4fb759e0f1cca4a4c51966964b6 data/fugos-trails-and-tales-reimagined/advancement/recipes/building_blocks/cobbled_salt_wall.json
+c2c78241f08d6721de4651152403272ace0c235e data/fugos-trails-and-tales-reimagined/advancement/recipes/building_blocks/dead_planks.json
+14d7a34ba3a424bf228b9066a6110f826dd4e685 data/fugos-trails-and-tales-reimagined/advancement/recipes/building_blocks/dead_slab.json
+e247502738bbc0a7c39fe698a68d1a005664ca37 data/fugos-trails-and-tales-reimagined/advancement/recipes/building_blocks/dead_stairs.json
 d9b8747a6601f865b0ef136df5ce2d8361585b4e data/fugos-trails-and-tales-reimagined/advancement/recipes/building_blocks/maple_button.json
 664b0f91004bcc23a9a3aa0bc02482f0072dccbd data/fugos-trails-and-tales-reimagined/advancement/recipes/building_blocks/maple_door.json
 c89a30a72a8907c9616cd2ab5d5ccb1b2878fd5f data/fugos-trails-and-tales-reimagined/advancement/recipes/building_blocks/maple_fence.json
@@ -71,6 +74,7 @@ acadc3d86a6e8a5cd22f5f8883662dfb8a0accf6 data/fugos-trails-and-tales-reimagined/
 8999b10bf672f0ca41a0de8fa21ca4585a9a2186 data/fugos-trails-and-tales-reimagined/advancement/recipes/building_blocks/salt_tiles.json
 6a2ba4bfba9cd4d4a1a5b36258fd075e92ab95fb data/fugos-trails-and-tales-reimagined/advancement/recipes/building_blocks/titanium_block.json
 999ce08e08208f0b20efc276bdba4bef8688e9cc data/fugos-trails-and-tales-reimagined/advancement/recipes/food/blue_berry_jam.json
+a0056b66cb778f0f412a403238f52a44583d0565 data/fugos-trails-and-tales-reimagined/advancement/recipes/food/kourtneys_estrogen.json
 b06c9e1855c8e2e42458e8a99b834c89c6766bc3 data/fugos-trails-and-tales-reimagined/advancement/recipes/food/pear_juice.json
 9944233cf7e57fbe56434c2e87638dc3e9708e1a data/fugos-trails-and-tales-reimagined/advancement/recipes/misc/block_to_titanium.json
 610954a868b11f5f9314c8ed9ac37def29e61b65 data/fugos-trails-and-tales-reimagined/advancement/recipes/misc/dupe.json
@@ -93,7 +97,11 @@ b06c9e1855c8e2e42458e8a99b834c89c6766bc3 data/fugos-trails-and-tales-reimagined/
 b860486826072b1996290d6ca3162438fefbffc6 data/fugos-trails-and-tales-reimagined/recipe/cobbled_salt_slab.json
 a39e0d5c0853b6f0f2778fe3a5da1b1da596988c data/fugos-trails-and-tales-reimagined/recipe/cobbled_salt_stairs.json
 20efe5e71f4b96ca5c6e33a97a31cc82ee9ef88c data/fugos-trails-and-tales-reimagined/recipe/cobbled_salt_wall.json
+65aa471dae248c5daa5b3c8ce8c4173811eff552 data/fugos-trails-and-tales-reimagined/recipe/dead_planks.json
+6f1699c982d128a0a3f0c7311c1e9d98de372122 data/fugos-trails-and-tales-reimagined/recipe/dead_slab.json
+cb87e92c82a43975cb8fc3b032a2d477bc3e9837 data/fugos-trails-and-tales-reimagined/recipe/dead_stairs.json
 a74033c209782a58bf1f532db3e03e258459e773 data/fugos-trails-and-tales-reimagined/recipe/dupe.json
+e69b00cbfed6750e192255731697ebdf665c064e data/fugos-trails-and-tales-reimagined/recipe/kourtneys_estrogen.json
 d1cd2ce1331e21b3b4b06141099a72feb91cf616 data/fugos-trails-and-tales-reimagined/recipe/magma_cream.json
 eb54c2fef7672dafc3b07e6bed67cb946dbff0a3 data/fugos-trails-and-tales-reimagined/recipe/maple_button.json
 be64df4baf7658d6f5971d3f334ae281aa0040bc data/fugos-trails-and-tales-reimagined/recipe/maple_door.json

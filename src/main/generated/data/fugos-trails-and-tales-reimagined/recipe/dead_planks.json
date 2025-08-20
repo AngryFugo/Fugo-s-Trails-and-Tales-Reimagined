@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#minecraft:planks",
+    "minecraft:flint"
+  ],
+  "result": {
+    "count": 4,
+    "id": "fugos-trails-and-tales-reimagined:dead_planks"
+  }
+}

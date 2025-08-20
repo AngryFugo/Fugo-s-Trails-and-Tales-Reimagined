@@ -103,7 +103,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.MAPLE_PLANKS.asItem())
                 .add(ModBlocks.PINE_PLANKS.asItem())
                 .add(ModBlocks.PALM_PLANKS.asItem())
-                .add(ModBlocks.RUBBER_PLANKS.asItem());
+                .add(ModBlocks.RUBBER_PLANKS.asItem())
+                .add(ModBlocks.DEAD_PLANKS.asItem());
 
         valueLookupBuilder(ItemTags.WALLS)
                 .add(ModBlocks.COBBLED_SALT_WALL.asItem())
@@ -122,7 +123,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.MAPLE_STAIRS.asItem())
                 .add(ModBlocks.PINE_STAIRS.asItem())
                 .add(ModBlocks.PALM_STAIRS.asItem())
-                .add(ModBlocks.RUBBER_STAIRS.asItem());
+                .add(ModBlocks.RUBBER_STAIRS.asItem())
+                .add(ModBlocks.DEAD_STAIRS.asItem());
 
         valueLookupBuilder(ItemTags.SLABS)
                 .add(ModBlocks.COBBLED_SALT_SLAB.asItem())
@@ -135,7 +137,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.MAPLE_SLAB.asItem())
                 .add(ModBlocks.PINE_SLAB.asItem())
                 .add(ModBlocks.PALM_SLAB.asItem())
-                .add(ModBlocks.RUBBER_SLAB.asItem());
+                .add(ModBlocks.RUBBER_SLAB.asItem())
+                .add(ModBlocks.DEAD_SLAB.asItem());
 
         valueLookupBuilder(ModTags.Items.AVOCADO_LOGS)
                 .add(ModBlocks.PEAR_LOG.asItem())

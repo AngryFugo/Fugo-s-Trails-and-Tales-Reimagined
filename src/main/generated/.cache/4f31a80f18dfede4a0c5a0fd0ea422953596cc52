@@ -17,6 +17,9 @@ c59caeae6ba9ec5250db578daa1d3d6f3a712938 data/fugos-trails-and-tales-reimagined/
 c623698fed421c1aa185524283e5e77864f9c66f data/fugos-trails-and-tales-reimagined/loot_table/blocks/cobbled_salt_slab.json
 9470fe7bfd0484c6d39755f2dd729ad6211eb2bb data/fugos-trails-and-tales-reimagined/loot_table/blocks/cobbled_salt_stairs.json
 194c020c1b7ba7de34d3acb91c8f27073254587d data/fugos-trails-and-tales-reimagined/loot_table/blocks/cobbled_salt_wall.json
+a98d9e1f6bd15495ef8e32d3a41e08b6513e1a77 data/fugos-trails-and-tales-reimagined/loot_table/blocks/dead_planks.json
+abb52368e34f5448a88612d97225afe9e68ccd8e data/fugos-trails-and-tales-reimagined/loot_table/blocks/dead_slab.json
+4d682d18bbf45753e7e407eafc540de7a6a4c1fa data/fugos-trails-and-tales-reimagined/loot_table/blocks/dead_stairs.json
 2168124df7d2a009aa43e5a54144d992f4060cf3 data/fugos-trails-and-tales-reimagined/loot_table/blocks/deepslate_titanium_ore.json
 f300ba3d7767215b076f4ab913aca9834c260b8a data/fugos-trails-and-tales-reimagined/loot_table/blocks/dried_rubber_clumps_block.json
 50b722e4e5093768b43475ceb579c291706d3d50 data/fugos-trails-and-tales-reimagined/loot_table/blocks/estrolite_ore.json

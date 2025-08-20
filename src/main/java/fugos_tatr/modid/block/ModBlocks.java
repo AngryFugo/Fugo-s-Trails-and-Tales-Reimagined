@@ -16,6 +16,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.structure.StrongholdGenerator;
 import net.minecraft.util.Identifier;
 
 import java.util.function.Function;
@@ -174,6 +175,13 @@ public class ModBlocks {
 
     public static final Block RUBBER_FENCE = registerBlock("rubber_fence", FenceBlock::new, AbstractBlock.Settings.copy(Blocks.WARPED_FENCE));
     public static final Block RUBBER_FENCE_GATE = registerBlock("rubber_fence_gate", settings -> new FenceGateBlock(WoodType.WARPED, settings), AbstractBlock.Settings.copy(Blocks.WARPED_FENCE_GATE));
+
+
+
+    public static final Block DEAD_PLANKS = registerBlock("dead_planks", Block::new, AbstractBlock.Settings.copy(Blocks.DARK_OAK_PLANKS));
+
+    public static final Block DEAD_STAIRS = registerBlock("dead_stairs", settings -> new StairsBlock(ModBlocks.DEAD_PLANKS.getDefaultState(), settings), AbstractBlock.Settings.copy(Blocks.DARK_OAK_STAIRS));
+    public static final Block DEAD_SLAB = registerBlock("dead_slab", SlabBlock::new, AbstractBlock.Settings.copy(Blocks.DARK_OAK_SLAB));
 
 
 

@@ -23,11 +23,11 @@ f52ef9e5824d65672b2ebd12bfb762b606b63e62 data/minecraft/tags/item/leaves.json
 158b0e54c9f1e18e94965f4b361ad92a1ced6968 data/minecraft/tags/item/logs.json
 158b0e54c9f1e18e94965f4b361ad92a1ced6968 data/minecraft/tags/item/logs_that_burn.json
 1fe62a151cc48db4cb3e85ee01fcc2efa3ec69a4 data/minecraft/tags/item/pickaxes.json
-712af537077aa18b235a733245467acc25484900 data/minecraft/tags/item/planks.json
+351cbba917999ceb60e3c586a020ec003f8698fa data/minecraft/tags/item/planks.json
 7fe4807ac5a2bb1a90665c7e20f6c231f8f6056a data/minecraft/tags/item/saplings.json
 aebfd1c6b97aef46423dc384262047f81940201a data/minecraft/tags/item/shovels.json
-4943ee515df5f8e2f399f2f4f3c55dc4400f3a87 data/minecraft/tags/item/slabs.json
-27dc648794147c5f6c55bbb23e1a6bd274a029f1 data/minecraft/tags/item/stairs.json
+fc1d1448128d649561b2f31180aefe152fe40bc2 data/minecraft/tags/item/slabs.json
+68c304c9fe4553d517ed2684c3faaf9501fc70c9 data/minecraft/tags/item/stairs.json
 9b58f9de399f0d3fce4a2df98a0c0230846b2f0e data/minecraft/tags/item/swords.json
 faf48bff557c747c019dd9a855caa1fb0629b019 data/minecraft/tags/item/titanium_tools.json
 e69a2aa17272bbe8d0b763cfd79b379612804347 data/minecraft/tags/item/titanum_tool_materials.json

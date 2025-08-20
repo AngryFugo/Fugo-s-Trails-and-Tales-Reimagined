@@ -10,10 +10,10 @@ db265da9a729da496100bb1c3f368006af32de75 data/minecraft/tags/block/mineable/pick
 38ad20af2729491d288f9262681a36b7c631ebdc data/minecraft/tags/block/needs_diamond_tool.json
 f270fc5620cf7ba434795a42bac23c0c832cae12 data/minecraft/tags/block/needs_iron_tool.json
 e2046c676e8520a7b5bb54fc080bc3a1ced0f136 data/minecraft/tags/block/needs_stone_tool.json
-9108829fbe5d9efdacfd930ed9709de638a87ac1 data/minecraft/tags/block/planks.json
+735dec2c416675fc4b1905295805f952565a5806 data/minecraft/tags/block/planks.json
 a0987464fabdec1b15a986650501e7fb2b41c4f3 data/minecraft/tags/block/pressure_plates.json
 7fe4807ac5a2bb1a90665c7e20f6c231f8f6056a data/minecraft/tags/block/saplings.json
-4943ee515df5f8e2f399f2f4f3c55dc4400f3a87 data/minecraft/tags/block/slabs.json
-27dc648794147c5f6c55bbb23e1a6bd274a029f1 data/minecraft/tags/block/stairs.json
+fc1d1448128d649561b2f31180aefe152fe40bc2 data/minecraft/tags/block/slabs.json
+68c304c9fe4553d517ed2684c3faaf9501fc70c9 data/minecraft/tags/block/stairs.json
 046ccdecce31a3b6a1a9fe00d576cc2024094197 data/minecraft/tags/block/trapdoors.json
 aa10ef494d032f03f18de9e8d06b95ab60569dff data/minecraft/tags/block/walls.json

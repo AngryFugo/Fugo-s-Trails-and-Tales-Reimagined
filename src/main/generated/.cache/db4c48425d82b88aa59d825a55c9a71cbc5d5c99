@@ -18,6 +18,9 @@ d6dd48ed799535309626a3f8eae6ab6e81eb55cf assets/fugos-trails-and-tales-reimagine
 d77c91f5d4eb3283abdd85a580a6fcdc6ceea9fd assets/fugos-trails-and-tales-reimagined/blockstates/cobbled_salt_slab.json
 2d9f3f6a257eedb4c099e1458b2fa5e74ec2f676 assets/fugos-trails-and-tales-reimagined/blockstates/cobbled_salt_stairs.json
 591f1640812dcfee4ab719afe8472101c6bea84d assets/fugos-trails-and-tales-reimagined/blockstates/cobbled_salt_wall.json
+55da33782dc8ee7529eeb41c855b8f2f2768c728 assets/fugos-trails-and-tales-reimagined/blockstates/dead_planks.json
+30401f3b28c2c14182e4b3d2a7daacd48b4022e1 assets/fugos-trails-and-tales-reimagined/blockstates/dead_slab.json
+dd43ba1e3c38c5af6989dc3ac752c10bc4959dcb assets/fugos-trails-and-tales-reimagined/blockstates/dead_stairs.json
 e61abacbb40b57c79ed8376890a53f628405a680 assets/fugos-trails-and-tales-reimagined/blockstates/deepslate_titanium_ore.json
 4356ee22804eadc85402c1798ce8071cdbde9c67 assets/fugos-trails-and-tales-reimagined/blockstates/dried_rubber_clumps_block.json
 6c22da74917d283b36f23906a83b1cbb130a2f3f assets/fugos-trails-and-tales-reimagined/blockstates/estrolite_ore.json
@@ -140,6 +143,9 @@ cf30e954e2781e5d5b8093ed6e0e9094c3ab8dd6 assets/fugos-trails-and-tales-reimagine
 68ce05fbcf15154be8b7094cc98ff618544fb837 assets/fugos-trails-and-tales-reimagined/items/cobbled_salt_slab.json
 943a3108f492c083c0fb09f7ee5084bb44703391 assets/fugos-trails-and-tales-reimagined/items/cobbled_salt_stairs.json
 e6107244b939f8b47f5bd50092cb5472a41079f4 assets/fugos-trails-and-tales-reimagined/items/cobbled_salt_wall.json
+0b767e377cec865e7fc833a0ad0857d1dd6dcd1e assets/fugos-trails-and-tales-reimagined/items/dead_planks.json
+ee1d63577e0590e7f7119b58cdf83dd0c9d2127c assets/fugos-trails-and-tales-reimagined/items/dead_slab.json
+873f1406f731b86812637d995e549d027cdd34af assets/fugos-trails-and-tales-reimagined/items/dead_stairs.json
 20ab11578776e9658968acaa06f3f9991ed918a5 assets/fugos-trails-and-tales-reimagined/items/deepslate_titanium_ore.json
 9d58e0eba4500adc40a33f00b19f50a77be8b25c assets/fugos-trails-and-tales-reimagined/items/dried_rubber_clumps.json
 7c9651d25aebfdb830f3992f4048d6b5f24ca553 assets/fugos-trails-and-tales-reimagined/items/dried_rubber_clumps_block.json
@@ -256,6 +262,7 @@ f6874f1ad84b84ebcfa941c4b48a16ca4a92c552 assets/fugos-trails-and-tales-reimagine
 742b3de54f4006ae4895d87c2ca7266e8d8f5680 assets/fugos-trails-and-tales-reimagined/items/titanium_sword.json
 37e055ba76490bea664ae86f3bfb7cd209f2362c assets/fugos-trails-and-tales-reimagined/items/titanium_upgrade_smithing_template.json
 af35809aaa5c7a28baa79528eaedebc543084c23 assets/fugos-trails-and-tales-reimagined/items/tuff_titanium_ore.json
+2e04549783cb5e824eb4e4965c75a41373c83216 assets/fugos-trails-and-tales-reimagined/items/used_kourtneys_estrogen.json
 e1b244c2b77bb2b80f6dddb309084a5a7e7f2d76 assets/fugos-trails-and-tales-reimagined/models/block/blue_berry_bush_stage0.json
 dbd0017614da0478185bb2a3604d3d92bfd3aa04 assets/fugos-trails-and-tales-reimagined/models/block/blue_berry_bush_stage1.json
 cdd8eb7b50a1bc2c42666016d844a896b1fe8750 assets/fugos-trails-and-tales-reimagined/models/block/blue_berry_bush_stage2.json
@@ -305,6 +312,12 @@ f4ef3e3e520421c58c9d51e0880938cdde9e9ed5 assets/fugos-trails-and-tales-reimagine
 2ed53ba02a7a89cbaa252097f29fc51d6d292048 assets/fugos-trails-and-tales-reimagined/models/block/cobbled_salt_wall_post.json
 0b1522b616efce199dcbeb82deba9502157980ed assets/fugos-trails-and-tales-reimagined/models/block/cobbled_salt_wall_side.json
 e55456eb2bdb230dae42c3bfc59f3c28ae42fb1c assets/fugos-trails-and-tales-reimagined/models/block/cobbled_salt_wall_side_tall.json
+279818295834ad648a9bf9d3605ab0bb28bf83ab assets/fugos-trails-and-tales-reimagined/models/block/dead_planks.json
+0b80eec3295ffa7f5aa6d0a1db6cbe628eced499 assets/fugos-trails-and-tales-reimagined/models/block/dead_slab.json
+16dab195220a888d08520d2ed5b9f5701b473e68 assets/fugos-trails-and-tales-reimagined/models/block/dead_slab_top.json
+a88e7f254a8c61cdf17c3d9205848e5d63ed1688 assets/fugos-trails-and-tales-reimagined/models/block/dead_stairs.json
+99a2bcecdb5b85929e9cd8fa02a4be173ca30a9f assets/fugos-trails-and-tales-reimagined/models/block/dead_stairs_inner.json
+ba7c31deff79e925928452ec83bc262ae434eef0 assets/fugos-trails-and-tales-reimagined/models/block/dead_stairs_outer.json
 c74711910b4240a40d5c814f7ff1245cc90aad8b assets/fugos-trails-and-tales-reimagined/models/block/deepslate_titanium_ore.json
 316bc032df7e0c6f09f44aa56cefe95b4f5f6d33 assets/fugos-trails-and-tales-reimagined/models/block/estrolite_ore.json
 1c20eede6419cf035d010e0171cc01f5a3379c69 assets/fugos-trails-and-tales-reimagined/models/block/garnet_clump.json
@@ -592,3 +605,4 @@ e82e79d7c5e91a0d22209034d6736659058af2dd assets/fugos-trails-and-tales-reimagine
 387cc91ae168dacb51c804016d7751220f9acdf5 assets/fugos-trails-and-tales-reimagined/models/item/titanium_shovel.json
 3787e705c1d5b9d3e41ecf993e2fb3cbe23fa4c7 assets/fugos-trails-and-tales-reimagined/models/item/titanium_sword.json
 4786ea5318e0dbafff06fae1ba6a503142480cb4 assets/fugos-trails-and-tales-reimagined/models/item/titanium_upgrade_smithing_template.json
+a07f6415ca3fac1b1b45862ee17ddf320bfa3704 assets/fugos-trails-and-tales-reimagined/models/item/used_kourtneys_estrogen.json

@@ -160,6 +160,13 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
 
 
+        addDrop(ModBlocks.DEAD_PLANKS);
+
+        addDrop(ModBlocks.DEAD_STAIRS);
+        addDrop(ModBlocks.DEAD_SLAB);
+
+
+
         addDrop(ModBlocks.TITANIUM_ORE, multipleOreDrops(ModBlocks.TITANIUM_ORE, ModItems.RAW_TITANIUM, 1, 2));
         addDrop(ModBlocks.TUFF_TITANIUM_ORE, multipleOreDrops(ModBlocks.TUFF_TITANIUM_ORE, ModItems.RAW_TITANIUM, 1, 2));
         addDrop(ModBlocks.DEEPSLATE_TITANIUM_ORE, multipleOreDrops(ModBlocks.DEEPSLATE_TITANIUM_ORE, ModItems.RAW_TITANIUM, 1, 3));

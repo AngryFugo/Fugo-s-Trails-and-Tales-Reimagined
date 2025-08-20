@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "fugos-trails-and-tales-reimagined:used_kourtneys_estrogen"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fugos-trails-and-tales-reimagined:kourtneys_estrogen"
+  }
+}

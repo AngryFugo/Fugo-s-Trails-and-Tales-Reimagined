@@ -165,6 +165,13 @@ public class ModItemGroups {
 
 
 
+                        entries.add(ModBlocks.DEAD_PLANKS);
+
+                        entries.add(ModBlocks.DEAD_STAIRS);
+                        entries.add(ModBlocks.DEAD_SLAB);
+
+
+
                         entries.add(ModItems.MASON_JAR);
 
                         entries.add(ModItems.PEAR);
@@ -186,6 +193,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ESTROLITE_ORE);
                         entries.add(ModItems.ESTROLITE);
                         entries.add(ModItems.KOURTNEYS_ESTROGEN);
+                        entries.add(ModItems.USED_KOURTNEYS_ESTROGEN);
 
                         entries.add(ModItems.ADAMANTITE_INGOT);
 

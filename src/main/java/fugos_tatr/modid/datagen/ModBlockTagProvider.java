@@ -53,7 +53,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAPLE_STAIRS)
                 .add(ModBlocks.PINE_STAIRS)
                 .add(ModBlocks.PALM_STAIRS)
-                .add(ModBlocks.RUBBER_STAIRS);
+                .add(ModBlocks.RUBBER_STAIRS)
+                .add(ModBlocks.DEAD_STAIRS);
 
         valueLookupBuilder(BlockTags.SLABS)
                 .add(ModBlocks.COBBLED_SALT_SLAB)
@@ -66,7 +67,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAPLE_SLAB)
                 .add(ModBlocks.PINE_SLAB)
                 .add(ModBlocks.PALM_SLAB)
-                .add(ModBlocks.RUBBER_SLAB);
+                .add(ModBlocks.RUBBER_SLAB)
+                .add(ModBlocks.DEAD_SLAB);
 
         valueLookupBuilder(BlockTags.BUTTONS)
                 .add(ModBlocks.PEAR_BUTTON)
@@ -229,7 +231,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RUBBER_BUTTON)
                 .add(ModBlocks.RUBBER_PRESSURE_PLATE)
                 .add(ModBlocks.RUBBER_FENCE)
-                .add(ModBlocks.RUBBER_FENCE_GATE);
+                .add(ModBlocks.RUBBER_FENCE_GATE)
+
+                .add(ModBlocks.DEAD_PLANKS)
+                .add(ModBlocks.DEAD_STAIRS)
+                .add(ModBlocks.DEAD_SLAB);
 
         valueLookupBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.COBBLED_SALT)

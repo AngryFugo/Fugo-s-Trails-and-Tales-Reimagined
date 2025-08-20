@@ -138,6 +138,13 @@ public class ModModelProvider extends FabricModelProvider {
 
 
 
+        BlockStateModelGenerator.BlockTexturePool deadPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DEAD_PLANKS);
+
+        deadPool.stairs(ModBlocks.DEAD_STAIRS);
+        deadPool.slab(ModBlocks.DEAD_SLAB);
+
+
+
         blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BLUE_BERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED,
                 BlueBerryBush.AGE, 0, 1, 2, 3);
 
@@ -206,6 +213,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.ESTROLITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.KOURTNEYS_ESTROGEN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.USED_KOURTNEYS_ESTROGEN, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.ADAMANTITE_INGOT, Models.GENERATED);
 

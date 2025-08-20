@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.recipe.RecipeExporter;
 import net.minecraft.data.recipe.RecipeGenerator;
+import net.minecraft.entity.ai.brain.task.AdmireItemTask;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.SmithingRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -493,6 +494,30 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
+                createShapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DEAD_PLANKS, 4)
+                        .input(ItemTags.PLANKS)
+                        .input(Items.FLINT)
+                        .criterion(hasItem(Items.FLINT_AND_STEEL), conditionsFromItem(Items.FLINT_AND_STEEL))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DEAD_STAIRS, 4)
+                        .pattern("  R")
+                        .pattern(" RR")
+                        .pattern("RRR")
+                        .input('R', ModBlocks.DEAD_PLANKS.asItem())
+                        .criterion(hasItem(ModBlocks.DEAD_PLANKS), conditionsFromItem(ModBlocks.DEAD_PLANKS))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DEAD_SLAB, 6)
+                        .pattern("   ")
+                        .pattern("   ")
+                        .pattern("RRR")
+                        .input('R', ModBlocks.DEAD_PLANKS.asItem())
+                        .criterion(hasItem(ModBlocks.DEAD_PLANKS), conditionsFromItem(ModBlocks.DEAD_PLANKS))
+                        .offerTo(exporter);
+
+
+
                 createShaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COBBLED_SALT_STAIRS, 4)
                         .pattern("R  ")
                         .pattern("RR ")
@@ -644,6 +669,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input(ModBlocks.TITANIUM_BLOCK)
                         .criterion(hasItem(ModBlocks.TITANIUM_BLOCK.asItem()), conditionsFromItem(ModBlocks.TITANIUM_BLOCK.asItem()))
                         .offerTo(exporter, String.valueOf(Identifier.of(FugosTrailsAndTalesReimagined.MOD_ID, "block_to_titanium")));
+
+                createShapeless(RecipeCategory.FOOD, ModItems.KOURTNEYS_ESTROGEN, 1)
+                        .input(ModItems.USED_KOURTNEYS_ESTROGEN)
+                        .criterion(hasItem(ModItems.USED_KOURTNEYS_ESTROGEN), conditionsFromItem(ModItems.USED_KOURTNEYS_ESTROGEN))
+                        .offerTo(exporter);
             }
         };
     }
